@@ -35,7 +35,7 @@ if complete == len(expected) and int(capture_exit) == 0:
         shutil.rmtree(latest)
     shutil.copytree(attempt, latest)
 receipt = {'schemaVersion': 1, 'stage': 'capture', 'channel': capture['summary']['channel'],
-           'readerCommit': os.environ.get('GITHUB_SHA'), 'runUrl': os.environ.get('ODOT_RUN_URL'),
+           'readerCommit': capture['summary']['registry']['readerCommit'], 'runUrl': os.environ.get('ODOT_RUN_URL'),
            'finishedAt': datetime.datetime.now(datetime.timezone.utc).isoformat(),
            'expected': len(expected), 'attempted': len(records), 'complete': complete,
            'failed': len(records) - complete, 'deferred': 0, 'captureExit': int(capture_exit),
