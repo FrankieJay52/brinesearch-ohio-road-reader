@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "namespace": "public-ohio-county-advisories/v1",
+  "purpose": "Public official Ohio county advisory collection only; no destination or route information.",
+  "counties": [
+    {
+      "sourceId": "chatgpt-odot-athens",
+      "state": "Ohio",
+      "county": "Athens",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-belmont",
+      "state": "Ohio",
+      "county": "Belmont",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-carroll",
+      "state": "Ohio",
+      "county": "Carroll",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-columbiana",
+      "state": "Ohio",
+      "county": "Columbiana",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-coshocton",
+      "state": "Ohio",
+      "county": "Coshocton",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-guernsey",
+      "state": "Ohio",
+      "county": "Guernsey",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-hamilton",
+      "state": "Ohio",
+      "county": "Hamilton",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-harrison",
+      "state": "Ohio",
+      "county": "Harrison",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-jefferson",
+      "state": "Ohio",
+      "county": "Jefferson",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-mahoning",
+      "state": "Ohio",
+      "county": "Mahoning",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-meigs",
+      "state": "Ohio",
+      "county": "Meigs",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-monroe",
+      "state": "Ohio",
+      "county": "Monroe",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-muskingum",
+      "state": "Ohio",
+      "county": "Muskingum",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-noble",
+      "state": "Ohio",
+      "county": "Noble",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-portage",
+      "state": "Ohio",
+      "county": "Portage",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-stark",
+      "state": "Ohio",
+      "county": "Stark",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-trumbull",
+      "state": "Ohio",
+      "county": "Trumbull",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-tuscarawas",
+      "state": "Ohio",
+      "county": "Tuscarawas",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-vinton",
+      "state": "Ohio",
+      "county": "Vinton",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton"
+      ]
+    },
+    {
+      "sourceId": "chatgpt-odot-washington",
+      "state": "Ohio",
+      "county": "Washington",
+      "urls": [
+        "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington"
+      ]
+    }
+  ]
+}

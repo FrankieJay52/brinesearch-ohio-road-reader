@@ -1,0 +1,46 @@
+name: Read public Ohio county advisories
+on:
+  workflow_dispatch:
+# Manual test only. No second daily scheduler or report publisher.
+permissions:
+  contents: write
+concurrency:
+  group: public-odot-reader
+  cancel-in-progress: false
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ODOT_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      ODOT_CAPTURE_CHANNEL: 'GitHub Actions standard public-repository Ubuntu runner: official GET and Chromium, honest user agent, GET only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check official ODOT access before installing a browser
+        id: preflight
+        run: node scripts/preflight.mjs
+      - name: Install the pinned browser tools
+        if: steps.preflight.outputs.served == 'yes'
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Read and verify all 20 registered public county pages
+        if: steps.preflight.outputs.served == 'yes'
+        run: bash scripts/read.sh
+      - name: Save public evidence and honest failure details
+        if: always()
+        run: |
+          if [ ! -d reports ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Record official county read $(date -u +%FT%TZ) [skip ci]"
+          git push origin HEAD:main
+      - name: Require a complete capture for a successful reader test
+        if: always()
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const r=JSON.parse(fs.readFileSync('reports/latest-attempt.json'));if(!r.allComplete){console.error('ODOT reader incomplete; previous complete evidence retained. See latest-attempt.json.');process.exit(1)}"

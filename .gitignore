@@ -1,0 +1,4 @@
+node_modules/
+.read-work/
+__pycache__/
+*.pyc
