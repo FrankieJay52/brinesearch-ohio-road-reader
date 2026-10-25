@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "stage": "capture",
-  "channel": "Codex cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
-  "readerCommit": "d14ba6a88171c2924ed043b9153d190f71bdbfac",
+  "channel": "Codex authorized manual refresh Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
+  "readerCommit": "1047d9ef0434d8529c6ec985ad91963a0ac097e8",
   "runUrl": null,
-  "finishedAt": "2026-10-25T03:54:29.569333+00:00",
+  "finishedAt": "2026-10-25T18:53:02.320585+00:00",
   "expected": 20,
   "attempted": 20,
   "complete": 20,
@@ -12,7 +12,7 @@
   "deferred": 0,
   "captureExit": 0,
   "allComplete": true,
-  "firstRequestAt": "2026-10-25T03:50:41.902Z",
-  "lastRequestAt": "2026-10-25T03:54:16.695Z",
+  "firstRequestAt": "2026-10-25T18:49:30.204Z",
+  "lastRequestAt": "2026-10-25T18:52:51.307Z",
   "latestCompleteCaptureUpdated": true
 }
