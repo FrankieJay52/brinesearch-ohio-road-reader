@@ -8,7 +8,9 @@ county section was found and shown; otherwise `failed` with its reasons. Read-on
 import argparse, email.utils, gzip, hashlib, json, os, re
 
 UA = 'Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)'
-CHANNEL = os.environ.get('ODOT_CAPTURE_CHANNEL', 'Local reader: official HTTPS GET and Chromium, honest user agent, GET only')
+CHANNEL = os.environ.get('ODOT_CAPTURE_CHANNEL', '').strip()
+if not CHANNEL:
+    raise SystemExit('ODOT_CAPTURE_CHANNEL must identify the actual reader and any owned transport')
 sha = lambda text: hashlib.sha256(text.encode()).hexdigest()
 squash = lambda text: re.sub(r'\s+', ' ', text).strip()
 
@@ -103,7 +105,7 @@ def read_county(capture_dir, source, previous):
                           'redirects': [h.get('location') for h in plain['hops'][:-1]], 'serverDate': hop['headers'].get('date'),
                           'xCache': hop['headers'].get('x-cache'), 'age': hop['headers'].get('age'), 'cloudfrontPop': hop['headers'].get('x-amz-cf-pop'),
                           'copyMadeAt': made_at(hop['headers'].get('date')), 'bytes': plain.get('bytes'), 'sha256': plain.get('sha256'),
-                          'odotErrorPage': plain.get('errorPage'), 'error': plain.get('error'),
+                          'odotErrorPage': plain.get('errorPage'), 'error': plain.get('error'), 'transport': hop.get('transport'),
                           'earlierExpiringCopy': [{key: h.get(key) for key in ('startedAt', 'status')} | {'age': h['headers'].get('age')}
                                                   for h in plain.get('earlierExpiringCopy') or []] or None}
     if plain.get('error'):
@@ -157,7 +159,7 @@ def read_county(capture_dir, source, previous):
                           'plainBodyBlocksNotShown': [t for t in body_blocks if t not in joined_shown]}
     record['browser'] = {'startedAt': browser.get('startedAt'), 'documentStatus': browser.get('documentStatus'), 'finalUrl': browser.get('finalUrl'),
                          'title': browser.get('title'), 'lastModifiedShown': browser.get('lastModifiedShown'),
-                         'visibleTextSha256': browser.get('visibleTextSha256'), 'visibleTextFile': 'visible-text/%s.txt' % key, 'hiddenBlocksInSection': hidden}
+                         'documentTransport': browser.get('documentTransport'), 'visibleTextSha256': browser.get('visibleTextSha256'), 'visibleTextFile': 'visible-text/%s.txt' % key, 'hiddenBlocksInSection': hidden}
     record['countySection'] = {'sha256': sha(section_text), 'items': len(items), 'text': section_text, 'blocks': items}
     before_path = os.path.join(previous['dir'], 'visible-text', key + '.txt')
     if os.path.exists(before_path):
@@ -187,7 +189,7 @@ def main():
     summary = {'readDateUtc': times[0][:10] if times else None, 'firstRequestAt': times[0] if times else None, 'lastRequestAt': times[-1] if times else None,
                'expected': len(records), 'complete': sum(r['outcome'] == 'complete' for r in records),
                'failed': [{'sourceId': r['sourceId'], 'reasons': r['reasons']} for r in records if r['outcome'] != 'complete'],
-               'channel': CHANNEL, 'userAgent': UA,
+               'channel': CHANNEL, 'userAgent': UA, 'transportBase': os.environ.get('ODOT_TRANSPORT_BASE'), 'transportCodeSha256': os.environ.get('ODOT_TRANSPORT_CODE_SHA256'),
                'registry': {'path': 'county-sources.json', 'readerCommit': args.main, 'namespace': 'public-ohio-county-advisories/v1',
                             'sha256': hashlib.sha256(registry_bytes).hexdigest(),
                             'subsetSha256': hashlib.sha256(json.dumps(sorted([{key: row[key] for key in ('sourceId', 'state', 'county', 'urls')} for row in sources], key=lambda row: row['sourceId']), sort_keys=True, separators=(',', ':'), ensure_ascii=True).encode()).hexdigest()}}

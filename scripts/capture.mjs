@@ -9,6 +9,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import {createRequire} from 'node:module';
 import {createHash} from 'node:crypto';
+import {officialFetch} from './official-fetch.mjs';
 
 const UA = 'Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)';
 const ERROR_PAGE = 'f15a3511405a5f40b819cbfd21e80858778edfe419624d2c12920f473407583b'; // ODOT's stored 404 page
@@ -28,11 +29,11 @@ async function plainGet(url) {
   const hops = [];
   for (let current = url; hops.length < 5;) {
     const startedAt = new Date().toISOString();
-    const response = await fetch(current, {redirect: 'manual', signal: AbortSignal.timeout(30_000),
+    const {response,transport} = await officialFetch(current, {redirect: 'manual', signal: AbortSignal.timeout(30_000),
       headers: {'user-agent': UA, accept: 'text/html,application/xhtml+xml', 'accept-language': 'en-US'}});
     const body = Buffer.from(await response.arrayBuffer());
-    const headers = Object.fromEntries(KEEP.filter(key => response.headers.has(key)).map(key => [key, response.headers.get(key)]));
-    const hop = {url: current, startedAt, finishedAt: new Date().toISOString(), status: response.status, headers, bytes: body.length, sha256: sha(body)};
+    const headers = transport?.sourceHeaders ?? Object.fromEntries(KEEP.filter(key => response.headers.has(key)).map(key => [key, response.headers.get(key)]));
+    const hop = {url: current, ...(transport?{transport}:{}), startedAt: transport?.sourceRequestedAt??startedAt, finishedAt: new Date().toISOString(), status: response.status, headers, bytes: body.length, sha256: sha(body)};
     hops.push(hop);
     const location = response.headers.get('location');
     if (response.status >= 300 && response.status < 400 && location) { hop.location = location; current = new URL(location, current).href; continue; }
@@ -74,11 +75,11 @@ async function readCounty(source, url, county) {
     if (['image', 'font', 'media'].includes(type)) return route.abort('blockedbyclient');
     try {
       const headers = Object.fromEntries(Object.entries(await request.allHeaders()).filter(([key]) => !/^(host|content-length|accept-encoding|connection|:)/i.test(key)));
-      const response = await fetch(request.url(), {method, headers, redirect: 'manual', signal: AbortSignal.timeout(30_000)});
+      const {response,transport} = await officialFetch(request.url(), {method, headers, redirect: 'manual', signal: AbortSignal.timeout(30_000)});
       const responseBody = Buffer.from(await response.arrayBuffer());
       const responseHeaders = {};
       response.headers.forEach((value, key) => { if (!/^(content-encoding|content-length|transfer-encoding|connection)$/i.test(key)) responseHeaders[key] = value; });
-      requests.push({method, url: request.url(), type, status: response.status, bytes: responseBody.length});
+      requests.push({method, url: request.url(), type, status: response.status, bytes: responseBody.length,...(transport?{transport}:{})});
       return route.fulfill({status: response.status, headers: responseHeaders, body: responseBody});
     } catch (error) {
       requests.push({method, url: request.url(), type, failed: String(error.message ?? error)});
@@ -114,6 +115,7 @@ async function readCounty(source, url, county) {
   fs.writeFileSync(path.join(outDir, 'visible-text', `${county}.txt`), text);
   const browserRead = {startedAt, documentStatus: status, finalUrl: page.url(), error, title: await page.title().catch(() => null),
     visibleTextChars: text.length, visibleTextSha256: sha(text), lastModifiedShown: text.match(/Last modified: ([A-Za-z]+ \d+, \d{4})/)?.[1] ?? null,
+    documentTransport: requests.find(row=>row.type==='document'&&row.url===url)?.transport??null,
     hosts: Object.entries(requests.reduce((count, row) => { const host = new URL(row.url).host; count[host] = (count[host] ?? 0) + 1; return count; }, {})),
     xhrOrFetch: requests.filter(row => ['xhr', 'fetch'].includes(row.type)).map(({url: u, status: s, bytes: b, failed}) => ({url: u, status: s, bytes: b, failed})),
     failedRequests: requests.filter(row => row.failed).length, blocks};

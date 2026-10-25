@@ -23,4 +23,10 @@ The workflow has only a manual trigger. There is no daily schedule. A successful
 
 ## Local use
 
-Requires Node 22+, Python 3 and Git. Install with `npm ci --ignore-scripts --no-audit --no-fund` and `npx playwright install chromium`. Run `node scripts/preflight.mjs`, then `bash scripts/read.sh` only when access is served. Set `ODOT_CAPTURE_CHANNEL` to identify the actual producer. An installed browser can be selected through `PW_CHROMIUM`; `PW_PACKAGE` may name an installed Playwright package JSON. These options do not change evidence requirements or source access rules.
+Requires Node 22+, Python 3 and Git. Install with `npm ci --ignore-scripts --no-audit --no-fund` and `npx playwright install chromium`. Run `node scripts/preflight.mjs`, then `bash scripts/read.sh` only when access is served. `ODOT_CAPTURE_CHANNEL` is required and must identify the actual producer. An installed browser can be selected through `PW_CHROMIUM`; `PW_PACKAGE` may name an installed Playwright package JSON. These options do not change evidence requirements or source access rules.
+
+## Optional owned free Workers transport
+
+When a producer network cannot retrieve the official pages, `scripts/worker-transport.mjs` permits only the exact20registered county paths and their observed official `/_next/static/` JavaScript/CSS resources. It always fetches the fixed official ODOT host, accepts no arbitrary URL, has no scheduled handler and streams the unchanged upstream body. It contains no private data or keys.
+
+An operator can use `ODOT_TRANSPORT_BASE` (an owned HTTPS Workers address) and `ODOT_TRANSPORT_CODE_SHA256` (the exact reviewed Worker source hash). Configure that same non-secret hash on the Worker as `TRANSPORT_CODE_SHA256`. The collector requires exact upstream URL/status/hash and genuine upstream request time. Actual Worker source headers, source time and transport URL are recorded separately; the Worker's own response Date is never used as ODOT's copy date. Existing county/browser/body/hash checks remain required. A transport preflight is not a completed20county report or proof of future availability.
