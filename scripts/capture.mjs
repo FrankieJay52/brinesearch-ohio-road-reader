@@ -9,7 +9,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import {createRequire} from 'node:module';
 import {createHash} from 'node:crypto';
-import {officialFetch} from './official-fetch.mjs';
+import {officialFetch, officialRequestAllowed} from './official-fetch.mjs';
 
 const UA = 'Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)';
 const ERROR_PAGE = 'f15a3511405a5f40b819cbfd21e80858778edfe419624d2c12920f473407583b'; // ODOT's stored 404 page
@@ -68,10 +68,10 @@ async function readCounty(source, url, county) {
 
   // 2. The same URL in Chromium with the same user agent.
   const requests = [];
-  const context = await browser.newContext({viewport: {width: 1280, height: 2000}, locale: 'en-US', timezoneId: 'America/New_York', userAgent: UA});
+  const context = await browser.newContext({viewport: {width: 1280, height: 2000}, locale: 'en-US', timezoneId: 'America/New_York', userAgent: UA, serviceWorkers: 'block'});
   await context.route('**/*', async route => {
     const request = route.request(), method = request.method(), type = request.resourceType();
-    if (method !== 'GET' && method !== 'HEAD' && method !== 'OPTIONS') { requests.push({method, url: request.url(), type, blocked: true}); return route.abort('blockedbyclient'); }
+    if (!officialRequestAllowed(request.url(), method)) { requests.push({method, url: request.url(), type, blocked: true}); return route.abort('blockedbyclient'); }
     if (['image', 'font', 'media'].includes(type)) return route.abort('blockedbyclient');
     try {
       const headers = Object.fromEntries(Object.entries(await request.allHeaders()).filter(([key]) => !/^(host|content-length|accept-encoding|connection|:)/i.test(key)));
