@@ -17,7 +17,7 @@ The workflow has only a manual trigger. There is no daily schedule. A successful
 - `checkedAt` comes from the actual successful source request, never from opening the saved file.
 - CDN copy date/age and the document's modification date are distinct from retrieval time. No cache-expiry sleeps or fabricated document updates.
 - Failed/partial reads, vanished notices and estimated completion dates do not establish reopening.
-- Source receipts identify this public GitHub runner honestly. Results do not prove truck suitability, private access, exact restriction extent or all-road coverage.
+- Source receipts identify the actual producer honestly, whether a GitHub runner or a separate cloud Node/Chromium reader. Results do not prove truck suitability, private access, exact restriction extent or all-road coverage.
 - The public registry contains only source ID, state, county and official URLs. Its `subsetSha256` is SHA256 of the source-ID-sorted four-field rows serialized with sorted keys, ASCII escaping and compact JSON separators. A private consumer must derive and compare its own expected public-source subset, not mistake this for a full private registry hash.
 - Review each source's body, links, statuses and times before using its facts. A scheduler being enabled is not a successful source read.
 
@@ -30,3 +30,11 @@ Requires Node 22+, Python 3 and Git. Install with `npm ci --ignore-scripts --no-
 When a producer network cannot retrieve the official pages, `scripts/worker-transport.mjs` permits only the exact20registered county paths and their observed official `/_next/static/` JavaScript/CSS resources. It always fetches the fixed official ODOT host, accepts no arbitrary URL, has no scheduled handler and streams the unchanged upstream body. It contains no private data or keys.
 
 An operator can use `ODOT_TRANSPORT_BASE` (an owned HTTPS Workers address) and `ODOT_TRANSPORT_CODE_SHA256` (the exact reviewed Worker source hash). Configure that same non-secret hash on the Worker as `TRANSPORT_CODE_SHA256`. The collector requires exact upstream URL/status/hash and genuine upstream request time. Actual Worker source headers, source time and transport URL are recorded separately; the Worker's own response Date is never used as ODOT's copy date. Existing county/browser/body/hash checks remain required. A transport preflight is not a completed20county report or proof of future availability.
+
+## Verified owned transport and daily use
+
+On October 25, 2026 the Node/Chromium producer completed all20registered county pages through the owned Workers transport. Actual upstream reads ran03:50:41–03:54:16UTC; the immutable result is retained under `reports/latest/`. A stored result is historical evidence, never a new source check. All20county bodies matched the preceding reviewed official capture.
+
+The existing daily reporting task can run this reader itself using the configured owned transport; it needs no GitHub Actions execution or separate source schedule. This repository has no scheduled workflow. Set `ODOT_CAPTURE_CHANNEL` truthfully, `ODOT_TRANSPORT_BASE` to the owned HTTPS Workers address and `ODOT_TRANSPORT_CODE_SHA256` to the deployed source hash. An installed Chromium can be selected with `PW_CHROMIUM`. Use `node scripts/preflight.mjs` for a single served-body check, then `bash scripts/read.sh` for genuine complete county evidence. Partial/failing attempts retain previous success. The consumer must still review changed facts and route relevance before publishing its private daily bulletin.
+
+The transport has no scheduled handler, browser-compute binding or storage. Its operator confirmed Workers Free. Reaching a free limit or losing source access must fail honestly and preserve prior warnings; this reader has no paid fallback.

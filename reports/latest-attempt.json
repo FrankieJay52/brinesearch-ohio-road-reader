@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "stage": "capture",
+  "channel": "Codex cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
+  "readerCommit": "d14ba6a88171c2924ed043b9153d190f71bdbfac",
+  "runUrl": null,
+  "finishedAt": "2026-10-25T03:54:29.569333+00:00",
+  "expected": 20,
+  "attempted": 20,
+  "complete": 20,
+  "failed": 0,
+  "deferred": 0,
+  "captureExit": 0,
+  "allComplete": true,
+  "firstRequestAt": "2026-10-25T03:50:41.902Z",
+  "lastRequestAt": "2026-10-25T03:54:16.695Z",
+  "latestCompleteCaptureUpdated": true
+}
