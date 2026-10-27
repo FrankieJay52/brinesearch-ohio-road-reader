@@ -1,8 +1,8 @@
 {
  "summary": {
-  "readDateUtc": "2026-10-26",
-  "firstRequestAt": "2026-10-26T15:50:47.737Z",
-  "lastRequestAt": "2026-10-26T15:55:32.410Z",
+  "readDateUtc": "2026-10-27",
+  "firstRequestAt": "2026-10-27T16:02:08.717Z",
+  "lastRequestAt": "2026-10-27T16:10:05.701Z",
   "expected": 20,
   "complete": 20,
   "failed": [],
@@ -12,7 +12,7 @@
   "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
   "registry": {
    "path": "county-sources.json",
-   "readerCommit": "c227a7f415d7ee0340abf93fdc347b642bcd0ad3",
+   "readerCommit": "9103f0350661377fd533b2a47cbdb060807f4a87",
    "namespace": "public-ohio-county-advisories/v1",
    "sha256": "787d1f5eea431332b2efcab586be91f0f4d197c1cc51ef88c191b6610d07df61",
    "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc"
@@ -27,29 +27,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:50:47.737Z",
+    "requestedAt": "2026-10-27T16:02:08.717Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:50:48 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:02:10 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:50:48Z",
+    "copyMadeAt": "2026-10-27T16:02:10Z",
     "bytes": 796416,
-    "sha256": "45af88f6c89e9192cd51c6b8074bc088f2a162156ea2eeeb7f5c0da4cdccf16d",
+    "sha256": "9d47a76c9b77379be2cc5fe11ce0b4491b1957639ca05b8f844cdbd18902cbca",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-athens",
-     "clientRequestedAt": "2026-10-26T15:50:45.115Z",
+     "clientRequestedAt": "2026-10-27T16:02:05.698Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
-     "sourceRequestedAt": "2026-10-26T15:50:47.737Z",
+     "sourceRequestedAt": "2026-10-27T16:02:08.717Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:50:48 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:10 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -74,7 +74,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:50:48.904Z",
+    "startedAt": "2026-10-27T16:02:10.469Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
     "title": "Traffic Impacts in Athens County | Ohio Department of Transportation",
@@ -82,17 +82,16 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-athens",
-     "clientRequestedAt": "2026-10-26T15:50:48.912Z",
+     "clientRequestedAt": "2026-10-27T16:02:10.481Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
-     "sourceRequestedAt": "2026-10-26T15:50:48.932Z",
+     "sourceRequestedAt": "2026-10-27T16:02:10.521Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:50:49 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:10 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -244,7 +243,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:49:30.204Z",
+    "previousReadAt": "2026-10-26T15:50:47.737Z",
     "added": [],
     "removed": []
    }
@@ -257,29 +256,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:51:02.012Z",
+    "requestedAt": "2026-10-27T16:02:23.365Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:51:03 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:02:24 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:51:03Z",
+    "copyMadeAt": "2026-10-27T16:02:24Z",
     "bytes": 755793,
-    "sha256": "181bd22a10b90119cc929a19da903d724715b39106756f2de9d29e946f5f1044",
+    "sha256": "010d72986dad0ac06c0c06c32f76b8db9fd0f6e7b586363443ee74167109698a",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-belmont",
-     "clientRequestedAt": "2026-10-26T15:50:59.042Z",
+     "clientRequestedAt": "2026-10-27T16:02:20.609Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
-     "sourceRequestedAt": "2026-10-26T15:51:02.012Z",
+     "sourceRequestedAt": "2026-10-27T16:02:23.365Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:03 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:24 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -304,7 +303,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:51:03.230Z",
+    "startedAt": "2026-10-27T16:02:24.429Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
     "title": "Traffic Impacts in Belmont County | Ohio Department of Transportation",
@@ -312,13 +311,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-belmont",
-     "clientRequestedAt": "2026-10-26T15:51:03.232Z",
+     "clientRequestedAt": "2026-10-27T16:02:24.432Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
-     "sourceRequestedAt": "2026-10-26T15:51:03.256Z",
+     "sourceRequestedAt": "2026-10-27T16:02:24.445Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:03 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:24 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -421,7 +420,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:49:42.159Z",
+    "previousReadAt": "2026-10-26T15:51:02.012Z",
     "added": [],
     "removed": []
    }
@@ -434,29 +433,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:51:16.198Z",
+    "requestedAt": "2026-10-27T16:02:45.782Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:51:17 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:02:46 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:51:17Z",
+    "copyMadeAt": "2026-10-27T16:02:46Z",
     "bytes": 749826,
-    "sha256": "e070cc0d3e2dfb95b07f9f5a0926747ba473c380886fbef3184a45430f731368",
+    "sha256": "57cace0f44297b8a115a42eda4940dc4f226d0dc35fed2def10e1d9f53197f7e",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-carroll",
-     "clientRequestedAt": "2026-10-26T15:51:13.208Z",
+     "clientRequestedAt": "2026-10-27T16:02:45.765Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
-     "sourceRequestedAt": "2026-10-26T15:51:16.198Z",
+     "sourceRequestedAt": "2026-10-27T16:02:45.782Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:17 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:46 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -481,7 +480,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:51:17.276Z",
+    "startedAt": "2026-10-27T16:02:46.708Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
     "title": "Traffic Impacts in Carroll County | Ohio Department of Transportation",
@@ -489,13 +488,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-carroll",
-     "clientRequestedAt": "2026-10-26T15:51:17.280Z",
+     "clientRequestedAt": "2026-10-27T16:02:46.712Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
-     "sourceRequestedAt": "2026-10-26T15:51:17.303Z",
+     "sourceRequestedAt": "2026-10-27T16:02:46.730Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:17 GMT",
+      "date": "Tue, 27 Oct 2026 16:02:46 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -558,7 +557,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:49:53.343Z",
+    "previousReadAt": "2026-10-26T15:51:16.198Z",
     "added": [],
     "removed": []
    }
@@ -571,29 +570,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:51:30.006Z",
+    "requestedAt": "2026-10-27T16:03:16.253Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:51:31 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:03:16 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:51:31Z",
+    "copyMadeAt": "2026-10-27T16:03:16Z",
     "bytes": 756813,
-    "sha256": "70bfac61de425c1aecad620c1794751de3691994d66110306530200504afa095",
+    "sha256": "bbb6c3d4f492f662add5f116a6434c039b8347f64f7f51c62af758857f755dd9",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-columbiana",
-     "clientRequestedAt": "2026-10-26T15:51:27.242Z",
+     "clientRequestedAt": "2026-10-27T16:03:12.748Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
-     "sourceRequestedAt": "2026-10-26T15:51:30.006Z",
+     "sourceRequestedAt": "2026-10-27T16:03:16.253Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:31 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:16 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -618,7 +617,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:51:31.207Z",
+    "startedAt": "2026-10-27T16:03:17.143Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
     "title": "Traffic Impacts in Columbiana County | Ohio Department of Transportation",
@@ -626,16 +625,17 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-columbiana",
-     "clientRequestedAt": "2026-10-26T15:51:31.210Z",
+     "clientRequestedAt": "2026-10-27T16:03:17.145Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
-     "sourceRequestedAt": "2026-10-26T15:51:31.234Z",
+     "sourceRequestedAt": "2026-10-27T16:03:17.156Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:31 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:17 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
+      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -749,7 +749,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:05.364Z",
+    "previousReadAt": "2026-10-26T15:51:30.006Z",
     "added": [],
     "removed": []
    }
@@ -762,29 +762,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:51:44.734Z",
+    "requestedAt": "2026-10-27T16:03:38.618Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:51:45 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:03:39 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:51:45Z",
+    "copyMadeAt": "2026-10-27T16:03:39Z",
     "bytes": 748390,
-    "sha256": "0f8f5f68c0613db3ce4167cb6422e6b4255002be9be465fe7cc19bd8dda69a8e",
+    "sha256": "4fe5ec476ea5ec00e319c498f0bd4ebec0a9227aca35a4615a404a9f01cbdf8e",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-coshocton",
-     "clientRequestedAt": "2026-10-26T15:51:41.771Z",
+     "clientRequestedAt": "2026-10-27T16:03:34.448Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
-     "sourceRequestedAt": "2026-10-26T15:51:44.734Z",
+     "sourceRequestedAt": "2026-10-27T16:03:38.618Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:45 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:39 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -809,7 +809,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:51:45.887Z",
+    "startedAt": "2026-10-27T16:03:39.970Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
     "title": "Traffic Impacts in Coshocton County | Ohio Department of Transportation",
@@ -817,13 +817,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-coshocton",
-     "clientRequestedAt": "2026-10-26T15:51:45.889Z",
+     "clientRequestedAt": "2026-10-27T16:03:39.973Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
-     "sourceRequestedAt": "2026-10-26T15:51:45.909Z",
+     "sourceRequestedAt": "2026-10-27T16:03:39.987Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:51:46 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:40 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -876,7 +876,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:15.658Z",
+    "previousReadAt": "2026-10-26T15:51:44.734Z",
     "added": [],
     "removed": []
    }
@@ -889,29 +889,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:51:59.396Z",
+    "requestedAt": "2026-10-27T16:03:57.074Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:52:00 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:03:57 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:52:00Z",
+    "copyMadeAt": "2026-10-27T16:03:57Z",
     "bytes": 750754,
-    "sha256": "b6893018eb8f4b6753663e0ca41faac6941a48cc877208477b6252ff068f1234",
+    "sha256": "ba8cf344e3dd7b8df339a81d1a210d9d222cb974403f264d2d278fa5e81df1fa",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-guernsey",
-     "clientRequestedAt": "2026-10-26T15:51:56.269Z",
+     "clientRequestedAt": "2026-10-27T16:03:54.044Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
-     "sourceRequestedAt": "2026-10-26T15:51:59.396Z",
+     "sourceRequestedAt": "2026-10-27T16:03:57.074Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:00 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:57 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -938,7 +938,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:52:00.612Z",
+    "startedAt": "2026-10-27T16:03:57.935Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
     "title": "Traffic Impacts in Guernsey County | Ohio Department of Transportation",
@@ -946,13 +946,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-guernsey",
-     "clientRequestedAt": "2026-10-26T15:52:00.615Z",
+     "clientRequestedAt": "2026-10-27T16:03:57.941Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
-     "sourceRequestedAt": "2026-10-26T15:52:00.637Z",
+     "sourceRequestedAt": "2026-10-27T16:03:57.955Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:00 GMT",
+      "date": "Tue, 27 Oct 2026 16:03:57 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -1023,15 +1023,9 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:26.776Z",
-    "added": [
-     "New Impacts:",
-     "Monday, Oct. 26 and Tuesday, Oct. 27 motorist can expect single lane closures westbound for pavement repairs."
-    ],
-    "removed": [
-     "Continued Impacts:",
-     "Motorist should expect intermittent lane closures for repairs."
-    ]
+    "previousReadAt": "2026-10-26T15:51:59.396Z",
+    "added": [],
+    "removed": []
    }
   },
   {
@@ -1042,29 +1036,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:52:15.071Z",
+    "requestedAt": "2026-10-27T16:04:12.446Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:52:16 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:04:13 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:52:16Z",
+    "copyMadeAt": "2026-10-27T16:04:13Z",
     "bytes": 810186,
-    "sha256": "5789b1478fbb991f3cc242321ca1ab6f2431cef3e1c19f5d448ba3153842681b",
+    "sha256": "56f07518dcbaaa458c396c9df520f29e4d50433b1b1b54702ad4ce34cf91ad89",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
-     "clientRequestedAt": "2026-10-26T15:52:10.820Z",
+     "clientRequestedAt": "2026-10-27T16:04:09.703Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
-     "sourceRequestedAt": "2026-10-26T15:52:15.071Z",
+     "sourceRequestedAt": "2026-10-27T16:04:12.446Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:16 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:13 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -1098,7 +1092,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:52:16.581Z",
+    "startedAt": "2026-10-27T16:04:13.295Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
     "title": "Traffic Impacts in Hamilton County | Ohio Department of Transportation",
@@ -1106,13 +1100,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
-     "clientRequestedAt": "2026-10-26T15:52:16.584Z",
+     "clientRequestedAt": "2026-10-27T16:04:13.297Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
-     "sourceRequestedAt": "2026-10-26T15:52:16.607Z",
+     "sourceRequestedAt": "2026-10-27T16:04:13.309Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:16 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:13 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -1640,7 +1634,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:37.203Z",
+    "previousReadAt": "2026-10-26T15:52:15.071Z",
     "added": [],
     "removed": []
    }
@@ -1653,29 +1647,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:52:29.374Z",
+    "requestedAt": "2026-10-27T16:04:39.454Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:52:30 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:04:40 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:52:30Z",
+    "copyMadeAt": "2026-10-27T16:04:40Z",
     "bytes": 754049,
-    "sha256": "bdf414d000535cc12e79efb69a04965e9375e36f8da99bd579b08b37a320e81a",
+    "sha256": "5e195ef992394f9f50ebb211cba72c51b32b4f6d53ac9577fec63457e62daecb",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-harrison",
-     "clientRequestedAt": "2026-10-26T15:52:26.489Z",
+     "clientRequestedAt": "2026-10-27T16:04:36.187Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
-     "sourceRequestedAt": "2026-10-26T15:52:29.374Z",
+     "sourceRequestedAt": "2026-10-27T16:04:39.454Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:30 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:40 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -1700,7 +1694,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:52:30.501Z",
+    "startedAt": "2026-10-27T16:04:40.424Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
     "title": "Traffic Impacts in Harrison County | Ohio Department of Transportation",
@@ -1708,13 +1702,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-harrison",
-     "clientRequestedAt": "2026-10-26T15:52:30.504Z",
+     "clientRequestedAt": "2026-10-27T16:04:40.426Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
-     "sourceRequestedAt": "2026-10-26T15:52:30.524Z",
+     "sourceRequestedAt": "2026-10-27T16:04:40.439Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:30 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:40 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -1808,7 +1802,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:47.742Z",
+    "previousReadAt": "2026-10-26T15:52:29.374Z",
     "added": [],
     "removed": []
    }
@@ -1821,29 +1815,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:52:48.278Z",
+    "requestedAt": "2026-10-27T16:04:53.312Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:52:49 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:04:54 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:52:49Z",
-    "bytes": 765894,
-    "sha256": "ac6c4b5c37ffae036b7c388e7649191f25777556bd887101520a9eb6dc691d23",
+    "copyMadeAt": "2026-10-27T16:04:54Z",
+    "bytes": 766676,
+    "sha256": "50b3ab7a287f6dd3cffe9e195f9974307e14c3dd14ae6396c376e2922c4ad237",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-jefferson",
-     "clientRequestedAt": "2026-10-26T15:52:45.489Z",
+     "clientRequestedAt": "2026-10-27T16:04:50.468Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
-     "sourceRequestedAt": "2026-10-26T15:52:48.278Z",
+     "sourceRequestedAt": "2026-10-27T16:04:53.312Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:49 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:54 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -1854,53 +1848,53 @@
    },
    "pageData": {
     "publishedDate": "2026-06-04T19:32:52.488Z",
-    "lastModifiedDate": "2026-10-23T00:00",
-    "containerUpdatedAt": "2026-10-23T12:32:52.765Z",
-    "containerPublishedVersion": 49,
+    "lastModifiedDate": "2026-10-27T00:00",
+    "containerUpdatedAt": "2026-10-27T11:35:42.860Z",
+    "containerPublishedVersion": 51,
     "bodyEntry": {
      "entryId": "6PHzofo2NRFH5knOdMo89t",
-     "updatedAt": "2026-10-23T12:36:17.355Z",
-     "publishedVersion": 267,
-     "textSha256": "667fa1b30495f8c13928582013663edce464e74ce9027e886ac81469d4ff0530",
-     "text": "The following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: October 31, 2026\n\nState Route 7 resurfacing: A project to resurface SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will be during daytime hours. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: October 27, 2026\n\nOther State Routes\n\nState Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026\n\nState Route 164 chip sealing preventative maintenance: A project to chip seal SR 164 from Bergholz in Jefferson County through Carroll County, ending in Salineville. Traffic is maintained with flaggers. Estimated Completion: September 30, 2026. Learn more about ODOT’s chip sealing preventative maintenance treatment.\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: October 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on:\n\nFriday, October 23, 2026: 8:00 p.m. to 5:00 a.m.,\n\nWednesday, October 28, 2026: 8:00 p.m. to 5:00 a.m.\n\nFriday, October 30, 2026: 8:00 p.m. to 8:00 a.m.\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.\n\nAdditional anticipated closure dates. Inclement weather or unforeseen circumstances could change the project schedule:\n\n- Closure 5: November 6\n\n- Closure 6: November 7\n\n- Closure 7: November 13\n\n- Closure 8: November 20"
+     "updatedAt": "2026-10-27T15:49:18.150Z",
+     "publishedVersion": 298,
+     "textSha256": "ceff91dfdb4e1c5cdc5a06b129fcdaac1d25eeb9035d1cb5c2cba927592c4034",
+     "text": "The following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026\n\nState Route 7 resurfacing: Resurfacing SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will occur during the day. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 14, 2026\n\nOther State Routes\n\nState Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.\n\nState Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026\n\nState Route 164 chip sealing preventative maintenance: A project to chip seal SR 164 from Bergholz in Jefferson County through Carroll County, ending in Salineville. Traffic is maintained with flaggers. Estimated Completion: September 30, 2026. Learn more about ODOT’s chip sealing preventative maintenance treatment.\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: October 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:\n\nNovember 23rd, 8:00 PM - 5:00 AM\n\nDecember 2nd, 8:00 PM - 5:00 AM\n\nClosure 5: December 9th, 8:00 PM - 5:00 AM\n\nClosure 6: December 15th, 8:00 PM - 5:00 AM\n\nClosure 7: December 22nd, 8:00 PM - 5:00 AM\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge."
     },
     "browserBlocksNotInPlainBody": [
-     "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026"
+     "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026."
     ],
     "plainBodyBlocksNotShown": [
-     "State Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026"
+     "State Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026."
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:52:49.367Z",
+    "startedAt": "2026-10-27T16:04:54.145Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
     "title": "Traffic Impacts in Jefferson County | Ohio Department of Transportation",
-    "lastModifiedShown": "October 23, 2026",
+    "lastModifiedShown": "October 27, 2026",
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-jefferson",
-     "clientRequestedAt": "2026-10-26T15:52:49.371Z",
+     "clientRequestedAt": "2026-10-27T16:04:54.148Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
-     "sourceRequestedAt": "2026-10-26T15:52:49.391Z",
+     "sourceRequestedAt": "2026-10-27T16:04:54.159Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:52:49 GMT",
+      "date": "Tue, 27 Oct 2026 16:04:54 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
       "cache-control": "max-age=86400"
      }
     },
-    "visibleTextSha256": "c142bfb4c65cb514a3658b3b971aa5de3b41b57e019e6cfdf4bfcce023a6486e",
+    "visibleTextSha256": "b9a44069f5eff4ea98dee713d52638595c44368992ef00a96f5c1f8d7a8d74ab",
     "visibleTextFile": "visible-text/jefferson.txt",
     "hiddenBlocksInSection": 0
    },
    "countySection": {
-    "sha256": "55def28e44dc2ac28c2ef26040be9e8e81abb26cedd59fb2cc84ea3bab82e822",
-    "items": 20,
-    "text": "Traffic Impacts in Jefferson County\n\nLast modified: October 23, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: October 31, 2026\n\nState Route 7 resurfacing: A project to resurface SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will be during daytime hours. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: October 27, 2026\n\nOther State Routes\n\nState Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026\n\nState Route 164 chip sealing preventative maintenance: A project to chip seal SR 164 from Bergholz in Jefferson County through Carroll County, ending in Salineville. Traffic is maintained with flaggers. Estimated Completion: September 30, 2026. Learn more about ODOT’s chip sealing preventative maintenance treatment.\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: October 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on:\n\nFriday, October 23, 2026: 8:00 p.m. to 5:00 a.m.,\n\nWednesday, October 28, 2026: 8:00 p.m. to 5:00 a.m.\n\nFriday, October 30, 2026: 8:00 p.m. to 8:00 a.m.\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.\n\nAdditional anticipated closure dates. Inclement weather or unforeseen circumstances could change the project schedule:\n\n- Closure 5: November 6\n\n- Closure 6: November 7\n\n- Closure 7: November 13\n\n- Closure 8: November 20",
+    "sha256": "8e3b318256c96fdda3b38907e645c9e6f9638e0cf633018b722e70dc8fcb815e",
+    "items": 18,
+    "text": "Traffic Impacts in Jefferson County\n\nLast modified: October 27, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026\n\nState Route 7 resurfacing: Resurfacing SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will occur during the day. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 14, 2026\n\nOther State Routes\n\nState Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.\n\nState Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026\n\nState Route 164 chip sealing preventative maintenance: A project to chip seal SR 164 from Bergholz in Jefferson County through Carroll County, ending in Salineville. Traffic is maintained with flaggers. Estimated Completion: September 30, 2026. Learn more about ODOT’s chip sealing preventative maintenance treatment.\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: October 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:\n\nNovember 23rd, 8:00 PM - 5:00 AM\n\nDecember 2nd, 8:00 PM - 5:00 AM\n\nClosure 5: December 9th, 8:00 PM - 5:00 AM\n\nClosure 6: December 15th, 8:00 PM - 5:00 AM\n\nClosure 7: December 22nd, 8:00 PM - 5:00 AM\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.",
     "blocks": [
      {
       "under": [
@@ -1927,7 +1921,7 @@
        "Local Conditions on OHGO",
        "State Route 7 Projects"
       ],
-      "text": "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026",
+      "text": "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.",
       "links": [
        {
         "text": "State Route 7 southbound 4",
@@ -1940,7 +1934,7 @@
        "Local Conditions on OHGO",
        "State Route 7 Projects"
       ],
-      "text": "State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: October 31, 2026",
+      "text": "State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026",
       "links": [
        {
         "text": "State Route 7 mine subsidence restoration:",
@@ -1953,7 +1947,7 @@
        "Local Conditions on OHGO",
        "State Route 7 Projects"
       ],
-      "text": "State Route 7 resurfacing: A project to resurface SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will be during daytime hours. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026",
+      "text": "State Route 7 resurfacing: Resurfacing SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will occur during the day. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026",
       "links": [
        {
         "text": "State Route 7 resurfacing:",
@@ -1966,11 +1960,24 @@
        "Local Conditions on OHGO",
        "State Route 7 Projects"
       ],
-      "text": "State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: October 27, 2026",
+      "text": "State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 14, 2026",
       "links": [
        {
         "text": "State Route 7 Northbound On-Ramp closure at Logan Avenue:",
         "href": "https://www.ohgo.com/ne-ohio?lt=40.321557294033354&ln=-80.60591805242964&z=15&ls=construction,construction-future"
+       }
+      ]
+     },
+     {
+      "under": [
+       "Local Conditions on OHGO",
+       "Other State Routes"
+      ],
+      "text": "State Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.",
+      "links": [
+       {
+        "text": "State Route 152 closure north of Richmond:",
+        "href": "https://www.ohgo.com/ne-ohio?lt=40.452279175221626&ln=-80.73606512917323&z=12&ls=construction,construction-future&wzpid=work-zone-WZPID000014057"
        }
       ]
      },
@@ -2032,28 +2039,42 @@
       "under": [
        "West Virginia DOT Traffic Impacts"
       ],
-      "text": "U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on:",
+      "text": "U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:",
       "links": []
      },
      {
       "under": [
        "West Virginia DOT Traffic Impacts"
       ],
-      "text": "Friday, October 23, 2026: 8:00 p.m. to 5:00 a.m.,",
+      "text": "November 23rd, 8:00 PM - 5:00 AM",
       "links": []
      },
      {
       "under": [
        "West Virginia DOT Traffic Impacts"
       ],
-      "text": "Wednesday, October 28, 2026: 8:00 p.m. to 5:00 a.m.",
+      "text": "December 2nd, 8:00 PM - 5:00 AM",
       "links": []
      },
      {
       "under": [
        "West Virginia DOT Traffic Impacts"
       ],
-      "text": "Friday, October 30, 2026: 8:00 p.m. to 8:00 a.m.",
+      "text": "Closure 5: December 9th, 8:00 PM - 5:00 AM",
+      "links": []
+     },
+     {
+      "under": [
+       "West Virginia DOT Traffic Impacts"
+      ],
+      "text": "Closure 6: December 15th, 8:00 PM - 5:00 AM",
+      "links": []
+     },
+     {
+      "under": [
+       "West Virginia DOT Traffic Impacts"
+      ],
+      "text": "Closure 7: December 22nd, 8:00 PM - 5:00 AM",
       "links": []
      },
      {
@@ -2069,48 +2090,39 @@
       ],
       "text": "Alternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.",
       "links": []
-     },
-     {
-      "under": [
-       "West Virginia DOT Traffic Impacts"
-      ],
-      "text": "Additional anticipated closure dates. Inclement weather or unforeseen circumstances could change the project schedule:",
-      "links": []
-     },
-     {
-      "under": [
-       "West Virginia DOT Traffic Impacts"
-      ],
-      "text": "- Closure 5: November 6",
-      "links": []
-     },
-     {
-      "under": [
-       "West Virginia DOT Traffic Impacts"
-      ],
-      "text": "- Closure 6: November 7",
-      "links": []
-     },
-     {
-      "under": [
-       "West Virginia DOT Traffic Impacts"
-      ],
-      "text": "- Closure 7: November 13",
-      "links": []
-     },
-     {
-      "under": [
-       "West Virginia DOT Traffic Impacts"
-      ],
-      "text": "- Closure 8: November 20",
-      "links": []
      }
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:50:58.080Z",
-    "added": [],
-    "removed": []
+    "previousReadAt": "2026-10-26T15:52:48.278Z",
+    "added": [
+     "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.",
+     "State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026",
+     "State Route 7 resurfacing: Resurfacing SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will occur during the day. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026",
+     "State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 14, 2026",
+     "State Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.",
+     "U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:",
+     "November 23rd, 8:00 PM - 5:00 AM",
+     "December 2nd, 8:00 PM - 5:00 AM",
+     "Closure 5: December 9th, 8:00 PM - 5:00 AM",
+     "Closure 6: December 15th, 8:00 PM - 5:00 AM",
+     "Closure 7: December 22nd, 8:00 PM - 5:00 AM"
+    ],
+    "removed": [
+     "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026",
+     "State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: October 31, 2026",
+     "State Route 7 resurfacing: A project to resurface SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will be during daytime hours. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026",
+     "State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: October 27, 2026",
+     "U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on:",
+     "Friday, October 23, 2026: 8:00 p.m. to 5:00 a.m.,",
+     "Wednesday, October 28, 2026: 8:00 p.m. to 5:00 a.m.",
+     "Friday, October 30, 2026: 8:00 p.m. to 8:00 a.m.",
+     "Additional anticipated closure dates. Inclement weather or unforeseen circumstances could change the project schedule:",
+     "- Closure 5: November 6",
+     "- Closure 6: November 7",
+     "- Closure 7: November 13",
+     "- Closure 8: November 20"
+    ]
    }
   },
   {
@@ -2121,29 +2133,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:53:02.051Z",
+    "requestedAt": "2026-10-27T16:05:32.331Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:53:02 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:05:33 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:53:02Z",
+    "copyMadeAt": "2026-10-27T16:05:33Z",
     "bytes": 752810,
-    "sha256": "1cf8c01f6134f218a105c9a709b52403ad6a3d87f494c8b8803317ff226b39ea",
+    "sha256": "f4cf59f96dc93d1d86d0fe1298283ee513c9e0ad35e4b8dcfdd1daf428a88470",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
-     "clientRequestedAt": "2026-10-26T15:52:59.436Z",
+     "clientRequestedAt": "2026-10-27T16:05:27.380Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
-     "sourceRequestedAt": "2026-10-26T15:53:02.051Z",
+     "sourceRequestedAt": "2026-10-27T16:05:32.331Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:02 GMT",
+      "date": "Tue, 27 Oct 2026 16:05:33 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -2172,7 +2184,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:53:03.101Z",
+    "startedAt": "2026-10-27T16:05:33.177Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
     "title": "Traffic Impacts in Mahoning County | Ohio Department of Transportation",
@@ -2180,17 +2192,16 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
-     "clientRequestedAt": "2026-10-26T15:53:03.104Z",
+     "clientRequestedAt": "2026-10-27T16:05:33.179Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
-     "sourceRequestedAt": "2026-10-26T15:53:03.128Z",
+     "sourceRequestedAt": "2026-10-27T16:05:33.194Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:03 GMT",
+      "date": "Tue, 27 Oct 2026 16:05:33 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -2227,7 +2238,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:08.835Z",
+    "previousReadAt": "2026-10-26T15:53:02.051Z",
     "added": [],
     "removed": []
    }
@@ -2240,29 +2251,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:53:15.563Z",
+    "requestedAt": "2026-10-27T16:06:00.633Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:53:16 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:06:01 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:53:16Z",
+    "copyMadeAt": "2026-10-27T16:06:01Z",
     "bytes": 762499,
-    "sha256": "5da55f078b05c1b1bb0bfefe953903a1d3de29e15a9fce0466a0765074c185b3",
+    "sha256": "780613f6bd27cb8fc14e377691ca79baf49669def77cc85d0b14f626ad50e162",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
-     "clientRequestedAt": "2026-10-26T15:53:12.691Z",
+     "clientRequestedAt": "2026-10-27T16:05:57.850Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
-     "sourceRequestedAt": "2026-10-26T15:53:15.563Z",
+     "sourceRequestedAt": "2026-10-27T16:06:00.633Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:16 GMT",
+      "date": "Tue, 27 Oct 2026 16:06:01 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -2287,7 +2298,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:53:16.620Z",
+    "startedAt": "2026-10-27T16:06:01.553Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
     "title": "Traffic Impacts in Meigs County | Ohio Department of Transportation",
@@ -2295,13 +2306,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
-     "clientRequestedAt": "2026-10-26T15:53:16.629Z",
+     "clientRequestedAt": "2026-10-27T16:06:01.556Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
-     "sourceRequestedAt": "2026-10-26T15:53:16.647Z",
+     "sourceRequestedAt": "2026-10-27T16:06:01.568Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:16 GMT",
+      "date": "Tue, 27 Oct 2026 16:06:01 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -2464,7 +2475,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:18.306Z",
+    "previousReadAt": "2026-10-26T15:53:15.563Z",
     "added": [],
     "removed": []
    }
@@ -2477,33 +2488,33 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:53:28.794Z",
+    "requestedAt": "2026-10-27T16:06:14.782Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:53:28 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:06:14 GMT",
     "xCache": "Hit from cloudfront",
-    "age": "181",
+    "age": "263",
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:53:28Z",
+    "copyMadeAt": "2026-10-27T16:06:14Z",
     "bytes": 754115,
-    "sha256": "dca5f47962fe8e40254722408d37d1a42fa4e3402235685bdaaf19a25cc85245",
+    "sha256": "1c34cdf53d29dcc5da41d3a11c091ea37cefef855fff0f2fd98af597f90b8b70",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-monroe",
-     "clientRequestedAt": "2026-10-26T15:53:26.323Z",
+     "clientRequestedAt": "2026-10-27T16:06:11.178Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
-     "sourceRequestedAt": "2026-10-26T15:53:28.794Z",
+     "sourceRequestedAt": "2026-10-27T16:06:14.782Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:28 GMT",
+      "date": "Tue, 27 Oct 2026 16:06:14 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "181",
+      "age": "263",
       "cache-control": "max-age=86400"
      }
     },
@@ -2525,7 +2536,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:53:28.964Z",
+    "startedAt": "2026-10-27T16:06:14.918Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
     "title": "Traffic Impacts in Monroe County | Ohio Department of Transportation",
@@ -2533,17 +2544,17 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-monroe",
-     "clientRequestedAt": "2026-10-26T15:53:28.966Z",
+     "clientRequestedAt": "2026-10-27T16:06:14.921Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
-     "sourceRequestedAt": "2026-10-26T15:53:28.992Z",
+     "sourceRequestedAt": "2026-10-27T16:06:14.933Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:29 GMT",
+      "date": "Tue, 27 Oct 2026 16:06:14 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "182",
+      "age": "263",
       "cache-control": "max-age=86400"
      }
     },
@@ -2627,7 +2638,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:28.164Z",
+    "previousReadAt": "2026-10-26T15:53:28.794Z",
     "added": [],
     "removed": []
    }
@@ -2640,32 +2651,33 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:53:45.131Z",
+    "requestedAt": "2026-10-27T16:10:05.535Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:53:46 GMT",
-    "xCache": "Miss from cloudfront",
-    "age": null,
+    "serverDate": "Tue, 27 Oct 2026 16:10:05 GMT",
+    "xCache": "Hit from cloudfront",
+    "age": "205",
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:53:46Z",
+    "copyMadeAt": "2026-10-27T16:10:05Z",
     "bytes": 760774,
-    "sha256": "371efe221f405d93f0e1533e7d7a59951d3cee92fa64efe19dfb3f78e855de99",
+    "sha256": "453e208afddf6c77d616e221e2d1d03ba23290669a636f83a77e4c63126a9e03",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
-     "clientRequestedAt": "2026-10-26T15:53:42.588Z",
+     "clientRequestedAt": "2026-10-27T16:09:58.238Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
-     "sourceRequestedAt": "2026-10-26T15:53:45.131Z",
+     "sourceRequestedAt": "2026-10-27T16:10:05.535Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:46 GMT",
+      "date": "Tue, 27 Oct 2026 16:10:05 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
-      "x-cache": "Miss from cloudfront",
+      "x-cache": "Hit from cloudfront",
+      "age": "205",
       "cache-control": "max-age=86400"
      }
     },
@@ -2690,7 +2702,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:53:46.193Z",
+    "startedAt": "2026-10-27T16:10:05.701Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
     "title": "Traffic Impacts in Muskingum County | Ohio Department of Transportation",
@@ -2698,16 +2710,17 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
-     "clientRequestedAt": "2026-10-26T15:53:46.196Z",
+     "clientRequestedAt": "2026-10-27T16:10:05.708Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
-     "sourceRequestedAt": "2026-10-26T15:53:46.219Z",
+     "sourceRequestedAt": "2026-10-27T16:10:05.723Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:46 GMT",
+      "date": "Tue, 27 Oct 2026 16:10:05 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
+      "age": "205",
       "cache-control": "max-age=86400"
      }
     },
@@ -2900,7 +2913,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:38.453Z",
+    "previousReadAt": "2026-10-26T15:53:45.131Z",
     "added": [],
     "removed": []
    }
@@ -2913,29 +2926,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:53:58.248Z",
+    "requestedAt": "2026-10-27T16:07:22.685Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:53:59 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:07:23 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:53:59Z",
+    "copyMadeAt": "2026-10-27T16:07:23Z",
     "bytes": 750652,
-    "sha256": "2d54085e5274a2958cc40249dd2563e76dcdbc19037016729880712c7dd5fe77",
+    "sha256": "1381faf7f2d00d7b7daa422d2ace4f4c823277fc0ff415dc3bb4194db453afb4",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
-     "clientRequestedAt": "2026-10-26T15:53:55.505Z",
+     "clientRequestedAt": "2026-10-27T16:07:10.699Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
-     "sourceRequestedAt": "2026-10-26T15:53:58.248Z",
+     "sourceRequestedAt": "2026-10-27T16:07:22.685Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:53:59 GMT",
+      "date": "Tue, 27 Oct 2026 16:07:23 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -2960,7 +2973,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:54:00.166Z",
+    "startedAt": "2026-10-27T16:07:23.683Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
     "title": "Traffic Impacts in Noble County | Ohio Department of Transportation",
@@ -2968,17 +2981,16 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
-     "clientRequestedAt": "2026-10-26T15:54:00.168Z",
+     "clientRequestedAt": "2026-10-27T16:07:23.688Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
-     "sourceRequestedAt": "2026-10-26T15:54:00.184Z",
+     "sourceRequestedAt": "2026-10-27T16:07:23.703Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:00 GMT",
+      "date": "Tue, 27 Oct 2026 16:07:23 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -3038,7 +3050,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:48.376Z",
+    "previousReadAt": "2026-10-26T15:53:58.248Z",
     "added": [],
     "removed": []
    }
@@ -3051,29 +3063,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:54:12.911Z",
+    "requestedAt": "2026-10-27T16:07:43.667Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:54:13 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:07:44 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:54:13Z",
+    "copyMadeAt": "2026-10-27T16:07:44Z",
     "bytes": 750713,
-    "sha256": "bc0490194a56efc3d704511dbf5124174f891dfa3867fddfc38e9da7ae73114b",
+    "sha256": "447917f90b0112cdc3db51dbd37006bccead3c334f1313b4e25c61ffb2ec4cb4",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
-     "clientRequestedAt": "2026-10-26T15:54:09.745Z",
+     "clientRequestedAt": "2026-10-27T16:07:37.735Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
-     "sourceRequestedAt": "2026-10-26T15:54:12.911Z",
+     "sourceRequestedAt": "2026-10-27T16:07:43.667Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:13 GMT",
+      "date": "Tue, 27 Oct 2026 16:07:44 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3103,7 +3115,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:54:13.945Z",
+    "startedAt": "2026-10-27T16:07:44.993Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
     "title": "Traffic Impacts in Portage County | Ohio Department of Transportation",
@@ -3111,16 +3123,17 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
-     "clientRequestedAt": "2026-10-26T15:54:13.948Z",
+     "clientRequestedAt": "2026-10-27T16:07:44.995Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
-     "sourceRequestedAt": "2026-10-26T15:54:13.968Z",
+     "sourceRequestedAt": "2026-10-27T16:07:45.016Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:14 GMT",
+      "date": "Tue, 27 Oct 2026 16:07:45 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
+      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -3171,7 +3184,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:51:57.744Z",
+    "previousReadAt": "2026-10-26T15:54:12.911Z",
     "added": [],
     "removed": []
    }
@@ -3184,29 +3197,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:54:26.781Z",
+    "requestedAt": "2026-10-27T16:08:04.779Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:54:27 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:08:05 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:54:27Z",
+    "copyMadeAt": "2026-10-27T16:08:05Z",
     "bytes": 751550,
-    "sha256": "07d5175e1fe1153eeecf12715a5875d35e8f65e955a4d80a89b9186a74412fd2",
+    "sha256": "f94ddd33ac3881e211eca333eda8ca2c887fe3aac69e765eea9ee622eb0c451e",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
-     "clientRequestedAt": "2026-10-26T15:54:23.513Z",
+     "clientRequestedAt": "2026-10-27T16:08:01.477Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
-     "sourceRequestedAt": "2026-10-26T15:54:26.781Z",
+     "sourceRequestedAt": "2026-10-27T16:08:04.779Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:27 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:05 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3237,7 +3250,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:54:28.027Z",
+    "startedAt": "2026-10-27T16:08:05.675Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
     "title": "Traffic Impacts in Stark County | Ohio Department of Transportation",
@@ -3245,17 +3258,16 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
-     "clientRequestedAt": "2026-10-26T15:54:28.029Z",
+     "clientRequestedAt": "2026-10-27T16:08:05.677Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
-     "sourceRequestedAt": "2026-10-26T15:54:28.050Z",
+     "sourceRequestedAt": "2026-10-27T16:08:05.689Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:28 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:05 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
-      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -3313,7 +3325,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:52:07.594Z",
+    "previousReadAt": "2026-10-26T15:54:26.781Z",
     "added": [],
     "removed": []
    }
@@ -3326,29 +3338,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:54:40.819Z",
+    "requestedAt": "2026-10-27T16:08:24.023Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:54:41 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:08:24 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:54:41Z",
+    "copyMadeAt": "2026-10-27T16:08:24Z",
     "bytes": 751510,
-    "sha256": "c19d61f711444f15aeb4b48a4d49355c5d7d6499f482b5ddd7ee81d93b4795dd",
+    "sha256": "5f83a5207b4f7c58664c216c3397f126cf8975796d97e1512d84aa9f12e8db99",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
-     "clientRequestedAt": "2026-10-26T15:54:37.772Z",
+     "clientRequestedAt": "2026-10-27T16:08:20.399Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
-     "sourceRequestedAt": "2026-10-26T15:54:40.819Z",
+     "sourceRequestedAt": "2026-10-27T16:08:24.023Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:41 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:24 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3378,7 +3390,7 @@
     ]
    },
    "browser": {
-    "startedAt": "2026-10-26T15:54:41.898Z",
+    "startedAt": "2026-10-27T16:08:25.019Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
     "title": "Traffic Impacts in Trumbull County | Ohio Department of Transportation",
@@ -3386,16 +3398,17 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
-     "clientRequestedAt": "2026-10-26T15:54:41.901Z",
+     "clientRequestedAt": "2026-10-27T16:08:25.021Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
-     "sourceRequestedAt": "2026-10-26T15:54:41.922Z",
+     "sourceRequestedAt": "2026-10-27T16:08:25.034Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:54:41 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:25 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
+      "age": "1",
       "cache-control": "max-age=86400"
      }
     },
@@ -3446,7 +3459,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:52:18.933Z",
+    "previousReadAt": "2026-10-26T15:54:40.819Z",
     "added": [],
     "removed": []
    }
@@ -3459,29 +3472,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:55:02.290Z",
+    "requestedAt": "2026-10-27T16:08:37.649Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:55:03 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:08:38 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:55:03Z",
+    "copyMadeAt": "2026-10-27T16:08:38Z",
     "bytes": 755565,
-    "sha256": "a012282de095e334132905a5578319be187241f71dda785b630273e8d65820df",
+    "sha256": "26526a65dbea5eb45fa603c7762210b12777cc97256d79ef68ffe649c6fbc17f",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-tuscarawas",
-     "clientRequestedAt": "2026-10-26T15:54:57.567Z",
+     "clientRequestedAt": "2026-10-27T16:08:34.977Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
-     "sourceRequestedAt": "2026-10-26T15:55:02.290Z",
+     "sourceRequestedAt": "2026-10-27T16:08:37.649Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:03 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:38 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3506,7 +3519,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:55:03.742Z",
+    "startedAt": "2026-10-27T16:08:38.435Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
     "title": "Traffic Impacts in Tuscarawas County | Ohio Department of Transportation",
@@ -3514,13 +3527,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-tuscarawas",
-     "clientRequestedAt": "2026-10-26T15:55:03.751Z",
+     "clientRequestedAt": "2026-10-27T16:08:38.438Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
-     "sourceRequestedAt": "2026-10-26T15:55:03.774Z",
+     "sourceRequestedAt": "2026-10-27T16:08:38.452Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:03 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:38 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -3623,7 +3636,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:52:29.770Z",
+    "previousReadAt": "2026-10-26T15:55:02.290Z",
     "added": [],
     "removed": []
    }
@@ -3636,29 +3649,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:55:16.558Z",
+    "requestedAt": "2026-10-27T16:08:51.734Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:55:17 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:08:52 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:55:17Z",
+    "copyMadeAt": "2026-10-27T16:08:52Z",
     "bytes": 746016,
-    "sha256": "fdebd64bf37417a69be91f1af3c274e24d3329f6644f284ef9e8628e125b38e1",
+    "sha256": "e1f0da34f8affc3176f9047c9a2d775712d8369aef73a5d0d320f894c0e2fd5c",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
-     "clientRequestedAt": "2026-10-26T15:55:13.381Z",
+     "clientRequestedAt": "2026-10-27T16:08:48.892Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
-     "sourceRequestedAt": "2026-10-26T15:55:16.558Z",
+     "sourceRequestedAt": "2026-10-27T16:08:51.734Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:17 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:52 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3683,7 +3696,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:55:17.763Z",
+    "startedAt": "2026-10-27T16:08:52.595Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
     "title": "Traffic Impacts in Vinton County | Ohio Department of Transportation",
@@ -3691,13 +3704,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
-     "clientRequestedAt": "2026-10-26T15:55:17.768Z",
+     "clientRequestedAt": "2026-10-27T16:08:52.597Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
-     "sourceRequestedAt": "2026-10-26T15:55:17.787Z",
+     "sourceRequestedAt": "2026-10-27T16:08:52.607Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:17 GMT",
+      "date": "Tue, 27 Oct 2026 16:08:52 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -3723,7 +3736,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:52:40.790Z",
+    "previousReadAt": "2026-10-26T15:55:16.558Z",
     "added": [],
     "removed": []
    }
@@ -3736,29 +3749,29 @@
    "outcome": "complete",
    "reasons": [],
    "plainGet": {
-    "requestedAt": "2026-10-26T15:55:31.518Z",
+    "requestedAt": "2026-10-27T16:09:20.587Z",
     "status": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
     "redirects": [],
-    "serverDate": "Mon, 26 Oct 2026 15:55:32 GMT",
+    "serverDate": "Tue, 27 Oct 2026 16:09:21 GMT",
     "xCache": "Miss from cloudfront",
     "age": null,
     "cloudfrontPop": null,
-    "copyMadeAt": "2026-10-26T15:55:32Z",
+    "copyMadeAt": "2026-10-27T16:09:21Z",
     "bytes": 753971,
-    "sha256": "23ed1753e6107162347cfb0fb02879ee2d1a1afec7440d51b46a5a7cc23c30be",
+    "sha256": "d98d11843b82f0f9f6e19ae8e3d12fdbdda8cc9d0daea8b9459cb54cbdda8193",
     "odotErrorPage": false,
     "error": null,
     "transport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
-     "clientRequestedAt": "2026-10-26T15:55:27.336Z",
+     "clientRequestedAt": "2026-10-27T16:09:17.599Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
-     "sourceRequestedAt": "2026-10-26T15:55:31.518Z",
+     "sourceRequestedAt": "2026-10-27T16:09:20.587Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:32 GMT",
+      "date": "Tue, 27 Oct 2026 16:09:21 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Miss from cloudfront",
@@ -3783,7 +3796,7 @@
     "plainBodyBlocksNotShown": []
    },
    "browser": {
-    "startedAt": "2026-10-26T15:55:32.410Z",
+    "startedAt": "2026-10-27T16:09:21.452Z",
     "documentStatus": 200,
     "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
     "title": "Traffic Impacts in Washington County | Ohio Department of Transportation",
@@ -3791,13 +3804,13 @@
     "documentTransport": {
      "kind": "owned Cloudflare Workers official GET",
      "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
-     "clientRequestedAt": "2026-10-26T15:55:32.413Z",
+     "clientRequestedAt": "2026-10-27T16:09:21.455Z",
      "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
-     "sourceRequestedAt": "2026-10-26T15:55:32.431Z",
+     "sourceRequestedAt": "2026-10-27T16:09:21.466Z",
      "sourceStatus": 200,
      "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
      "sourceHeaders": {
-      "date": "Mon, 26 Oct 2026 15:55:32 GMT",
+      "date": "Tue, 27 Oct 2026 16:09:21 GMT",
       "content-type": "text/html; charset=utf-8",
       "server": "cloudflare",
       "x-cache": "Hit from cloudfront",
@@ -3880,7 +3893,7 @@
     ]
    },
    "sincePreviousRead": {
-    "previousReadAt": "2026-10-25T18:52:50.263Z",
+    "previousReadAt": "2026-10-26T15:55:31.518Z",
     "added": [],
     "removed": []
    }

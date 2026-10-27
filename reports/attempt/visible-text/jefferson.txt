@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Jefferson County
 
-Last modified: October 23, 2026
+Last modified: October 27, 2026
 
 Local Conditions on OHGO
 
@@ -30,15 +30,17 @@ The following ODOT construction projects are anticipated to impact traffic in Je
 
 State Route 7 Projects
 
-State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: October 31, 2026
+State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.
 
-State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: October 31, 2026
+State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026
 
-State Route 7 resurfacing: A project to resurface SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will be during daytime hours. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026
+State Route 7 resurfacing: Resurfacing SR 7 from Brilliant to Steubenville. Resurfacing work in Steubenville will take place at night, and work outside Steubenville toward Brilliant will occur during the day. One lane of traffic will be maintained in both directions throughout construction. Estimated Completion: October 31. 2026
 
-State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: October 27, 2026
+State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 14, 2026
 
 Other State Routes
+
+State Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.
 
 State Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026
 
@@ -52,27 +54,21 @@ West Virginia DOT Traffic Impacts
 
 Visit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.
 
-U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on:
+U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:
 
-Friday, October 23, 2026: 8:00 p.m. to 5:00 a.m.,
+November 23rd, 8:00 PM - 5:00 AM
 
-Wednesday, October 28, 2026: 8:00 p.m. to 5:00 a.m.
+December 2nd, 8:00 PM - 5:00 AM
 
-Friday, October 30, 2026: 8:00 p.m. to 8:00 a.m.
+Closure 5: December 9th, 8:00 PM - 5:00 AM
+
+Closure 6: December 15th, 8:00 PM - 5:00 AM
+
+Closure 7: December 22nd, 8:00 PM - 5:00 AM
 
 The closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.
 
 Alternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.
-
-Additional anticipated closure dates. Inclement weather or unforeseen circumstances could change the project schedule:
-
-- Closure 5: November 6
-
-- Closure 6: November 7
-
-- Closure 7: November 13
-
-- Closure 8: November 20
 
 Contact
 
