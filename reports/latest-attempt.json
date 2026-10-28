@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "stage": "capture",
   "channel": "Codex daily cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
-  "readerCommit": "9103f0350661377fd533b2a47cbdb060807f4a87",
+  "readerCommit": "e583995b0f000bab9772df9035462038c400bb69",
   "runUrl": null,
-  "finishedAt": "2026-10-27T16:10:41.929155+00:00",
+  "finishedAt": "2026-10-28T16:27:01.427030+00:00",
   "expected": 20,
   "attempted": 20,
   "complete": 20,
@@ -12,7 +12,7 @@
   "deferred": 0,
   "captureExit": 0,
   "allComplete": true,
-  "firstRequestAt": "2026-10-27T16:02:08.717Z",
-  "lastRequestAt": "2026-10-27T16:10:05.701Z",
+  "firstRequestAt": "2026-10-28T16:22:24.932Z",
+  "lastRequestAt": "2026-10-28T16:26:50.890Z",
   "latestCompleteCaptureUpdated": true
 }
