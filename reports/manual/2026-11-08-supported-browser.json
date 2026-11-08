@@ -1,0 +1,806 @@
+{
+  "schemaVersion": 1,
+  "kind": "supported-browser-fallback-summary",
+  "readerCommit": "9aeec040da1ec3669a97baae57b48908861a93ce",
+  "registry": {
+    "namespace": "public-ohio-county-advisories/v1",
+    "expected": 20,
+    "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc"
+  },
+  "summary": {
+    "readDateUtc": "2026-11-08",
+    "expected": 20,
+    "attempted": 20,
+    "complete": 20,
+    "failed": 0,
+    "firstOfficialGetAt": "2026-11-08T15:55:21.695Z",
+    "lastOfficialGetAt": "2026-11-08T15:55:43.621Z",
+    "supportedBrowserRenderObservedFrom": "2026-11-08T15:57:33.625Z",
+    "supportedBrowserRenderObservedThrough": "2026-11-08T16:00:17.527Z",
+    "localReadShAttempt": "Chromium singleton socket creation was denied before any county request; the full crawl was not rerun.",
+    "latestCompleteCaptureUpdated": false,
+    "note": "This public-only summary records the separately verified supported-browser fallback and exact upstream GET provenance. It does not retime CDN headers or replace reports/latest."
+  },
+  "counties": [
+    {
+      "sourceId": "chatgpt-odot-athens",
+      "state": "Ohio",
+      "county": "Athens",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-athens",
+        "sourceRequestedAt": "2026-11-08T15:55:21.695Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:23 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 800939,
+        "sha256": "ec9c11463cc0f7b323d3611f0ab9f021411de54ecfc2d59f5516489aa6e6e3d5"
+      },
+      "cmsBody": {
+        "entryId": "2eygXthUuxbZp3NRG0tBUk",
+        "updatedAt": "2026-11-05T15:04:09.173Z",
+        "publishedVersion": 189,
+        "textSha256": "addded94446ca28da92726c429459c9ce29175b2166a9b213444363e82139cc6",
+        "blocksSha256": "e2fb7656954e991c103dc92f81651f11c0a1b1cd4a82775be264f62ac833234d",
+        "blockCount": 13
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "0f77a1ba"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-belmont",
+      "state": "Ohio",
+      "county": "Belmont",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-belmont",
+        "sourceRequestedAt": "2026-11-08T15:55:23.400Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:24 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 752008,
+        "sha256": "fcd1fe17f138a579fd366a40a6bb64268724e0ed24abed605446774beeceda48"
+      },
+      "cmsBody": {
+        "entryId": "3PJ2ir5OC3adPHqiUjF30r",
+        "updatedAt": "2026-11-06T13:01:15.581Z",
+        "publishedVersion": 323,
+        "textSha256": "bdcbbbf611194fde26728567dea7d23d867b8175c8285c71cfb88580824f94c1",
+        "blocksSha256": "b4e36d316627e57d242a68b20813586eb460471a29e76eda0d46f1291e5621a1",
+        "blockCount": 5
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "2a13fb3c"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-carroll",
+      "state": "Ohio",
+      "county": "Carroll",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-carroll",
+        "sourceRequestedAt": "2026-11-08T15:55:24.596Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:25 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 750377,
+        "sha256": "d6493245ca6713d6c9002baaad77fd939c9f8d4c3be42d9274bff678505aaa9a"
+      },
+      "cmsBody": {
+        "entryId": "5H7T3XNsKOfF8HOUfXGF2Y",
+        "updatedAt": "2026-11-03T12:21:52.450Z",
+        "publishedVersion": 56,
+        "textSha256": "fcdebaa749b444bc20300f11cd7f61504c7be56fb2fadd6630d734960faafe41",
+        "blocksSha256": "8292c8be2826dbb18dc9d0392a7798c8c779e1ce9b77a05e2544cc4772400205",
+        "blockCount": 2
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "9149f121"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-columbiana",
+      "state": "Ohio",
+      "county": "Columbiana",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-columbiana",
+        "sourceRequestedAt": "2026-11-08T15:55:26.009Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:26 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 751837,
+        "sha256": "f256cbec4a62dbc3028ccc738b5a0f6f84b9b29f5d55d54b9bc2c7ef357cbebd"
+      },
+      "cmsBody": {
+        "entryId": "6y3vo5cutjEc9bcqFmvNGm",
+        "updatedAt": "2026-11-06T13:08:26.282Z",
+        "publishedVersion": 174,
+        "textSha256": "d1c2567bf3442615c583dacdbe30a62f1d88ba93909d60444b80d37b5df464d5",
+        "blocksSha256": "f16a2918bcfa10ed848d5aba51d711abe651920451abc6af896c978fda329616",
+        "blockCount": 4
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "85492661"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-coshocton",
+      "state": "Ohio",
+      "county": "Coshocton",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-coshocton",
+        "sourceRequestedAt": "2026-11-08T15:55:26.886Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:27 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 750428,
+        "sha256": "b9c9ca7c2a3680444ebd1f959ae075479343f007bd856b969aa171df4266baf7"
+      },
+      "cmsBody": {
+        "entryId": "Y93zafJ31w4lUUL64qCbt",
+        "updatedAt": "2026-10-22T11:42:57.638Z",
+        "publishedVersion": 134,
+        "textSha256": "b92932203d36d2b56e31a683df2c242775a55ed3fbaf99b5dd58e43201f462a9",
+        "blocksSha256": "4d2e5cb412c89e0904da072ba6dcf90501e6536c485e4965fd2c005a3f7adf3e",
+        "blockCount": 3
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "2def8fa0"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-guernsey",
+      "state": "Ohio",
+      "county": "Guernsey",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-guernsey",
+        "sourceRequestedAt": "2026-11-08T15:55:27.984Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:29 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 751135,
+        "sha256": "df3a97446a97f3be1275453f3393fb7a0cc74d9016880727eced935df8cb97f4"
+      },
+      "cmsBody": {
+        "entryId": "Ux8uJecqeQ3sajhOShciF",
+        "updatedAt": "2026-11-05T17:37:01.093Z",
+        "publishedVersion": 371,
+        "textSha256": "be541049718e7d6b297d8f34bfcf7de83cbcdcb896023c0271b105b437185422",
+        "blocksSha256": "81faf12bd49e24868c6b0eaa7d952fda8da66aaa8df2006692fe0e9d3c79d7bb",
+        "blockCount": 5
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "0c29c0a"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-hamilton",
+      "state": "Ohio",
+      "county": "Hamilton",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+        "sourceRequestedAt": "2026-11-08T15:55:29.584Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:30 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 798187,
+        "sha256": "9d8ac3ac6fe542f21b50d93e1147c08b178acee22f2a2b8d5dd4707ab50e56ae"
+      },
+      "cmsBody": {
+        "entryId": "4i7oCdgmnLOiLYGXhPMGQN",
+        "updatedAt": "2026-11-06T21:17:56.428Z",
+        "publishedVersion": 3020,
+        "textSha256": "0eb839e092b54488299e725d37856e2457a53285592229a841cd4736fe7f8a9d",
+        "blocksSha256": "5bd2349df2c0207d116ce7a2dd53e91d7fb7d88dc821f50fa2bf3f703ab0fd31",
+        "blockCount": 56
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "11c201fb"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-harrison",
+      "state": "Ohio",
+      "county": "Harrison",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-harrison",
+        "sourceRequestedAt": "2026-11-08T15:55:30.695Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:31 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 754579,
+        "sha256": "5b698576a5d3aa6e807f86d6d5ccdd454b3e4d4e822d990e2f994e1bd043dc14"
+      },
+      "cmsBody": {
+        "entryId": "tNmHwD6OcMoUq8wD5giwU",
+        "updatedAt": "2026-11-04T14:32:43.348Z",
+        "publishedVersion": 198,
+        "textSha256": "0f9f4c7ee2d10c711b98b785f7c7c7a94f8a6667644adde442ab63405691e636",
+        "blocksSha256": "b39cb2eda3d5961790f3757fc9800708b42d417dd5c9594e36edc327a7cfae3e",
+        "blockCount": 7
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "59449049"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-jefferson",
+      "state": "Ohio",
+      "county": "Jefferson",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+        "sourceRequestedAt": "2026-11-08T15:55:31.552Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:32 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 766130,
+        "sha256": "ea523cabbbc49f1d49495f48c232c345eb08982764fc6d02e536b89bfef9fc72"
+      },
+      "cmsBody": {
+        "entryId": "6PHzofo2NRFH5knOdMo89t",
+        "updatedAt": "2026-11-06T12:54:35.151Z",
+        "publishedVersion": 346,
+        "textSha256": "1e07411dc2dd4e40225f884dc3f6c3e099e9494b3f7f89af08dd06c1136ccb1b",
+        "blocksSha256": "c0fe74162db98357176d17a0e11b029b8c8006f5dfda715377ea9deea28c1ed6",
+        "blockCount": 20
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "171f969a"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-mahoning",
+      "state": "Ohio",
+      "county": "Mahoning",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+        "sourceRequestedAt": "2026-11-08T15:55:32.415Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:33 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 754849,
+        "sha256": "2091670d942034343d8372ff2880515b3aa90ac3eb792569b3079b8b52167626"
+      },
+      "cmsBody": {
+        "entryId": "7dJ0Mpypg477FRKyNiJl5J",
+        "updatedAt": "2026-10-30T15:09:38.566Z",
+        "publishedVersion": 144,
+        "textSha256": "ee88459fc00f05a758572d75da7fb21038875ab2e5bce71a1b8326523c5a2c76",
+        "blocksSha256": "2b45bdb5d136d9979bc42a4f13de26ca25d79ec097a98750d24f5baf10a2b9a0",
+        "blockCount": 6
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "24f6dd32"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-meigs",
+      "state": "Ohio",
+      "county": "Meigs",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+        "sourceRequestedAt": "2026-11-08T15:55:33.293Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:34 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 762756,
+        "sha256": "afc77ddef2259485eb7ef09625c56e392827ddc18894c48e261c74da4a270ea9"
+      },
+      "cmsBody": {
+        "entryId": "59sZPuSjxE33ppoq1RHwD6",
+        "updatedAt": "2026-11-05T15:53:22.751Z",
+        "publishedVersion": 175,
+        "textSha256": "d1ef8812f9588113126889fc032c779a541a063d4fbff13ffff1031b1dd7065a",
+        "blocksSha256": "62e13e4e7accdf97e551d0c0ce710e0d07103c18d74ff8a3ef240a4ccbbb80bc",
+        "blockCount": 10
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "cb64df6f"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-monroe",
+      "state": "Ohio",
+      "county": "Monroe",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-monroe",
+        "sourceRequestedAt": "2026-11-08T15:55:34.867Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:35 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 755353,
+        "sha256": "aa3854d5bfb9b90525588abaef03acb765e5cf3c8a40e78eb3d67ff66f1ecb03"
+      },
+      "cmsBody": {
+        "entryId": "5UJvNv8v9EXToTS7X5gAbx",
+        "updatedAt": "2026-11-05T14:08:38.754Z",
+        "publishedVersion": 116,
+        "textSha256": "47b295c7b571860a11d87dc4c0f1caacf574a1283005cc68bb76d94c159a4359",
+        "blocksSha256": "efe98fcee2e6db1aefb1b62a5a9cf267b48b1c0525e3e1d89df9312fd8b76765",
+        "blockCount": 3
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "769161b1"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-muskingum",
+      "state": "Ohio",
+      "county": "Muskingum",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+        "sourceRequestedAt": "2026-11-08T15:55:35.747Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:37 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 764200,
+        "sha256": "dbc804a7d7840b69bf91e943da77c233048ed17aa22c389bf43edcc84114124a"
+      },
+      "cmsBody": {
+        "entryId": "1Q4EpZiAQ6mLbr1QEt9Y1M",
+        "updatedAt": "2026-11-05T17:40:43.104Z",
+        "publishedVersion": 476,
+        "textSha256": "6287fdbfc8abf35e592e3f15df611095f98b42e86eceb2c43bfcc78f9c7fdaf0",
+        "blocksSha256": "8b8bea46bbab234574a58dd7ff6a1c9112c1983d4ea10faeebfee67d33259562",
+        "blockCount": 27
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "c582bc5a"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-noble",
+      "state": "Ohio",
+      "county": "Noble",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+        "sourceRequestedAt": "2026-11-08T15:55:37.137Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:38 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 752677,
+        "sha256": "9472987e6fb8b5937e9be9b4c6a20762ea2b9594fe48bbac4c40eb2994dc24f4"
+      },
+      "cmsBody": {
+        "entryId": "5dzX60gNQcgEpe4nlJ0F4J",
+        "updatedAt": "2026-11-05T14:26:30.670Z",
+        "publishedVersion": 144,
+        "textSha256": "0941cf08f7381bf8d326b9c335437529fa568102669d616ba4654193fd759b05",
+        "blocksSha256": "fc9d53a11acd84579547d4f25990bca30a9aa23ee6fb59a4a66cfd67d491d4a4",
+        "blockCount": 3
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "b211ecfd"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-portage",
+      "state": "Ohio",
+      "county": "Portage",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+        "sourceRequestedAt": "2026-11-08T15:55:38.694Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:39 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 748751,
+        "sha256": "c1e2dfcc22987ae74635764070f6ce7137b2e67ef6fb08e3a79c1fb503c6f52e"
+      },
+      "cmsBody": {
+        "entryId": "55EnqIn5gegIRSLm1TtLsl",
+        "updatedAt": "2026-11-06T16:42:29.246Z",
+        "publishedVersion": 182,
+        "textSha256": "a42633b0d8c3f56635113788b8d7e8e719042591e03dce9cb15e3578304ab763",
+        "blocksSha256": "91f3042d8c85387e877a321eafab3f3e1daf101485f78c537d2a783f6a5803c3",
+        "blockCount": 5
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "e9a78305"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-stark",
+      "state": "Ohio",
+      "county": "Stark",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+        "sourceRequestedAt": "2026-11-08T15:55:39.672Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:40 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 753180,
+        "sha256": "e507849c22de71592b2258bb0e32bc89395d0644f8898b16d30eed6460aa7799"
+      },
+      "cmsBody": {
+        "entryId": "52PwGWc0Lnkl3Z93rul9q0",
+        "updatedAt": "2026-11-06T16:47:39.594Z",
+        "publishedVersion": 157,
+        "textSha256": "a4d255d3868023727bdfb8024f624d979a365b02726f742e0bd6c1fd97b7ab5f",
+        "blocksSha256": "c113f46f42816a165ec88c35c3588bfd18f917460a9ba5214175d0e832fb6d81",
+        "blockCount": 11
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "c53e01e1"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-trumbull",
+      "state": "Ohio",
+      "county": "Trumbull",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+        "sourceRequestedAt": "2026-11-08T15:55:40.550Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:41 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 751857,
+        "sha256": "6f12034f64ce7ceb21a2d34fd0462202d23ecfe84277738bb4e976d82bd24d26"
+      },
+      "cmsBody": {
+        "entryId": "2NXXbdoxUHVYwcdwgkcxxf",
+        "updatedAt": "2026-11-06T17:24:18.212Z",
+        "publishedVersion": 106,
+        "textSha256": "99cad384e4aefe7202ed7233a3587ac38c0f07d8af4bb7f63b171c67b91e3b12",
+        "blocksSha256": "7d1cba5d87acf2587170c6a3bf8158213589304ff16dfee970f54b9307afb4fe",
+        "blockCount": 11
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "1a8c1d7"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-tuscarawas",
+      "state": "Ohio",
+      "county": "Tuscarawas",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+        "sourceRequestedAt": "2026-11-08T15:55:41.757Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:42 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 758720,
+        "sha256": "dbe9e85eb20a1fcecb8ee5b600dbf5b9e27b9d8a92d3e523663c2d356be6059e"
+      },
+      "cmsBody": {
+        "entryId": "1p59vqW0tOAOAyqhTlHG3z",
+        "updatedAt": "2026-11-06T13:10:08.662Z",
+        "publishedVersion": 291,
+        "textSha256": "f25b29a1afc1a58278226ea38b2e70d50446abf92ca823a3f59895218673c60a",
+        "blocksSha256": "dead86f6c8e8259561beb0d9ddcd682302748cede4a00d44b66118b3ab3df78b",
+        "blockCount": 9
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "91c1ed27"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-vinton",
+      "state": "Ohio",
+      "county": "Vinton",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+        "sourceRequestedAt": "2026-11-08T15:55:42.600Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:43 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 748039,
+        "sha256": "8bbd6079001fffe6cbe1f84ff5828068cfe212d03b30ed3fd51d1b717d5e3007"
+      },
+      "cmsBody": {
+        "entryId": "4o1XIFG6Xam1aiiMwcE3za",
+        "updatedAt": "2026-10-21T15:12:54.348Z",
+        "publishedVersion": 80,
+        "textSha256": "ffd957184d8d3a1f06dc4cae1390d46fd5edb485afa9a726d45e3a34da65af3d",
+        "blocksSha256": "9f901e8cd22df2b0bf92fed52da07d534887f3cb524cd8116bcd20070d43e46e",
+        "blockCount": 2
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "cc44a1e"
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-washington",
+      "state": "Ohio",
+      "county": "Washington",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+      "outcome": "complete",
+      "officialGet": {
+        "retrievalChannel": "owned Cloudflare Workers official GET",
+        "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+        "sourceRequestedAt": "2026-11-08T15:55:43.621Z",
+        "sourceStatus": 200,
+        "sourceHeaders": {
+          "date": "Sun, 08 Nov 2026 15:55:44 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare",
+          "x-cache": "Miss from cloudfront",
+          "cache-control": "max-age=86400"
+        },
+        "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+        "bytes": 752496,
+        "sha256": "90e08290eaec08f7dc00de0dbcd731d08b026b44b0e8ac38150bd25b6f8843e8"
+      },
+      "cmsBody": {
+        "entryId": "6UngO0UtmX40ufD4bWb4jz",
+        "updatedAt": "2026-11-05T14:37:59.776Z",
+        "publishedVersion": 172,
+        "textSha256": "b93283c30da09bc7fa3f114d86573c5dcebb6d787968206b4c77942d0e960878",
+        "blocksSha256": "c8c763a60ceef2f9ab32db5ed0f3fbfac7d3b5f9436b6c36b956295c9a53bb73",
+        "blockCount": 3
+      },
+      "supportedBrowser": {
+        "rendered": true,
+        "registeredFinalUrlMatched": true,
+        "countyTitleAndHeadingMatched": true,
+        "completeCountySectionObserved": true,
+        "hiddenBlocksInSection": 0,
+        "sectionSha256Prefix": "d27e0b40"
+      }
+    }
+  ]
+}
