@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Monroe County
 
-Last modified: October 15, 2026
+Last modified: November 05, 2026
 
 Local Conditions on OHGO
 
@@ -38,11 +38,8 @@ Estimated Completion: November 30
 
 Township Road 1004 Bridge Replacement
 A bridge replacement project is taking place on Township Road 1004. The road is closed.
+From November 9-11 there will be delays on Mechanicsburg Road due to crane setup.
 Estimated Completion: November 15
-
-County Road 48 Pavement Replacement
-A pavement replacement project is taking place on County Road 48 (Conner Ridge Road). Traffic is being maintained by flaggers.
-Estimated Completion: October 24
 
 
 Contact
@@ -54,6 +51,11 @@ Email
 D10.PIO@dot.ohio.gov
 Main phone number
 740-568-3904
+
+Location
+338 Muskingum Drive
+Marietta, OH, 45750
+
 Follow District 10
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions

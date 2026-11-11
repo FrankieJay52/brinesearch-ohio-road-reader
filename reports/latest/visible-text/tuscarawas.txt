@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Tuscarawas County
 
-Last modified: October 30, 2026
+Last modified: November 06, 2026
 
 Local Conditions on OHGO
 
@@ -30,15 +30,13 @@ The following ODOT construction projects are anticipated to impact traffic in Be
 
 U.S. Route Projects
 
-U.S. Route 250 closure near Beach City: November 2-5, U.S. 250 will close just west of SR 93 for railroad crossing repairs located at the Stark County line. The detour is SR 212 east to SR 21 south, SR 21 south back to U.S. 250, and reverse. Estimated Completion: November 5, 2026
-
 U.S. 250 - County Road 68 (Barnhill Road) closure: The Barnhill Road bridge over U.S. Route 250 near Midvale is closed to all traffic due to structural damage. The ramps to/from U.S. Route 250 will remain open at the interchange, though drivers cannot cross the bridge. Work will begin November 2 to begin repairing the bridge. The bridge will remain closed until repairs are complete. Learn more about the closure. Estimated Completion: December 31, 2026
 
 State Route Projects
 
 State Route 258 daytime closures: November 9-20, SR 258 will close from West Chester to High Hill Road during daytime hours (7 a.m. to 4 p.m.), Monday through Friday, for tree-trimming work. The detour is U.S. 36 east to U.S. 250 east, U.S. 250 east to SR 800 south, SR 800 south back to SR 258, and reverse. Estimated Completion: November 20, 2026
 
-State Route 212 closure near Beach City: November 10-13, SR 212 will close west of Beach City for railroad crossing repairs. The detour is U.S. 250 west to SR 21 north, SR 21 north back to SR 212, and reverse. Estimated Completion: November 13, 2026
+State Route 212 closure near Beach City: (Stark County) November 10-13, SR 212 will close west of Beach City for railroad crossing repairs. The detour is U.S. 250 west to SR 21 north, SR 21 north back to SR 212, and reverse. Estimated Completion: November 13, 2026
 
 State Route 258 closure near West Chester: November 9-20, SR 258 will close near West Chester for culvert replacement work. The detour is SR 800 north to U.S. 250 west, U.S. 250 west to U.S. 36 west, U.S. 36 west back to SR 258, and reverse. Estimated Completion: November 20, 2026.
 
@@ -55,6 +53,11 @@ Email
 D11.PIO@dot.ohio.gov
 Main phone number
 330-308-7817
+
+Location
+2201 Reiser Avenue
+New Philadelphia, OH, 44663
+
 Follow District 11
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions

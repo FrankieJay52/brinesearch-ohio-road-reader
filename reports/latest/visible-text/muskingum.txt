@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Muskingum County
 
-Last modified: October 26, 2026
+Last modified: November 09, 2026
 
 Local Conditions on OHGO
 
@@ -32,15 +32,11 @@ Interstate 70
 
 Reconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.
 
-New Impacts:
+Continued Impacts:
+
+Lane closures are in place on Underwood Street for striping work.
 
 Sixth Street under I-70 has reopened.
-
-The westbound right lane will close to traffic overnight Thursday, Oct. 29 for bridge work. It will reopen the next morning.
-
-Licking Road will close to traffic overnight Thursday, Oct. 29 for bridge work. It will reopen the next morning.
-
-Continued Impacts:
 
 Phase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).
 
@@ -66,9 +62,13 @@ All work is weather dependent, and dates are subject to change.
 
 U.S. and State Route Projects
 
+State Route 340 will close to traffic between State Route 284 and Prouty Road beginning Wednesday, Nov. 11 for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.
+
 State Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.
 
-Motorists traveling State Route 60 can expect lane closures for resurfacing between SR 555 and Duncan Falls. Estimated project completion: October 2026.
+Motorist can expect lane closures on State Route 208 for full depth repair and resurfacing work between the Village of Adamsville and Dresden. Estimated project completion: November 2026.
+
+Beginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse.
 
 Contact
 
@@ -79,6 +79,11 @@ Email
 D05.PIO@dot.ohio.gov
 Main phone number
 740-323-5204
+
+Location
+9600 Jacksontown Road
+Jacksontown, OH, 43030
+
 Follow District 5
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions

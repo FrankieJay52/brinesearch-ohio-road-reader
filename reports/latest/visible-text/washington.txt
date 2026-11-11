@@ -22,26 +22,18 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Washington County
 
-Last modified: October 15, 2026
+Last modified: November 05, 2026
 
 Local Conditions on OHGO
 
 The following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.
-
-State Route 7 Bridge Deck Replacement
-A bridge deck replacement project is taking place on SR 7 between N Fork Road and Cemetery Drive. Traffic is being maintained with temporary signals.
-Estimated Completion: November 1
-
-State Route 26/Goose Run Rd./Pleasant Ridge Rd. Realignment
-A realignment project is taking place at SR 26/Goose Run Rd./Pleasant Ridge Rd. Traffic on SR 26 is being maintained with temporary signals.
-Estimated Completion: October 30
 
 Interstate 77 Culvert Replacement
 A culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed.
 Estimated Completion: November 25
 
 State Route 60 Culvert Replacement
-A culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic will be maintained with temporary signals.
+A culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals.
 Estimated Completion: November 25
 
 Contact
@@ -53,6 +45,11 @@ Email
 D10.PIO@dot.ohio.gov
 Main phone number
 740-568-3904
+
+Location
+338 Muskingum Drive
+Marietta, OH, 45750
+
 Follow District 10
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions

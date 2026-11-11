@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Noble County
 
-Last modified: October 21, 2026
+Last modified: November 05, 2026
 
 Local Conditions on OHGO
 
@@ -34,7 +34,7 @@ Estimated Completion: December 1
 
 State Route 78 Bridge Replacement
 A bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals.
-Estimated Completion: November 1
+Estimated Completion: November 13
 
 Contact
 
@@ -45,6 +45,11 @@ Email
 D10.PIO@dot.ohio.gov
 Main phone number
 740-568-3904
+
+Location
+338 Muskingum Drive
+Marietta, OH, 45750
+
 Follow District 10
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions

@@ -22,7 +22,7 @@ Intelligent Transportation Systems
 Traffic Regulations
 Traffic Impacts in Jefferson County
 
-Last modified: October 30, 2026
+Last modified: November 05, 2026
 
 Local Conditions on OHGO
 
@@ -30,21 +30,17 @@ The following ODOT construction projects are anticipated to impact traffic in Je
 
 State Route 7 Projects
 
-State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 14, 2026.
+State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026.
 
-State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 14, 2026
-
-State Route 7 resurfacing: The project to resurface SR 7 from Brilliant to Steubenville is nearing completion. Remaining work includes pavement markings, raised pavement markers, and concrete repair work. One lane of traffic will be maintained in both directions during active work. Estimated Completion: November 30. 2026
+State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 20, 2026
 
 State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 30, 2027
 
 Other State Routes
 
-State Route 152 closure north of Richmond: November 9-20, SR 152 will close during daytime hours for culvert replacement work. Work hours are 7:30 a.m. to 3 p.m., Monday through Friday, except Veterans Day (November 11). The detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.
+State Route 152 closure north of Richmond: November 9-13: The first closure will be just south of the Edison Schools. During this closure, ODOT will accommodate all school traffic in the morning and afternoon. This closure will take place the week of Nov. 9. Work hours are 8 AM - 2:30 PM. November 16-20: After the first closure, crews will move to the next two locations north of CR 56/Edison Schools. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM - 3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse. These dates are estimated and subject to change due to weather.
 
 State Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026
-
-State Route 164 chip sealing preventative maintenance: A project to chip seal SR 164 from Bergholz in Jefferson County through Carroll County, ending in Salineville. Traffic is maintained with flaggers. Estimated Completion: September 30, 2026. Learn more about ODOT’s chip sealing preventative maintenance treatment.
 
 Local Projects
 
@@ -79,6 +75,11 @@ Email
 D11.PIO@dot.ohio.gov
 Main phone number
 330-308-7817
+
+Location
+2201 Reiser Avenue
+New Philadelphia, OH, 44663
+
 Follow District 11
 Featured Ads
 OHGO: Real-Time Traffic & Road Conditions
