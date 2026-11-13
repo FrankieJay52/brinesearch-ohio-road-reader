@@ -1,0 +1,179 @@
+{
+ "sourceId": "chatgpt-odot-mahoning",
+ "state": "Ohio",
+ "county": "Mahoning",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
+     "clientRequestedAt": "2026-11-13T22:58:22.801Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+     "sourceRequestedAt": "2026-11-13T22:58:22.882Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:58:22 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24841",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:58:22.882Z",
+    "finishedAt": "2026-11-13T22:58:22.990Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:58:22 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24841",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 754842,
+    "sha256": "035ad0704e65e6879bf7842a09b6e92f69e22677ea3cc0147b7935babadf9321"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+  "status": 200,
+  "bytes": 754842,
+  "sha256": "035ad0704e65e6879bf7842a09b6e92f69e22677ea3cc0147b7935babadf9321",
+  "errorPage": false,
+  "title": "Traffic Impacts in Mahoning County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:58:23.116Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+  "error": null,
+  "title": "Traffic Impacts in Mahoning County | Ohio Department of Transportation",
+  "visibleTextChars": 4031,
+  "visibleTextSha256": "03e6572a04f1919c617ab9ecf61603f1f331134403875fef1000eb2ca3e5e343",
+  "lastModifiedShown": "November 13, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
+   "clientRequestedAt": "2026-11-13T22:58:23.125Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+   "sourceRequestedAt": "2026-11-13T22:58:23.153Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:58:23 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24842",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Mahoning County",
+    "textContent": "Traffic Impacts in Mahoning County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 13, 2026",
+    "textContent": "Last modified: November 13, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following construction projects are anticipated to affect highways in Mahoning County next week. All scheduled work is weather permitting.",
+    "textContent": "The following construction projects are anticipated to affect highways in Mahoning County next week. All scheduled work is weather permitting.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Interstate 76/80 pavement rehabilitation, Austintown & Jackson Townships\nCONTINUING IMPACT – I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026.",
+    "textContent": "Interstate 76/80 pavement rehabilitation, Austintown & Jackson TownshipsCONTINUING IMPACT – I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Interstate 680 pavement replacement, Youngstown\nCONTINUING IMPACT – I-680 southbound traffic is crossed over onto the northbound lanes through late November while I-680 southbound is reconstructed.\nCONTINUING IMPACT – I-680 northbound between South Ave. and SR 193 is CLOSED through summer 2027. The detour is U.S. 62 to U.S. 422 to SR 193.\nCONTINUING IMPACT – The following ramps are closed through late November 2026:\n• Sillman St to I-680 southbound. The detour is Steel St. to Mahoning Ave. to Belle Vista Ave. to Oakwood St. to I-680.\n• SR 193 to I-680 southbound. The detour is I-680 northbound to SR 711 to U.S. 422 eastbound to U.S.62 west/SR 7 south to I-680 south.\n• I-680 SB to Glenwood Ave./Mahoning Ave. The detour is I-680 southbound to South Ave. to Front St. to Marshall St.\n• Glenwood Ave./Mahoning Ave to I-680 south. The detour is High St. to Oak Hill Rd. to Falls Ave. to Market St. to Williams Ave. to South Ave.\n• I-680 south to Market St. south. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n• I-680 south to Market St. north. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n• I-680 south to U.S. 62/SR 7 north. The detour is I-680 south to South Ave. to U.S.62/SR 7.\nCONTINUING IMPACT – The following ramps are closed through summer 2027:\n• I-680 north to SR 193. The detour is U.S. 62/SR 7 to U.S. 422 to SR 193.\n• Marshall St. to I-680 north. The detour is Glenwood Ave. to Mahoning Ave. to Belle Vista Ave.\n• I-680 north to Glenwood Ave./Mahoning Ave. The detour is South Ave. to Front St. to Marshall St.\n• Market St. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n• Woodland Ave. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n• U.S. 62 west/SR 7 south to I- 680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\nEstimated completion, August 2028.",
+    "textContent": "Interstate 680 pavement replacement, YoungstownCONTINUING IMPACT – I-680 southbound traffic is crossed over onto the northbound lanes through late November while I-680 southbound is reconstructed. CONTINUING IMPACT – I-680 northbound between South Ave. and SR 193 is CLOSED through summer 2027. The detour is U.S. 62 to U.S. 422 to SR 193.CONTINUING IMPACT – The following ramps are closed through late November 2026:• Sillman St to I-680 southbound. The detour is Steel St. to Mahoning Ave. to Belle Vista Ave. to Oakwood St. to I-680.• SR 193 to I-680 southbound. The detour is I-680 northbound to SR 711 to U.S. 422 eastbound to U.S.62 west/SR 7 south to I-680 south.• I-680 SB to Glenwood Ave./Mahoning Ave. The detour is I-680 southbound to South Ave. to Front St. to Marshall St.• Glenwood Ave./Mahoning Ave to I-680 south. The detour is High St. to Oak Hill Rd. to Falls Ave. to Market St. to Williams Ave. to South Ave.• I-680 south to Market St. south. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.• I-680 south to Market St. north. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.• I-680 south to U.S. 62/SR 7 north. The detour is I-680 south to South Ave. to U.S.62/SR 7.CONTINUING IMPACT – The following ramps are closed through summer 2027:• I-680 north to SR 193. The detour is U.S. 62/SR 7 to U.S. 422 to SR 193.• Marshall St. to I-680 north. The detour is Glenwood Ave. to Mahoning Ave. to Belle Vista Ave.• I-680 north to Glenwood Ave./Mahoning Ave. The detour is South Ave. to Front St. to Marshall St.• Market St. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.• Woodland Ave. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193. • U.S. 62 west/SR 7 south to I- 680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193. Estimated completion, August 2028.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

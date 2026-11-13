@@ -1,0 +1,172 @@
+{
+ "sourceId": "chatgpt-odot-portage",
+ "state": "Ohio",
+ "county": "Portage",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
+     "clientRequestedAt": "2026-11-13T22:59:15.673Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+     "sourceRequestedAt": "2026-11-13T22:59:15.706Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:15 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24979",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:15.706Z",
+    "finishedAt": "2026-11-13T22:59:15.829Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:15 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24979",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 748752,
+    "sha256": "c5e6247f23cb3f6110474adb0db5a0a48c3d8109e8e9157e9f7ab841403d3c9c"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+  "status": 200,
+  "bytes": 748752,
+  "sha256": "c5e6247f23cb3f6110474adb0db5a0a48c3d8109e8e9157e9f7ab841403d3c9c",
+  "errorPage": false,
+  "title": "Traffic Impacts in Portage County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:59:15.937Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+  "error": null,
+  "title": "Traffic Impacts in Portage County | Ohio Department of Transportation",
+  "visibleTextChars": 2024,
+  "visibleTextSha256": "42faed10c6963ea36bb0ef8ac1b0a74880dac0043ffafab38f27b87f1d14e5e8",
+  "lastModifiedShown": "November 13, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
+   "clientRequestedAt": "2026-11-13T22:59:15.948Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+   "sourceRequestedAt": "2026-11-13T22:59:15.975Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:59:15 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24726",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Portage County",
+    "textContent": "Traffic Impacts in Portage County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 13, 2026",
+    "textContent": "Last modified: November 13, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following construction projects are anticipated to affect highways in Portage County next week. All scheduled work is weather permitting.",
+    "textContent": "The following construction projects are anticipated to affect highways in Portage County next week. All scheduled work is weather permitting.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 14 & State Route 43 intersection improvements, Streetsboro\nCONTINUING IMPACT – SR 303 at SR 14 is closed through late November. The detour is Superior Ave. to SR 14.\nEstimated completion, late November 2026.",
+    "textContent": "State Route 14 & State Route 43 intersection improvements, StreetsboroCONTINUING IMPACT – SR 303 at SR 14 is closed through late November. The detour is Superior Ave. to SR 14. Estimated completion, late November 2026.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

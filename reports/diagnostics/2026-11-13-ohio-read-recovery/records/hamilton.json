@@ -1,0 +1,567 @@
+{
+ "sourceId": "chatgpt-odot-hamilton",
+ "state": "Ohio",
+ "county": "Hamilton",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
+     "clientRequestedAt": "2026-11-13T22:58:05.073Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+     "sourceRequestedAt": "2026-11-13T22:58:05.245Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:58:05 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24827",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:58:05.245Z",
+    "finishedAt": "2026-11-13T22:58:05.428Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:58:05 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24827",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 798188,
+    "sha256": "6afe7de0594dc5fe70fc835734f8482a623ccc3cada57136cf775e65d103f1a9"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+  "status": 200,
+  "bytes": 798188,
+  "sha256": "6afe7de0594dc5fe70fc835734f8482a623ccc3cada57136cf775e65d103f1a9",
+  "errorPage": false,
+  "title": "Traffic Impacts in Hamilton County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:58:05.607Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+  "error": null,
+  "title": "Traffic Impacts in Hamilton County | Ohio Department of Transportation",
+  "visibleTextChars": 14185,
+  "visibleTextSha256": "c90d275095bd7039602a00d403d89fefad586b1ce5c40f782823f01a29b7a20a",
+  "lastModifiedShown": "November 06, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
+   "clientRequestedAt": "2026-11-13T22:58:05.623Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+   "sourceRequestedAt": "2026-11-13T22:58:05.681Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:58:05 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24827",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    6
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Hamilton County",
+    "textContent": "Traffic Impacts in Hamilton County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 06, 2026",
+    "textContent": "Last modified: November 06, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following traffic advisory includes restrictions on the state highway system in Hamilton County. All work will be contingent upon the weather. For construction information and statewide information regarding road conditions, visit ODOT on the web at www.Ohgo.com.",
+    "textContent": "The following traffic advisory includes restrictions on the state highway system in Hamilton County. All work will be contingent upon the weather. For construction information and statewide information regarding road conditions, visit ODOT on the web at www.Ohgo.com.",
+    "visible": true,
+    "links": [
+     {
+      "text": "ODOT",
+      "href": "https://transportation.ohio.gov/"
+     },
+     {
+      "text": "www.Ohgo.com",
+      "href": "http://www.ohgo.com/?utm_medium=email&utm_source=govdelivery"
+     }
+    ]
+   },
+   {
+    "tag": "h2",
+    "text": "Interstate Projects",
+    "textContent": "Interstate Projects",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-75/Brent Spence Bridge Corridor - Construction of a new double-decker companion bridge adjacent to the existing Brent Spence Bridge to carry interstate and thru traffic. Project also includes improvements of approximately one mile of roadway, between the bridge approach and Linn Street, as well as a redesign and improvements to ramp configurations. Estimated Completion: 2031 (new companion bridge) and 2033 (approach work)",
+    "textContent": "I-75/Brent Spence Bridge Corridor - Construction of a new double-decker companion bridge adjacent to the existing Brent Spence Bridge to carry interstate and thru traffic. Project also includes improvements of approximately one mile of roadway, between the bridge approach and Linn Street, as well as a redesign and improvements to ramp configurations. Estimated Completion: 2031 (new companion bridge) and 2033 (approach work)",
+    "visible": true,
+    "links": [
+     {
+      "text": "I-75/Brent Spence Bridge Corridor",
+      "href": "https://brentspencebridgecorridor.com/"
+     }
+    ]
+   },
+   {
+    "tag": "h4",
+    "text": "New Impacts",
+    "textContent": "New Impacts",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Friday, November 6 and Sunday, November 8:",
+    "textContent": "Friday, November 6 and Sunday, November 8:",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Single-lane (left lane) closure on the ramp from I-75 North to U.S. 50 West, from 8 p.m. Friday to 8 a.m. Saturday and 8 p.m. Sunday to 6 a.m. Monday.",
+    "textContent": "Single-lane (left lane) closure on the ramp from I-75 North to U.S. 50 West, from 8 p.m. Friday to 8 a.m. Saturday and 8 p.m. Sunday to 6 a.m. Monday.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Traffic on the ramp will be merged into the ramp from I-71/Fort Washington Way, and the restriction will extend to the Gest Street overpass.",
+    "textContent": "Traffic on the ramp will be merged into the ramp from I-71/Fort Washington Way, and the restriction will extend to the Gest Street overpass.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h3",
+    "text": "Continuing Impacts",
+    "textContent": "Continuing Impacts",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "W. Pete Rose Way/Longworth Hall Building Demolition - Intermittent single-lane closure, as well as full closure on Pete Rose Way, between Smith Street/Clay Wade Bailey Bridge and Gas Alley, for ongoing building demolition. During daytime hours of operation, weekdays from approximately 7 a.m. to 7 p.m., single-lane or full closures will be in effect. Traffic will be maintained as needed by flaggers or, during periods of closure, motorists will be detoured by way of Central Avenue and Mehring Way. Estimated Completion: November 2026.",
+    "textContent": "W. Pete Rose Way/Longworth Hall Building Demolition - Intermittent single-lane closure, as well as full closure on Pete Rose Way, between Smith Street/Clay Wade Bailey Bridge and Gas Alley, for ongoing building demolition. During daytime hours of operation, weekdays from approximately 7 a.m. to 7 p.m., single-lane or full closures will be in effect. Traffic will be maintained as needed by flaggers or, during periods of closure, motorists will be detoured by way of Central Avenue and Mehring Way. Estimated Completion: November 2026.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Second Street Ramp Demolition - Second Street is reduced to one, 10-foot lane between the Clay Wade Bailey Bridge and Elm Street for entrance ramp (bridge) demolition. Traffic will be maintained in one, 10-foot lane through the spring of 2027.",
+    "textContent": "Second Street Ramp Demolition - Second Street is reduced to one, 10-foot lane between the Clay Wade Bailey Bridge and Elm Street for entrance ramp (bridge) demolition. Traffic will be maintained in one, 10-foot lane through the spring of 2027.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-75/Linn Street Bridge Replacement & Reconstruction - Over I-75, between W. Court Street and W. 8th Street. Linn Street is closed between W. 8th and W. Court streets through the fall of 2027 for replacement and reconstruction. Northbound motorists will be detoured via W. 8th Street, Freeman Avenue and Ezzard Charles Drive. Southbound motorists will be rerouted by way of Ezzard Charles Drive, Western Avenue, Freeman and W. 8th.",
+    "textContent": "I-75/Linn Street Bridge Replacement & Reconstruction - Over I-75, between W. Court Street and W. 8th Street. Linn Street is closed between W. 8th and W. Court streets through the fall of 2027 for replacement and reconstruction. Northbound motorists will be detoured via W. 8th Street, Freeman Avenue and Ezzard Charles Drive. Southbound motorists will be rerouted by way of Ezzard Charles Drive, Western Avenue, Freeman and W. 8th.",
+    "visible": true,
+    "links": [
+     {
+      "text": "I-75/Linn Street Bridge Replacement & Reconstruction",
+      "href": "https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/brent-spence"
+     }
+    ]
+   },
+   {
+    "tag": "h4",
+    "text": "New Impact",
+    "textContent": "New Impact",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Thursday, November 12:",
+    "textContent": "Thursday, November 12:",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Single-lane (right lane) closure on I-75 North, between Sixth Street and the Linn Street overpass, from 8 p.m. to 6 a.m. Friday.",
+    "textContent": "Single-lane (right lane) closure on I-75 North, between Sixth Street and the Linn Street overpass, from 8 p.m. to 6 a.m. Friday.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Traffic will be maintained through the work zone; however, motorists are reminded of the need for additional caution when traveling through the area and to pay attention to merging traffic.",
+    "textContent": "Traffic will be maintained through the work zone; however, motorists are reminded of the need for additional caution when traveling through the area and to pay attention to merging traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h4",
+    "text": "Continuing Impacts",
+    "textContent": "Continuing Impacts",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "W. Court Street Storm/Sanitary Sewer Line & Pavement Construction - W. Court Street is reduced to one lane between Linn Street and its end near 898 W. Court. Traffic will be maintained with temporary signals, and the restriction is scheduled to be in effect through early November 2026.",
+    "textContent": "W. Court Street Storm/Sanitary Sewer Line & Pavement Construction - W. Court Street is reduced to one lane between Linn Street and its end near 898 W. Court. Traffic will be maintained with temporary signals, and the restriction is scheduled to be in effect through early November 2026.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Gest Street Water Line/Reconstruction - Gest Street is closed between Freeman Avenue and 7th Street for water line replacement as part of the Brent Spence Bridge Corridor (Phase 3) project, as well as for reconstruction as part of the Linn Street bridge replacement. The closure will be in effect through June 2030, and westbound motorists will detour via Linn Street, 8th Street and Freeman Avenue; eastbound motorists are being detoured via Freeman and 8th Street.",
+    "textContent": "Gest Street Water Line/Reconstruction - Gest Street is closed between Freeman Avenue and 7th Street for water line replacement as part of the Brent Spence Bridge Corridor (Phase 3) project, as well as for reconstruction as part of the Linn Street bridge replacement. The closure will be in effect through June 2030, and westbound motorists will detour via Linn Street, 8th Street and Freeman Avenue; eastbound motorists are being detoured via Freeman and 8th Street.",
+    "visible": true,
+    "links": [
+     {
+      "text": "Brent Spence Bridge Corridor",
+      "href": "https://brentspencebridgecorridor.com/"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Winchell Avenue Reconstruction - The ramp to Winchell Avenue/Ezzard Charles Drive from I-75 North, 9th Street and 6th Street is closed through May 2027 as part of the upcoming Linn Street bridge replacement/reconstruction project. There will be no signed detour for Winchell Avenue. Motorists from 9th Street to I-75 North will be detoured via 8th Street and Freeman Avenue to I-75. Access from 6th Street to Winchell will be closed with a right-lane closure on the ramp.",
+    "textContent": "Winchell Avenue Reconstruction - The ramp to Winchell Avenue/Ezzard Charles Drive from I-75 North, 9th Street and 6th Street is closed through May 2027 as part of the upcoming Linn Street bridge replacement/reconstruction project. There will be no signed detour for Winchell Avenue. Motorists from 9th Street to I-75 North will be detoured via 8th Street and Freeman Avenue to I-75. Access from 6th Street to Winchell will be closed with a right-lane closure on the ramp.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Western Avenue Entrance Ramp Replacement - The ramp from Western Avenue to I-75 South has been closed to accommodate the maintenance of traffic plan during the Linn Street bridge replacement. This is a permanent closure, and a new ramp from Freeman Avenue to southbound I-75 will be built as part of future construction for the Brent Spence Bridge Corridor.",
+    "textContent": "Western Avenue Entrance Ramp Replacement - The ramp from Western Avenue to I-75 South has been closed to accommodate the maintenance of traffic plan during the Linn Street bridge replacement. This is a permanent closure, and a new ramp from Freeman Avenue to southbound I-75 will be built as part of future construction for the Brent Spence Bridge Corridor.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Mill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction) - As part of the Mill Creek Expressway - Phase 8 project, construction includes replacement of three railroad bridges located over Prosser Avenue, I-75, and SR 562, as well as minor realignment of I-75 lanes to accommodate new railroad bridge pier location on I-75. Lane shifts are in effect in both directions, as well as a contraflow lane for southbound traffic. Additional lane and ramp restrictions will be in effect throughout the project. Estimated Completion: Summer 2027",
+    "textContent": "Mill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction) - As part of the Mill Creek Expressway - Phase 8 project, construction includes replacement of three railroad bridges located over Prosser Avenue, I-75, and SR 562, as well as minor realignment of I-75 lanes to accommodate new railroad bridge pier location on I-75. Lane shifts are in effect in both directions, as well as a contraflow lane for southbound traffic. Additional lane and ramp restrictions will be in effect throughout the project. Estimated Completion: Summer 2027",
+    "visible": true,
+    "links": [
+     {
+      "text": "Mill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction)",
+      "href": "https://www.transportation.ohio.gov/projects/projects/77889"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Mill Creek Expressway - Phase 8B (Pump Station & CSO) - Phase 8B is the construction of a new Pump Station and Combined Sewer Overflow for the widening of I-75. Construction is being conducted off the roadway, so there should be little to no impact to traffic associated with this project. Estimated Completion: Fall 2028\n\nMill Creek Expressway - Phase 8C (Widening) - Phase 8C extends from Regina Graeter Way to the Galbraith Road/SR 126/RRCC interchange area and includes widening I-75 for additional through lanes and rehabilitating bridges. Traffic on I-75 North and South is being maintained in three lanes in each direction, but traffic has been shifted to the east, and a contraflow lane has been implemented on southbound I-75. Various lane and ramp restrictions will be in effect during the evening and overnight hours. Estimated Completion: Fall 2027",
+    "textContent": "Mill Creek Expressway - Phase 8B (Pump Station & CSO) - Phase 8B is the construction of a new Pump Station and Combined Sewer Overflow for the widening of I-75. Construction is being conducted off the roadway, so there should be little to no impact to traffic associated with this project. Estimated Completion: Fall 2028Mill Creek Expressway - Phase 8C (Widening) - Phase 8C extends from Regina Graeter Way to the Galbraith Road/SR 126/RRCC interchange area and includes widening I-75 for additional through lanes and rehabilitating bridges. Traffic on I-75 North and South is being maintained in three lanes in each direction, but traffic has been shifted to the east, and a contraflow lane has been implemented on southbound I-75. Various lane and ramp restrictions will be in effect during the evening and overnight hours. Estimated Completion: Fall 2027",
+    "visible": true,
+    "links": [
+     {
+      "text": "Mill Creek Expressway - Phase 8B (Pump Station & CSO)",
+      "href": "https://www.transportation.ohio.gov/projects/projects/117526"
+     },
+     {
+      "text": "Mill Creek Expressway - Phase 8C (Widening)",
+      "href": "https://www.transportation.ohio.gov/projects/projects/117525"
+     }
+    ]
+   },
+   {
+    "tag": "h4",
+    "text": "Continuing Impact",
+    "textContent": "Continuing Impact",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Summit Road is closed between Paddock Road and Woodland Avenue, adjacent to northbound I-75, for the widening project and construction of a pedestrian bridge at Section Road. The closure will be in effect through the summer of 2028, and motorists will be detoured by way of Seymour Avenue and Reading Road.",
+    "textContent": "Summit Road is closed between Paddock Road and Woodland Avenue, adjacent to northbound I-75, for the widening project and construction of a pedestrian bridge at Section Road. The closure will be in effect through the summer of 2028, and motorists will be detoured by way of Seymour Avenue and Reading Road.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-75 Bridge Rehabilitation - On northbound I-75 over Mill Creek, Benson Street and Shepherd Lane. In addition to rehabilitating the bridge, the project includes resurfacing I-75 North and South through the Lockland Split. I-75 traffic will be maintained with evening and overnight lane restrictions as work is scheduled. Estimated Completion: November 2026",
+    "textContent": "I-75 Bridge Rehabilitation - On northbound I-75 over Mill Creek, Benson Street and Shepherd Lane. In addition to rehabilitating the bridge, the project includes resurfacing I-75 North and South through the Lockland Split. I-75 traffic will be maintained with evening and overnight lane restrictions as work is scheduled. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-71/Woodburn Avenue Bridge Rehabilitation - Minor rehabilitation project on the Woodburn Avenue bridge over I-71. Traffic on Woodburn Avenue will be maintained in a minimum of one lane in each direction; traffic on I-71 will be maintained with various shoulder and lane restrictions in effect during evening and overnight hours. Estimated Completion: October 2026",
+    "textContent": "I-71/Woodburn Avenue Bridge Rehabilitation - Minor rehabilitation project on the Woodburn Avenue bridge over I-71. Traffic on Woodburn Avenue will be maintained in a minimum of one lane in each direction; traffic on I-71 will be maintained with various shoulder and lane restrictions in effect during evening and overnight hours. Estimated Completion: October 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-74/I-275 Overlap Resurfacing - From just west of the S.R. 128 interchange to the Harrison Avenue interchange. Single and double-lane closures may be in effect nightly from 7 p.m. to 7 a.m. for various phases of construction, with traffic maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+    "textContent": "I-74/I-275 Overlap Resurfacing - From just west of the S.R. 128 interchange to the Harrison Avenue interchange. Single and double-lane closures may be in effect nightly from 7 p.m. to 7 a.m. for various phases of construction, with traffic maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-74 Cable Barrier Installation - Between the Indiana state line and I-275. Traffic will be maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+    "textContent": "I-74 Cable Barrier Installation - Between the Indiana state line and I-275. Traffic will be maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-275/S.R. 4 Bridge Repair - At the bridge on I-275 over S.R. 4 (Springdale Pike). Intermittent lane restrictions and ramp closures will be in effect on S.R. 4, as well as on I-275, at the overpass. Traffic on S.R. 4 and I-275 will be maintained. Estimated Completion: November 2026",
+    "textContent": "I-275/S.R. 4 Bridge Repair - At the bridge on I-275 over S.R. 4 (Springdale Pike). Intermittent lane restrictions and ramp closures will be in effect on S.R. 4, as well as on I-275, at the overpass. Traffic on S.R. 4 and I-275 will be maintained. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-275 Resurfacing - Between the U.S. 42/Lebanon Road and I-75 interchanges. During paving operations, traffic on I-275 will be maintained with evening and overnight lane closures, from approximately 8 p.m. to 6 a.m. the following day. Estimated Completion: November 2026",
+    "textContent": "I-275 Resurfacing - Between the U.S. 42/Lebanon Road and I-75 interchanges. During paving operations, traffic on I-275 will be maintained with evening and overnight lane closures, from approximately 8 p.m. to 6 a.m. the following day. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-275 Resurfacing - Between the U.S. 52 interchange and the Asbury Road overpass, west of the Five Mile Road interchange. Throughout the project, traffic on I-275 will be maintained with evening and overnight lane closures. Estimated Completion: November 2026",
+    "textContent": "I-275 Resurfacing - Between the U.S. 52 interchange and the Asbury Road overpass, west of the Five Mile Road interchange. Throughout the project, traffic on I-275 will be maintained with evening and overnight lane closures. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-275 Bridge Maintenance - Sealing concrete at various structures on the I-275 corridor. Intermittent lane restrictions will be in effect during evening and overnight hours as crews are scheduled. Estimated completion: October 2027",
+    "textContent": "I-275 Bridge Maintenance - Sealing concrete at various structures on the I-275 corridor. Intermittent lane restrictions will be in effect during evening and overnight hours as crews are scheduled. Estimated completion: October 2027",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "U.S. and State Route Projects",
+    "textContent": "U.S. and State Route Projects",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h3",
+    "text": "CONTINUING IMPACTS",
+    "textContent": "CONTINUING IMPACTS",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "S.R. 126/Ronald Reagan Cross County Highway Resurfacing - Between the Colerain Avenue and W. Galbraith Road interchanges. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Estimated Completion: November 2026",
+    "textContent": "S.R. 126/Ronald Reagan Cross County Highway Resurfacing - Between the Colerain Avenue and W. Galbraith Road interchanges. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "S.R. 126/Ronald Reagan Cross County Highway Bridge Painting - At various structures between I-75 and Plainfield Road. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Intermittent overnight ramp closures will be in effect. Estimated Completion: July 2027\n\nS.R. 128 Resurfacing - Between U.S. 50 at Cleves and Harrison Avenue. Single-lane closures will be in effect daily, from 8:30 a.m. to 3 p.m. and from 7 p.m. to 6:30 a.m. the following day. Traffic will be maintained by flaggers and/or other traffic control devices during hours of operation. Estimated Completion: November 2026",
+    "textContent": "S.R. 126/Ronald Reagan Cross County Highway Bridge Painting - At various structures between I-75 and Plainfield Road. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Intermittent overnight ramp closures will be in effect. Estimated Completion: July 2027S.R. 128 Resurfacing - Between U.S. 50 at Cleves and Harrison Avenue. Single-lane closures will be in effect daily, from 8:30 a.m. to 3 p.m. and from 7 p.m. to 6:30 a.m. the following day. Traffic will be maintained by flaggers and/or other traffic control devices during hours of operation. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "S.R. 264 (Glenway Avenue) Roadway Reconstruction - Between Nova Avenue and the intersection with Crookshank Road/Boudinot Avenue. Traffic will be shifted and maintained in a minimum of one, 11-foot lane in either direction with flaggers and/or traffic control devices. Estimated Completion: November 2026",
+    "textContent": "S.R. 264 (Glenway Avenue) Roadway Reconstruction - Between Nova Avenue and the intersection with Crookshank Road/Boudinot Avenue. Traffic will be shifted and maintained in a minimum of one, 11-foot lane in either direction with flaggers and/or traffic control devices. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. 22 (Gilbert Avenue) & I-71 Pedestrian Bridge Replacement - Construction of a new pedestrian facility connecting Mt. Adams and Cincinnati by replacing the pedestrian bridges over I-71/471 and Gilbert Avenue with the construction of a single, shared-use path bridge over the interstate and Gilbert. Throughout most of the project, the structure over I-71/471 will remain open to pedestrians, and intermittent vehicular and pedestrian traffic restrictions will be in effect. Estimated Completion: December 2026",
+    "textContent": "U.S. 22 (Gilbert Avenue) & I-71 Pedestrian Bridge Replacement - Construction of a new pedestrian facility connecting Mt. Adams and Cincinnati by replacing the pedestrian bridges over I-71/471 and Gilbert Avenue with the construction of a single, shared-use path bridge over the interstate and Gilbert. Throughout most of the project, the structure over I-71/471 will remain open to pedestrians, and intermittent vehicular and pedestrian traffic restrictions will be in effect. Estimated Completion: December 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. 50/Columbia Connector Shared Use Path - From Pocahontas Avenue at Mariemont to the existing Little Miami Scenic Trail, east of Walton Creek Road. Traffic on U.S. 50 (Wooster Pike) will be maintained in one, 11-foot lane in the westbound direction between Warrior Way and Spring Hill Drive. Additional restrictions will be in place on Wooster Pike, as well as on Miami Run, Mariemont Way and Warrior Way; however, traffic will be maintained throughout construction. Estimated Completion: November 2027",
+    "textContent": "U.S. 50/Columbia Connector Shared Use Path - From Pocahontas Avenue at Mariemont to the existing Little Miami Scenic Trail, east of Walton Creek Road. Traffic on U.S. 50 (Wooster Pike) will be maintained in one, 11-foot lane in the westbound direction between Warrior Way and Spring Hill Drive. Additional restrictions will be in place on Wooster Pike, as well as on Miami Run, Mariemont Way and Warrior Way; however, traffic will be maintained throughout construction. Estimated Completion: November 2027",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. 52 Joint/Pavement Repairs - From the I-275 interchange to Beckjord Road in Clermont County. Traffic will be maintained in a minimum of one, 11-foot lane in each direction during daytime workings hours, from approximately 7 a.m. to 7 p.m. Estimated Completion: November 2026",
+    "textContent": "U.S. 52 Joint/Pavement Repairs - From the I-275 interchange to Beckjord Road in Clermont County. Traffic will be maintained in a minimum of one, 11-foot lane in each direction during daytime workings hours, from approximately 7 a.m. to 7 p.m. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Road Projects",
+    "textContent": "Local Road Projects",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h3",
+    "text": "Continuing Impacts",
+    "textContent": "Continuing Impacts",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Glenwood Gardens Trail & Shared-Use Path - Construction of a shared use trail connecting the Winton Woods Park trail network to Carlsbad Road, Springfield Pike, and the West Fork Mill Creek Greenway at Glenwood Gardens Park. Work is being conducted off roadway, so there should be no impacts to motorists. Estimated Completion: October 2026",
+    "textContent": "Glenwood Gardens Trail & Shared-Use Path - Construction of a shared use trail connecting the Winton Woods Park trail network to Carlsbad Road, Springfield Pike, and the West Fork Mill Creek Greenway at Glenwood Gardens Park. Work is being conducted off roadway, so there should be no impacts to motorists. Estimated Completion: October 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "C.R. 14 (Dry Fork Road)/I-74 Bridge Replacement & Widening - A bridge replacement and widening project on Dry Fork Road over I-74 at Harrison. Dry Fork Road is closed through mid-December, and motorists are being detoured by way of West Road and Harrison Avenue. Traffic on I-74 will be maintained with periodic lane restrictions. Estimated Completion: June 2027",
+    "textContent": "C.R. 14 (Dry Fork Road)/I-74 Bridge Replacement & Widening - A bridge replacement and widening project on Dry Fork Road over I-74 at Harrison. Dry Fork Road is closed through mid-December, and motorists are being detoured by way of West Road and Harrison Avenue. Traffic on I-74 will be maintained with periodic lane restrictions. Estimated Completion: June 2027",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h4",
+    "text": "New Impact",
+    "textContent": "New Impact",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Thursday, November 5:",
+    "textContent": "Thursday, November 5:",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Closure of the ramp from eastbound I-74 to Dry Fork Road, from 7 p.m. to 5 a.m. Friday for deck pour. Motorists may detour by way of the New Haven Road interchange and Harrison Avenue.",
+    "textContent": "Closure of the ramp from eastbound I-74 to Dry Fork Road, from 7 p.m. to 5 a.m. Friday for deck pour. Motorists may detour by way of the New Haven Road interchange and Harrison Avenue.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "C.R. 358/374 (Clough Pike and Newtown Road) Intersection Improvement - Construction of east and westbound left-turn lanes on Clough Pike at Newtown Road, as well as a sidewalk on the south side of Clough Pike, between Copperleaf Lane and Newtown Road. Traffic on Clough Pike will be maintained by flaggers during daytime hours of operation, daily from approximately 8 a.m. to 4 p.m. Southbound Newtown Road is closed between Mercers Point Drive and the junction with Clough Pike through early November (on or about November 8). Motorists will be detoured by way of Bartels Road and Clough Pike. Northbound Newtown Road is open to traffic. Estimated Completion: November 2026",
+    "textContent": "C.R. 358/374 (Clough Pike and Newtown Road) Intersection Improvement - Construction of east and westbound left-turn lanes on Clough Pike at Newtown Road, as well as a sidewalk on the south side of Clough Pike, between Copperleaf Lane and Newtown Road. Traffic on Clough Pike will be maintained by flaggers during daytime hours of operation, daily from approximately 8 a.m. to 4 p.m. Southbound Newtown Road is closed between Mercers Point Drive and the junction with Clough Pike through early November (on or about November 8). Motorists will be detoured by way of Bartels Road and Clough Pike. Northbound Newtown Road is open to traffic. Estimated Completion: November 2026",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

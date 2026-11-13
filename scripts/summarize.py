@@ -6,6 +6,7 @@ Every Ohio row of the registry gets a record: `complete` only when both reads su
 county section was found and shown; otherwise `failed` with its reasons. Read-only: works on saved files.
 """
 import argparse, email.utils, gzip, hashlib, json, os, re
+from pathlib import Path
 
 UA = 'Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)'
 CHANNEL = os.environ.get('ODOT_CAPTURE_CHANNEL', '').strip()
@@ -69,7 +70,9 @@ def cms_body(stream, county):
             for child in node.get('content', []):
                 block(child)
         elif kind == 'hr':
-            blocks.append('---')
+            # A visual rule has no visible text. Do not invent three hyphens:
+            # that made complete Hamilton/Mahoning pages disagree with Chromium.
+            pass
         else:
             blocks.append(inline(node))
 
@@ -95,7 +98,7 @@ def read_county(capture_dir, source, previous):
     if not os.path.exists(path):
         record['reasons'].append('no capture record')
         return record
-    row = json.load(open(path))
+    row = json.loads(Path(path).read_text())
     if row.get('fatal'):
         record['reasons'].append('capture error: ' + row['fatal'])
         return record
@@ -119,11 +122,16 @@ def read_county(capture_dir, source, previous):
     dates, body = {}, None
     raw = os.path.join(capture_dir, 'raw', key + '.html.gz')
     if os.path.exists(raw) and plain.get('status') == 200:
-        stream = flight(gzip.open(raw).read().decode('utf-8', 'replace'))
+        raw_bytes = gzip.open(raw).read()
+        if hashlib.sha256(raw_bytes).hexdigest() != plain.get('sha256'):
+            reasons.append('retained source body hash mismatch')
+        stream = flight(raw_bytes.decode('utf-8', 'replace'))
         dates, body = page_dates(stream, county), cms_body(stream, county)
     blocks = browser.get('blocks') or []
     text_path = os.path.join(capture_dir, 'visible-text', key + '.txt')
-    text = open(text_path).read() if os.path.exists(text_path) else ''
+    text = Path(text_path).read_text() if os.path.exists(text_path) else ''
+    if sha(text) != browser.get('visibleTextSha256'):
+        reasons.append('retained browser text hash mismatch')
     if browser.get('error'):
         reasons.append('browser error: ' + browser['error'])
     elif browser.get('documentStatus') != 200:
@@ -132,6 +140,11 @@ def read_county(capture_dir, source, previous):
         reasons.append('browser ended at %s' % browser.get('finalUrl'))
     if not blocks:
         reasons.append('no county section on the page')
+    expected_title = 'Traffic Impacts in %s County' % county
+    if expected_title not in (browser.get('title') or ''):
+        reasons.append('county title not matched')
+    if not any(block['tag'] == 'h1' and squash(block['text']) == expected_title for block in blocks):
+        reasons.append('county heading not matched')
     hidden = sum(1 for block in blocks if block['text'] and not block['visible'])
     if hidden:
         reasons.append('%d hidden blocks in the county section' % hidden)
@@ -153,8 +166,14 @@ def read_county(capture_dir, source, previous):
              and not block['text'].startswith('Last modified:') and block['text'] != 'Local Conditions on OHGO']
     body_blocks = [squash(text) for text in body['blocks'] if text.strip()] if body else []
     body_text, joined_shown = squash(' '.join(body_blocks)), squash(' '.join(shown))
+    body_hash_matched = bool(body_text) and sha(body_text) == sha(joined_shown)
+    if not body:
+        reasons.append('no complete county CMS body in official source')
+    elif not body_hash_matched:
+        reasons.append('rendered browser body does not match complete CMS body')
     record['pageData'] = {**dates, 'bodyEntry': None if not body else {'entryId': body['entryId'], 'updatedAt': body['updatedAt'],
                           'publishedVersion': body['publishedVersion'], 'textSha256': sha(body_text), 'text': '\n\n'.join(body_blocks)},
+                          'browserBodySha256': sha(joined_shown), 'bodyHashMatched': body_hash_matched,
                           'browserBlocksNotInPlainBody': [t for t in shown if t not in body_text],
                           'plainBodyBlocksNotShown': [t for t in body_blocks if t not in joined_shown]}
     record['browser'] = {'startedAt': browser.get('startedAt'), 'documentStatus': browser.get('documentStatus'), 'finalUrl': browser.get('finalUrl'),

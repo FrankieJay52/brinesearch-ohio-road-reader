@@ -1,0 +1,269 @@
+{
+ "sourceId": "chatgpt-odot-meigs",
+ "state": "Ohio",
+ "county": "Meigs",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
+     "clientRequestedAt": "2026-11-13T22:58:50.051Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+     "sourceRequestedAt": "2026-11-13T22:58:50.134Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:58:50 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24868",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:58:50.134Z",
+    "finishedAt": "2026-11-13T22:58:50.271Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:58:50 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24868",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 763376,
+    "sha256": "2b50ad6f85995d6ed9096d08903f465980f10bcfbcdd3198ef481e1b66760278"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+  "status": 200,
+  "bytes": 763376,
+  "sha256": "2b50ad6f85995d6ed9096d08903f465980f10bcfbcdd3198ef481e1b66760278",
+  "errorPage": false,
+  "title": "Traffic Impacts in Meigs County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:58:50.461Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+  "error": null,
+  "title": "Traffic Impacts in Meigs County | Ohio Department of Transportation",
+  "visibleTextChars": 3498,
+  "visibleTextSha256": "b5ad99667ba86d0fd863772275a3cdc3be27c4f05ef7ce67fbcf6af0540de0da",
+  "lastModifiedShown": "November 12, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
+   "clientRequestedAt": "2026-11-13T22:58:50.478Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+   "sourceRequestedAt": "2026-11-13T22:58:50.495Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:58:50 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24868",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Meigs County",
+    "textContent": "Traffic Impacts in Meigs County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 12, 2026",
+    "textContent": "Last modified: November 12, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following ODOT construction projects are anticipated to impact traffic in Meigs County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Meigs County construction information.",
+    "textContent": "The following ODOT construction projects are anticipated to impact traffic in Meigs County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Meigs County construction information.",
+    "visible": true,
+    "links": [
+     {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ODOTD10/"
+     },
+     {
+      "text": "X",
+      "href": "https://x.com/ODOT_SEOhio"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "U.S. 33 Expansion (Athens and Meigs Counties)\nA two-lane to four-lane expansion project is taking place on U.S. 33 from Athens to Darwin and Five Points to Ravenswood.",
+    "textContent": "U.S. 33 Expansion (Athens and Meigs Counties)A two-lane to four-lane expansion project is taking place on U.S. 33 from Athens to Darwin and Five Points to Ravenswood.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Barrels are in place on U.S. 33 between Five Points and the Ravenswood Bridge to delineate between the current road and road under construction (through 2028)",
+    "textContent": "Barrels are in place on U.S. 33 between Five Points and the Ravenswood Bridge to delineate between the current road and road under construction (through 2028)",
+    "visible": true,
+    "links": [
+     {
+      "text": "U.S. 33",
+      "href": "https://www.ohgo.com/se-ohio?lt=38.86091301802989&ln=-81.90702165216047&z=11&ls=construction,construction-future&id=construction-WZ000013424_18628"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Barrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)",
+    "textContent": "Barrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)",
+    "visible": true,
+    "links": [
+     {
+      "text": "U.S. 33 west",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.0214057416227&ln=-81.87194385506051&z=12&ls=construction,construction-future&id=construction-WZ000014199_19895"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "There is intermittent flagging at SR 681 for equipment crossing (through 2028)",
+    "textContent": "There is intermittent flagging at SR 681 for equipment crossing (through 2028)",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "There will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)",
+    "textContent": "There will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Sellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstruction\n\nRead more about the project",
+    "textContent": "Sellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstructionRead more about the project",
+    "visible": true,
+    "links": [
+     {
+      "text": "Read more about the project",
+      "href": "https://www.transportation.ohio.gov/travel/projects/33-expansion"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Overall Project Completion: 2028",
+    "textContent": "Overall Project Completion: 2028",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. 33-SR 7-SR 124-SR 733-SR 833 Sign Replacements\nA sign replacement project is taking place on U.S. 33, SR 7, SR 124, SR 733, and SR 833 at Rock Springs and Five Points. There are intermittent lane and shoulder closures in each direction.\nEstimated Completion: November 30",
+    "textContent": "U.S. 33-SR 7-SR 124-SR 733-SR 833 Sign ReplacementsA sign replacement project is taking place on U.S. 33, SR 7, SR 124, SR 733, and SR 833 at Rock Springs and Five Points. There are intermittent lane and shoulder closures in each direction.Estimated Completion: November 30",
+    "visible": true,
+    "links": [
+     {
+      "text": "U.S. 33",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.05257242597094&ln=-82.01893150806968&z=21.000000000000004&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31033"
+     },
+     {
+      "text": "SR 7",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.05189755724623&ln=-82.03485075384914&z=21&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31036"
+     },
+     {
+      "text": "SR 124",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.053510253668286&ln=-82.01531488448906&z=17&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31040"
+     },
+     {
+      "text": "SR 733",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.051293502609624&ln=-81.97861790657588&z=20.999999999999996&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31041"
+     },
+     {
+      "text": "SR 833",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.053251454042936&ln=-82.01626539230892&z=16&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31040"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "State Route 681 Slope Stabilization\nA slope stabilization project is taking place on SR 681 between Goose Creek Road and Carsey Road. Traffic is being maintained by flaggers.\nEstimated Completion: November 2027",
+    "textContent": "State Route 681 Slope StabilizationA slope stabilization project is taking place on SR 681 between Goose Creek Road and Carsey Road. Traffic is being maintained by flaggers.Estimated Completion: November 2027",
+    "visible": true,
+    "links": [
+     {
+      "text": "SR 681",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.13683525995379&ln=-82.09983261108421&z=11&ls=construction,construction-future&id=construction-WZ000021889_30784"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "State Route 325 Culvert Replacement\nA culvert repair project is taking place on SR 325 between Edmundson Road and Sanford Davis Road. Traffic is being maintained with temporary signals.\nEstimated Completion: January 1, 2027",
+    "textContent": "State Route 325 Culvert ReplacementA culvert repair project is taking place on SR 325 between Edmundson Road and Sanford Davis Road. Traffic is being maintained with temporary signals.Estimated Completion: January 1, 2027",
+    "visible": true,
+    "links": [
+     {
+      "text": "SR 325",
+      "href": "https://www.ohgo.com/se-ohio?lt=38.994987526346634&ln=-82.02737241983931&z=10&ls=construction,construction-future&id=construction-WZ000022434_31726&wzpid=work-zone-WZPID000013898"
+     }
+    ]
+   }
+  ]
+ }
+}
