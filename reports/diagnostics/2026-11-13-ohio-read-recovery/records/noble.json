@@ -1,0 +1,181 @@
+{
+ "sourceId": "chatgpt-odot-noble",
+ "state": "Ohio",
+ "county": "Noble",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
+     "clientRequestedAt": "2026-11-13T22:59:07.173Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+     "sourceRequestedAt": "2026-11-13T22:59:07.211Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:07 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24973",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:07.211Z",
+    "finishedAt": "2026-11-13T22:59:07.490Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:07 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24973",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 752678,
+    "sha256": "90b65954e298acf65a852a6e0f055620bfe60fa0b21e984605bbf4f805c4b060"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+  "status": 200,
+  "bytes": 752678,
+  "sha256": "90b65954e298acf65a852a6e0f055620bfe60fa0b21e984605bbf4f805c4b060",
+  "errorPage": false,
+  "title": "Traffic Impacts in Noble County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:59:07.602Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+  "error": null,
+  "title": "Traffic Impacts in Noble County | Ohio Department of Transportation",
+  "visibleTextChars": 2311,
+  "visibleTextSha256": "2735ac06d91baa403375ed7645fbf51dfb5c3afcb455a87174e0de3454f70498",
+  "lastModifiedShown": "November 05, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
+   "clientRequestedAt": "2026-11-13T22:59:07.610Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+   "sourceRequestedAt": "2026-11-13T22:59:07.629Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:59:07 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24721",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Noble County",
+    "textContent": "Traffic Impacts in Noble County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 05, 2026",
+    "textContent": "Last modified: November 05, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following ODOT construction projects are anticipated to impact traffic in Noble County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Noble County construction information.",
+    "textContent": "The following ODOT construction projects are anticipated to impact traffic in Noble County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Noble County construction information.",
+    "visible": true,
+    "links": [
+     {
+      "text": "OHGO.com",
+      "href": "https://www.ohgo.com/se-ohio"
+     },
+     {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ODOTD10/"
+     },
+     {
+      "text": "X",
+      "href": "https://x.com/ODOT_SEOhio"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "State Route 821 Landslide\nDue to a landslide, traffic is being maintained with temporary signals on SR 821 between Baker Junkyard Road and I-77.\nEstimated Completion: December 1",
+    "textContent": "State Route 821 LandslideDue to a landslide, traffic is being maintained with temporary signals on SR 821 between Baker Junkyard Road and I-77. Estimated Completion: December 1",
+    "visible": true,
+    "links": [
+     {
+      "text": "SR 821",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.67616926264824&ln=-81.49984896183607&z=14&ls=construction,construction-future&id=construction-WZ000022185_31302"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "State Route 78 Bridge Replacement\nA bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 13",
+    "textContent": "State Route 78 Bridge ReplacementA bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals. Estimated Completion: November 13",
+    "visible": true,
+    "links": [
+     {
+      "text": "SR 78",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.74837783144347&ln=-81.62618637085512&z=21.000000000000146&ls=construction,construction-future&id=construction-WZ000021533_30180"
+     }
+    ]
+   }
+  ]
+ }
+}

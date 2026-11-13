@@ -1,0 +1,2394 @@
+{
+  "schemaVersion": 1,
+  "kind": "bounded-failed-ohio-source-recovery",
+  "recordedAt": "2026-11-13T23:01:12.508751+00:00",
+  "baseReaderCommit": "5d4f968597d6f2b5a661f7a5e9740aff007e43a5",
+  "repairBranch": "codex/ohio-reader-completeness-20261113",
+  "channel": "Codex focused Ohio collector repair; genuine official GETs via owned Worker and local Chromium with workspace proxy; no publication",
+  "transportBase": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/",
+  "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+  "registrySubsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc",
+  "registryExpected": 20,
+  "targeted": 12,
+  "attempted": 12,
+  "complete": 11,
+  "failed": 1,
+  "notRechecked": 8,
+  "firstOfficialRequestAt": "2026-11-13T22:58:05.245Z",
+  "lastOfficialRequestAt": "2026-11-13T23:00:06.864Z",
+  "previousReportsModified": false,
+  "bulletinPublished": false,
+  "databaseWrites": false,
+  "scheduledTaskChanged": false,
+  "initialDiagnosticAttempt": "Three counties failed transport in Node before usable official receipt; retained locally under /workspace/scratch/ohio-bulletin-reader-20261113/diagnostic. NODE_USE_ENV_PROXY=1 enabled the configured workspace proxy. No TLS bypass.",
+  "collection": "One usable plain GET and browser capture per targeted county; no repeated full 20-county crawl. Eight successful morning counties were not rechecked.",
+  "parserFix": "Compare actual text only: horizontal rules have no textual content. Strictly require normalized CMS body equals visible section, source and visible file hashes, county title/heading and zero hidden blocks.",
+  "upstreamHold": {
+    "county": "Jefferson",
+    "reason": "Official rendered link label truncates CMS wording. CMS includes 4th Street on-ramp closure near Toronto; rendered body shows only State Route 7 southbound 4. Complete=false; prior coverage time must remain unchanged."
+  },
+  "comparisonBaseline": "reports/latest at November11; added/removed fields are diagnostics against that retained capture, not a declaration of current closures or reopenings.",
+  "validation": {
+    "command": "python3 -I scripts/summarize.test.py",
+    "passed": 4,
+    "externalRequests": 0
+  },
+  "counties": [
+    {
+      "sourceId": "chatgpt-odot-hamilton",
+      "state": "Ohio",
+      "county": "Hamilton",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:58:05.245Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:58:05 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24827",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:58:05Z",
+        "bytes": 798188,
+        "sha256": "6afe7de0594dc5fe70fc835734f8482a623ccc3cada57136cf775e65d103f1a9",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
+          "clientRequestedAt": "2026-11-13T22:58:05.073Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+          "sourceRequestedAt": "2026-11-13T22:58:05.245Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:05 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24827",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:18:45.025Z",
+        "lastModifiedDate": "2026-11-06T00:00",
+        "containerUpdatedAt": "2026-11-06T21:18:07.650Z",
+        "containerPublishedVersion": 78,
+        "bodyEntry": {
+          "entryId": "4i7oCdgmnLOiLYGXhPMGQN",
+          "updatedAt": "2026-11-06T21:17:56.428Z",
+          "publishedVersion": 3020,
+          "textSha256": "ac2df098d987a14e4f6ad276e0e5c0ebbc696f183c3a98fe7b378513d49b3158",
+          "text": "The following traffic advisory includes restrictions on the state highway system in Hamilton County. All work will be contingent upon the weather. For construction information and statewide information regarding road conditions, visit ODOT on the web at www.Ohgo.com.\n\nInterstate Projects\n\nI-75/Brent Spence Bridge Corridor - Construction of a new double-decker companion bridge adjacent to the existing Brent Spence Bridge to carry interstate and thru traffic. Project also includes improvements of approximately one mile of roadway, between the bridge approach and Linn Street, as well as a redesign and improvements to ramp configurations. Estimated Completion: 2031 (new companion bridge) and 2033 (approach work)\n\nNew Impacts\n\nFriday, November 6 and Sunday, November 8:\n\nSingle-lane (left lane) closure on the ramp from I-75 North to U.S. 50 West, from 8 p.m. Friday to 8 a.m. Saturday and 8 p.m. Sunday to 6 a.m. Monday.\n\nTraffic on the ramp will be merged into the ramp from I-71/Fort Washington Way, and the restriction will extend to the Gest Street overpass.\n\nContinuing Impacts\n\nW. Pete Rose Way/Longworth Hall Building Demolition - Intermittent single-lane closure, as well as full closure on Pete Rose Way, between Smith Street/Clay Wade Bailey Bridge and Gas Alley, for ongoing building demolition. During daytime hours of operation, weekdays from approximately 7 a.m. to 7 p.m., single-lane or full closures will be in effect. Traffic will be maintained as needed by flaggers or, during periods of closure, motorists will be detoured by way of Central Avenue and Mehring Way. Estimated Completion: November 2026.\n\nSecond Street Ramp Demolition - Second Street is reduced to one, 10-foot lane between the Clay Wade Bailey Bridge and Elm Street for entrance ramp (bridge) demolition. Traffic will be maintained in one, 10-foot lane through the spring of 2027.\n\nI-75/Linn Street Bridge Replacement & Reconstruction - Over I-75, between W. Court Street and W. 8th Street. Linn Street is closed between W. 8th and W. Court streets through the fall of 2027 for replacement and reconstruction. Northbound motorists will be detoured via W. 8th Street, Freeman Avenue and Ezzard Charles Drive. Southbound motorists will be rerouted by way of Ezzard Charles Drive, Western Avenue, Freeman and W. 8th.\n\nNew Impact\n\nThursday, November 12:\n\nSingle-lane (right lane) closure on I-75 North, between Sixth Street and the Linn Street overpass, from 8 p.m. to 6 a.m. Friday.\n\nTraffic will be maintained through the work zone; however, motorists are reminded of the need for additional caution when traveling through the area and to pay attention to merging traffic.\n\nContinuing Impacts\n\nW. Court Street Storm/Sanitary Sewer Line & Pavement Construction - W. Court Street is reduced to one lane between Linn Street and its end near 898 W. Court. Traffic will be maintained with temporary signals, and the restriction is scheduled to be in effect through early November 2026.\n\nGest Street Water Line/Reconstruction - Gest Street is closed between Freeman Avenue and 7th Street for water line replacement as part of the Brent Spence Bridge Corridor (Phase 3) project, as well as for reconstruction as part of the Linn Street bridge replacement. The closure will be in effect through June 2030, and westbound motorists will detour via Linn Street, 8th Street and Freeman Avenue; eastbound motorists are being detoured via Freeman and 8th Street.\n\nWinchell Avenue Reconstruction - The ramp to Winchell Avenue/Ezzard Charles Drive from I-75 North, 9th Street and 6th Street is closed through May 2027 as part of the upcoming Linn Street bridge replacement/reconstruction project. There will be no signed detour for Winchell Avenue. Motorists from 9th Street to I-75 North will be detoured via 8th Street and Freeman Avenue to I-75. Access from 6th Street to Winchell will be closed with a right-lane closure on the ramp.\n\nWestern Avenue Entrance Ramp Replacement - The ramp from Western Avenue to I-75 South has been closed to accommodate the maintenance of traffic plan during the Linn Street bridge replacement. This is a permanent closure, and a new ramp from Freeman Avenue to southbound I-75 will be built as part of future construction for the Brent Spence Bridge Corridor.\n\nMill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction) - As part of the Mill Creek Expressway - Phase 8 project, construction includes replacement of three railroad bridges located over Prosser Avenue, I-75, and SR 562, as well as minor realignment of I-75 lanes to accommodate new railroad bridge pier location on I-75. Lane shifts are in effect in both directions, as well as a contraflow lane for southbound traffic. Additional lane and ramp restrictions will be in effect throughout the project. Estimated Completion: Summer 2027\n\nMill Creek Expressway - Phase 8B (Pump Station & CSO) - Phase 8B is the construction of a new Pump Station and Combined Sewer Overflow for the widening of I-75. Construction is being conducted off the roadway, so there should be little to no impact to traffic associated with this project. Estimated Completion: Fall 2028 Mill Creek Expressway - Phase 8C (Widening) - Phase 8C extends from Regina Graeter Way to the Galbraith Road/SR 126/RRCC interchange area and includes widening I-75 for additional through lanes and rehabilitating bridges. Traffic on I-75 North and South is being maintained in three lanes in each direction, but traffic has been shifted to the east, and a contraflow lane has been implemented on southbound I-75. Various lane and ramp restrictions will be in effect during the evening and overnight hours. Estimated Completion: Fall 2027\n\nContinuing Impact\n\nSummit Road is closed between Paddock Road and Woodland Avenue, adjacent to northbound I-75, for the widening project and construction of a pedestrian bridge at Section Road. The closure will be in effect through the summer of 2028, and motorists will be detoured by way of Seymour Avenue and Reading Road.\n\nI-75 Bridge Rehabilitation - On northbound I-75 over Mill Creek, Benson Street and Shepherd Lane. In addition to rehabilitating the bridge, the project includes resurfacing I-75 North and South through the Lockland Split. I-75 traffic will be maintained with evening and overnight lane restrictions as work is scheduled. Estimated Completion: November 2026\n\nI-71/Woodburn Avenue Bridge Rehabilitation - Minor rehabilitation project on the Woodburn Avenue bridge over I-71. Traffic on Woodburn Avenue will be maintained in a minimum of one lane in each direction; traffic on I-71 will be maintained with various shoulder and lane restrictions in effect during evening and overnight hours. Estimated Completion: October 2026\n\nI-74/I-275 Overlap Resurfacing - From just west of the S.R. 128 interchange to the Harrison Avenue interchange. Single and double-lane closures may be in effect nightly from 7 p.m. to 7 a.m. for various phases of construction, with traffic maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026\n\nI-74 Cable Barrier Installation - Between the Indiana state line and I-275. Traffic will be maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026\n\nI-275/S.R. 4 Bridge Repair - At the bridge on I-275 over S.R. 4 (Springdale Pike). Intermittent lane restrictions and ramp closures will be in effect on S.R. 4, as well as on I-275, at the overpass. Traffic on S.R. 4 and I-275 will be maintained. Estimated Completion: November 2026\n\nI-275 Resurfacing - Between the U.S. 42/Lebanon Road and I-75 interchanges. During paving operations, traffic on I-275 will be maintained with evening and overnight lane closures, from approximately 8 p.m. to 6 a.m. the following day. Estimated Completion: November 2026\n\nI-275 Resurfacing - Between the U.S. 52 interchange and the Asbury Road overpass, west of the Five Mile Road interchange. Throughout the project, traffic on I-275 will be maintained with evening and overnight lane closures. Estimated Completion: November 2026\n\nI-275 Bridge Maintenance - Sealing concrete at various structures on the I-275 corridor. Intermittent lane restrictions will be in effect during evening and overnight hours as crews are scheduled. Estimated completion: October 2027\n\nU.S. and State Route Projects\n\nCONTINUING IMPACTS\n\nS.R. 126/Ronald Reagan Cross County Highway Resurfacing - Between the Colerain Avenue and W. Galbraith Road interchanges. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Estimated Completion: November 2026\n\nS.R. 126/Ronald Reagan Cross County Highway Bridge Painting - At various structures between I-75 and Plainfield Road. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Intermittent overnight ramp closures will be in effect. Estimated Completion: July 2027 S.R. 128 Resurfacing - Between U.S. 50 at Cleves and Harrison Avenue. Single-lane closures will be in effect daily, from 8:30 a.m. to 3 p.m. and from 7 p.m. to 6:30 a.m. the following day. Traffic will be maintained by flaggers and/or other traffic control devices during hours of operation. Estimated Completion: November 2026\n\nS.R. 264 (Glenway Avenue) Roadway Reconstruction - Between Nova Avenue and the intersection with Crookshank Road/Boudinot Avenue. Traffic will be shifted and maintained in a minimum of one, 11-foot lane in either direction with flaggers and/or traffic control devices. Estimated Completion: November 2026\n\nU.S. 22 (Gilbert Avenue) & I-71 Pedestrian Bridge Replacement - Construction of a new pedestrian facility connecting Mt. Adams and Cincinnati by replacing the pedestrian bridges over I-71/471 and Gilbert Avenue with the construction of a single, shared-use path bridge over the interstate and Gilbert. Throughout most of the project, the structure over I-71/471 will remain open to pedestrians, and intermittent vehicular and pedestrian traffic restrictions will be in effect. Estimated Completion: December 2026\n\nU.S. 50/Columbia Connector Shared Use Path - From Pocahontas Avenue at Mariemont to the existing Little Miami Scenic Trail, east of Walton Creek Road. Traffic on U.S. 50 (Wooster Pike) will be maintained in one, 11-foot lane in the westbound direction between Warrior Way and Spring Hill Drive. Additional restrictions will be in place on Wooster Pike, as well as on Miami Run, Mariemont Way and Warrior Way; however, traffic will be maintained throughout construction. Estimated Completion: November 2027\n\nU.S. 52 Joint/Pavement Repairs - From the I-275 interchange to Beckjord Road in Clermont County. Traffic will be maintained in a minimum of one, 11-foot lane in each direction during daytime workings hours, from approximately 7 a.m. to 7 p.m. Estimated Completion: November 2026\n\nLocal Road Projects\n\nContinuing Impacts\n\nGlenwood Gardens Trail & Shared-Use Path - Construction of a shared use trail connecting the Winton Woods Park trail network to Carlsbad Road, Springfield Pike, and the West Fork Mill Creek Greenway at Glenwood Gardens Park. Work is being conducted off roadway, so there should be no impacts to motorists. Estimated Completion: October 2026\n\nC.R. 14 (Dry Fork Road)/I-74 Bridge Replacement & Widening - A bridge replacement and widening project on Dry Fork Road over I-74 at Harrison. Dry Fork Road is closed through mid-December, and motorists are being detoured by way of West Road and Harrison Avenue. Traffic on I-74 will be maintained with periodic lane restrictions. Estimated Completion: June 2027\n\nNew Impact\n\nThursday, November 5:\n\nClosure of the ramp from eastbound I-74 to Dry Fork Road, from 7 p.m. to 5 a.m. Friday for deck pour. Motorists may detour by way of the New Haven Road interchange and Harrison Avenue.\n\nC.R. 358/374 (Clough Pike and Newtown Road) Intersection Improvement - Construction of east and westbound left-turn lanes on Clough Pike at Newtown Road, as well as a sidewalk on the south side of Clough Pike, between Copperleaf Lane and Newtown Road. Traffic on Clough Pike will be maintained by flaggers during daytime hours of operation, daily from approximately 8 a.m. to 4 p.m. Southbound Newtown Road is closed between Mercers Point Drive and the junction with Clough Pike through early November (on or about November 8). Motorists will be detoured by way of Bartels Road and Clough Pike. Northbound Newtown Road is open to traffic. Estimated Completion: November 2026"
+        },
+        "browserBodySha256": "ac2df098d987a14e4f6ad276e0e5c0ebbc696f183c3a98fe7b378513d49b3158",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:58:05.607Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+        "title": "Traffic Impacts in Hamilton County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 06, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-hamilton",
+          "clientRequestedAt": "2026-11-13T22:58:05.623Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-hamilton",
+          "sourceRequestedAt": "2026-11-13T22:58:05.681Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:05 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24827",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "c90d275095bd7039602a00d403d89fefad586b1ce5c40f782823f01a29b7a20a",
+        "visibleTextFile": "visible-text/hamilton.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "11c201fb6a409c3abfb125d8bdb91b8573bee364592303bcb601fa94e601366b",
+        "items": 39,
+        "text": "Traffic Impacts in Hamilton County\n\nLast modified: November 06, 2026\n\nLocal Conditions on OHGO\n\nThe following traffic advisory includes restrictions on the state highway system in Hamilton County. All work will be contingent upon the weather. For construction information and statewide information regarding road conditions, visit ODOT on the web at www.Ohgo.com.\n\nInterstate Projects\n\nI-75/Brent Spence Bridge Corridor - Construction of a new double-decker companion bridge adjacent to the existing Brent Spence Bridge to carry interstate and thru traffic. Project also includes improvements of approximately one mile of roadway, between the bridge approach and Linn Street, as well as a redesign and improvements to ramp configurations. Estimated Completion: 2031 (new companion bridge) and 2033 (approach work)\n\nNew Impacts\n\nFriday, November 6 and Sunday, November 8:\n\nSingle-lane (left lane) closure on the ramp from I-75 North to U.S. 50 West, from 8 p.m. Friday to 8 a.m. Saturday and 8 p.m. Sunday to 6 a.m. Monday.\n\nTraffic on the ramp will be merged into the ramp from I-71/Fort Washington Way, and the restriction will extend to the Gest Street overpass.\n\nContinuing Impacts\n\nW. Pete Rose Way/Longworth Hall Building Demolition - Intermittent single-lane closure, as well as full closure on Pete Rose Way, between Smith Street/Clay Wade Bailey Bridge and Gas Alley, for ongoing building demolition. During daytime hours of operation, weekdays from approximately 7 a.m. to 7 p.m., single-lane or full closures will be in effect. Traffic will be maintained as needed by flaggers or, during periods of closure, motorists will be detoured by way of Central Avenue and Mehring Way. Estimated Completion: November 2026.\n\nSecond Street Ramp Demolition - Second Street is reduced to one, 10-foot lane between the Clay Wade Bailey Bridge and Elm Street for entrance ramp (bridge) demolition. Traffic will be maintained in one, 10-foot lane through the spring of 2027.\n\nI-75/Linn Street Bridge Replacement & Reconstruction - Over I-75, between W. Court Street and W. 8th Street. Linn Street is closed between W. 8th and W. Court streets through the fall of 2027 for replacement and reconstruction. Northbound motorists will be detoured via W. 8th Street, Freeman Avenue and Ezzard Charles Drive. Southbound motorists will be rerouted by way of Ezzard Charles Drive, Western Avenue, Freeman and W. 8th.\n\nNew Impact\n\nThursday, November 12:\n\nSingle-lane (right lane) closure on I-75 North, between Sixth Street and the Linn Street overpass, from 8 p.m. to 6 a.m. Friday.\n\nTraffic will be maintained through the work zone; however, motorists are reminded of the need for additional caution when traveling through the area and to pay attention to merging traffic.\n\nContinuing Impacts\n\nW. Court Street Storm/Sanitary Sewer Line & Pavement Construction - W. Court Street is reduced to one lane between Linn Street and its end near 898 W. Court. Traffic will be maintained with temporary signals, and the restriction is scheduled to be in effect through early November 2026.\n\nGest Street Water Line/Reconstruction - Gest Street is closed between Freeman Avenue and 7th Street for water line replacement as part of the Brent Spence Bridge Corridor (Phase 3) project, as well as for reconstruction as part of the Linn Street bridge replacement. The closure will be in effect through June 2030, and westbound motorists will detour via Linn Street, 8th Street and Freeman Avenue; eastbound motorists are being detoured via Freeman and 8th Street.\n\nWinchell Avenue Reconstruction - The ramp to Winchell Avenue/Ezzard Charles Drive from I-75 North, 9th Street and 6th Street is closed through May 2027 as part of the upcoming Linn Street bridge replacement/reconstruction project. There will be no signed detour for Winchell Avenue. Motorists from 9th Street to I-75 North will be detoured via 8th Street and Freeman Avenue to I-75. Access from 6th Street to Winchell will be closed with a right-lane closure on the ramp.\n\nWestern Avenue Entrance Ramp Replacement - The ramp from Western Avenue to I-75 South has been closed to accommodate the maintenance of traffic plan during the Linn Street bridge replacement. This is a permanent closure, and a new ramp from Freeman Avenue to southbound I-75 will be built as part of future construction for the Brent Spence Bridge Corridor.\n\nMill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction) - As part of the Mill Creek Expressway - Phase 8 project, construction includes replacement of three railroad bridges located over Prosser Avenue, I-75, and SR 562, as well as minor realignment of I-75 lanes to accommodate new railroad bridge pier location on I-75. Lane shifts are in effect in both directions, as well as a contraflow lane for southbound traffic. Additional lane and ramp restrictions will be in effect throughout the project. Estimated Completion: Summer 2027\n\nMill Creek Expressway - Phase 8B (Pump Station & CSO) - Phase 8B is the construction of a new Pump Station and Combined Sewer Overflow for the widening of I-75. Construction is being conducted off the roadway, so there should be little to no impact to traffic associated with this project. Estimated Completion: Fall 2028\n\nMill Creek Expressway - Phase 8C (Widening) - Phase 8C extends from Regina Graeter Way to the Galbraith Road/SR 126/RRCC interchange area and includes widening I-75 for additional through lanes and rehabilitating bridges. Traffic on I-75 North and South is being maintained in three lanes in each direction, but traffic has been shifted to the east, and a contraflow lane has been implemented on southbound I-75. Various lane and ramp restrictions will be in effect during the evening and overnight hours. Estimated Completion: Fall 2027\n\nContinuing Impact\n\nSummit Road is closed between Paddock Road and Woodland Avenue, adjacent to northbound I-75, for the widening project and construction of a pedestrian bridge at Section Road. The closure will be in effect through the summer of 2028, and motorists will be detoured by way of Seymour Avenue and Reading Road.\n\nI-75 Bridge Rehabilitation - On northbound I-75 over Mill Creek, Benson Street and Shepherd Lane. In addition to rehabilitating the bridge, the project includes resurfacing I-75 North and South through the Lockland Split. I-75 traffic will be maintained with evening and overnight lane restrictions as work is scheduled. Estimated Completion: November 2026\n\nI-71/Woodburn Avenue Bridge Rehabilitation - Minor rehabilitation project on the Woodburn Avenue bridge over I-71. Traffic on Woodburn Avenue will be maintained in a minimum of one lane in each direction; traffic on I-71 will be maintained with various shoulder and lane restrictions in effect during evening and overnight hours. Estimated Completion: October 2026\n\nI-74/I-275 Overlap Resurfacing - From just west of the S.R. 128 interchange to the Harrison Avenue interchange. Single and double-lane closures may be in effect nightly from 7 p.m. to 7 a.m. for various phases of construction, with traffic maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026\n\nI-74 Cable Barrier Installation - Between the Indiana state line and I-275. Traffic will be maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026\n\nI-275/S.R. 4 Bridge Repair - At the bridge on I-275 over S.R. 4 (Springdale Pike). Intermittent lane restrictions and ramp closures will be in effect on S.R. 4, as well as on I-275, at the overpass. Traffic on S.R. 4 and I-275 will be maintained. Estimated Completion: November 2026\n\nI-275 Resurfacing - Between the U.S. 42/Lebanon Road and I-75 interchanges. During paving operations, traffic on I-275 will be maintained with evening and overnight lane closures, from approximately 8 p.m. to 6 a.m. the following day. Estimated Completion: November 2026\n\nI-275 Resurfacing - Between the U.S. 52 interchange and the Asbury Road overpass, west of the Five Mile Road interchange. Throughout the project, traffic on I-275 will be maintained with evening and overnight lane closures. Estimated Completion: November 2026\n\nI-275 Bridge Maintenance - Sealing concrete at various structures on the I-275 corridor. Intermittent lane restrictions will be in effect during evening and overnight hours as crews are scheduled. Estimated completion: October 2027\n\nU.S. and State Route Projects\n\nCONTINUING IMPACTS\n\nS.R. 126/Ronald Reagan Cross County Highway Resurfacing - Between the Colerain Avenue and W. Galbraith Road interchanges. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Estimated Completion: November 2026\n\nS.R. 126/Ronald Reagan Cross County Highway Bridge Painting - At various structures between I-75 and Plainfield Road. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Intermittent overnight ramp closures will be in effect. Estimated Completion: July 2027\n\nS.R. 128 Resurfacing - Between U.S. 50 at Cleves and Harrison Avenue. Single-lane closures will be in effect daily, from 8:30 a.m. to 3 p.m. and from 7 p.m. to 6:30 a.m. the following day. Traffic will be maintained by flaggers and/or other traffic control devices during hours of operation. Estimated Completion: November 2026\n\nS.R. 264 (Glenway Avenue) Roadway Reconstruction - Between Nova Avenue and the intersection with Crookshank Road/Boudinot Avenue. Traffic will be shifted and maintained in a minimum of one, 11-foot lane in either direction with flaggers and/or traffic control devices. Estimated Completion: November 2026\n\nU.S. 22 (Gilbert Avenue) & I-71 Pedestrian Bridge Replacement - Construction of a new pedestrian facility connecting Mt. Adams and Cincinnati by replacing the pedestrian bridges over I-71/471 and Gilbert Avenue with the construction of a single, shared-use path bridge over the interstate and Gilbert. Throughout most of the project, the structure over I-71/471 will remain open to pedestrians, and intermittent vehicular and pedestrian traffic restrictions will be in effect. Estimated Completion: December 2026\n\nU.S. 50/Columbia Connector Shared Use Path - From Pocahontas Avenue at Mariemont to the existing Little Miami Scenic Trail, east of Walton Creek Road. Traffic on U.S. 50 (Wooster Pike) will be maintained in one, 11-foot lane in the westbound direction between Warrior Way and Spring Hill Drive. Additional restrictions will be in place on Wooster Pike, as well as on Miami Run, Mariemont Way and Warrior Way; however, traffic will be maintained throughout construction. Estimated Completion: November 2027\n\nU.S. 52 Joint/Pavement Repairs - From the I-275 interchange to Beckjord Road in Clermont County. Traffic will be maintained in a minimum of one, 11-foot lane in each direction during daytime workings hours, from approximately 7 a.m. to 7 p.m. Estimated Completion: November 2026\n\nLocal Road Projects\n\nContinuing Impacts\n\nGlenwood Gardens Trail & Shared-Use Path - Construction of a shared use trail connecting the Winton Woods Park trail network to Carlsbad Road, Springfield Pike, and the West Fork Mill Creek Greenway at Glenwood Gardens Park. Work is being conducted off roadway, so there should be no impacts to motorists. Estimated Completion: October 2026\n\nC.R. 14 (Dry Fork Road)/I-74 Bridge Replacement & Widening - A bridge replacement and widening project on Dry Fork Road over I-74 at Harrison. Dry Fork Road is closed through mid-December, and motorists are being detoured by way of West Road and Harrison Avenue. Traffic on I-74 will be maintained with periodic lane restrictions. Estimated Completion: June 2027\n\nNew Impact\n\nThursday, November 5:\n\nClosure of the ramp from eastbound I-74 to Dry Fork Road, from 7 p.m. to 5 a.m. Friday for deck pour. Motorists may detour by way of the New Haven Road interchange and Harrison Avenue.\n\nC.R. 358/374 (Clough Pike and Newtown Road) Intersection Improvement - Construction of east and westbound left-turn lanes on Clough Pike at Newtown Road, as well as a sidewalk on the south side of Clough Pike, between Copperleaf Lane and Newtown Road. Traffic on Clough Pike will be maintained by flaggers during daytime hours of operation, daily from approximately 8 a.m. to 4 p.m. Southbound Newtown Road is closed between Mercers Point Drive and the junction with Clough Pike through early November (on or about November 8). Motorists will be detoured by way of Bartels Road and Clough Pike. Northbound Newtown Road is open to traffic. Estimated Completion: November 2026",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following traffic advisory includes restrictions on the state highway system in Hamilton County. All work will be contingent upon the weather. For construction information and statewide information regarding road conditions, visit ODOT on the web at www.Ohgo.com.",
+            "links": [
+              {
+                "text": "ODOT",
+                "href": "https://transportation.ohio.gov/"
+              },
+              {
+                "text": "www.Ohgo.com",
+                "href": "http://www.ohgo.com/?utm_medium=email&utm_source=govdelivery"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects"
+            ],
+            "text": "I-75/Brent Spence Bridge Corridor - Construction of a new double-decker companion bridge adjacent to the existing Brent Spence Bridge to carry interstate and thru traffic. Project also includes improvements of approximately one mile of roadway, between the bridge approach and Linn Street, as well as a redesign and improvements to ramp configurations. Estimated Completion: 2031 (new companion bridge) and 2033 (approach work)",
+            "links": [
+              {
+                "text": "I-75/Brent Spence Bridge Corridor",
+                "href": "https://brentspencebridgecorridor.com/"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "New Impacts"
+            ],
+            "text": "Friday, November 6 and Sunday, November 8:",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "New Impacts"
+            ],
+            "text": "Single-lane (left lane) closure on the ramp from I-75 North to U.S. 50 West, from 8 p.m. Friday to 8 a.m. Saturday and 8 p.m. Sunday to 6 a.m. Monday.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "New Impacts"
+            ],
+            "text": "Traffic on the ramp will be merged into the ramp from I-71/Fort Washington Way, and the restriction will extend to the Gest Street overpass.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts"
+            ],
+            "text": "W. Pete Rose Way/Longworth Hall Building Demolition - Intermittent single-lane closure, as well as full closure on Pete Rose Way, between Smith Street/Clay Wade Bailey Bridge and Gas Alley, for ongoing building demolition. During daytime hours of operation, weekdays from approximately 7 a.m. to 7 p.m., single-lane or full closures will be in effect. Traffic will be maintained as needed by flaggers or, during periods of closure, motorists will be detoured by way of Central Avenue and Mehring Way. Estimated Completion: November 2026.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts"
+            ],
+            "text": "Second Street Ramp Demolition - Second Street is reduced to one, 10-foot lane between the Clay Wade Bailey Bridge and Elm Street for entrance ramp (bridge) demolition. Traffic will be maintained in one, 10-foot lane through the spring of 2027.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts"
+            ],
+            "text": "I-75/Linn Street Bridge Replacement & Reconstruction - Over I-75, between W. Court Street and W. 8th Street. Linn Street is closed between W. 8th and W. Court streets through the fall of 2027 for replacement and reconstruction. Northbound motorists will be detoured via W. 8th Street, Freeman Avenue and Ezzard Charles Drive. Southbound motorists will be rerouted by way of Ezzard Charles Drive, Western Avenue, Freeman and W. 8th.",
+            "links": [
+              {
+                "text": "I-75/Linn Street Bridge Replacement & Reconstruction",
+                "href": "https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/brent-spence"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "Thursday, November 12:",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "Single-lane (right lane) closure on I-75 North, between Sixth Street and the Linn Street overpass, from 8 p.m. to 6 a.m. Friday.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "Traffic will be maintained through the work zone; however, motorists are reminded of the need for additional caution when traveling through the area and to pay attention to merging traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "W. Court Street Storm/Sanitary Sewer Line & Pavement Construction - W. Court Street is reduced to one lane between Linn Street and its end near 898 W. Court. Traffic will be maintained with temporary signals, and the restriction is scheduled to be in effect through early November 2026.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Gest Street Water Line/Reconstruction - Gest Street is closed between Freeman Avenue and 7th Street for water line replacement as part of the Brent Spence Bridge Corridor (Phase 3) project, as well as for reconstruction as part of the Linn Street bridge replacement. The closure will be in effect through June 2030, and westbound motorists will detour via Linn Street, 8th Street and Freeman Avenue; eastbound motorists are being detoured via Freeman and 8th Street.",
+            "links": [
+              {
+                "text": "Brent Spence Bridge Corridor",
+                "href": "https://brentspencebridgecorridor.com/"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Winchell Avenue Reconstruction - The ramp to Winchell Avenue/Ezzard Charles Drive from I-75 North, 9th Street and 6th Street is closed through May 2027 as part of the upcoming Linn Street bridge replacement/reconstruction project. There will be no signed detour for Winchell Avenue. Motorists from 9th Street to I-75 North will be detoured via 8th Street and Freeman Avenue to I-75. Access from 6th Street to Winchell will be closed with a right-lane closure on the ramp.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Western Avenue Entrance Ramp Replacement - The ramp from Western Avenue to I-75 South has been closed to accommodate the maintenance of traffic plan during the Linn Street bridge replacement. This is a permanent closure, and a new ramp from Freeman Avenue to southbound I-75 will be built as part of future construction for the Brent Spence Bridge Corridor.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Mill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction) - As part of the Mill Creek Expressway - Phase 8 project, construction includes replacement of three railroad bridges located over Prosser Avenue, I-75, and SR 562, as well as minor realignment of I-75 lanes to accommodate new railroad bridge pier location on I-75. Lane shifts are in effect in both directions, as well as a contraflow lane for southbound traffic. Additional lane and ramp restrictions will be in effect throughout the project. Estimated Completion: Summer 2027",
+            "links": [
+              {
+                "text": "Mill Creek Expressway - Phase 8 (Railroad Bridge Reconstruction)",
+                "href": "https://www.transportation.ohio.gov/projects/projects/77889"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Mill Creek Expressway - Phase 8B (Pump Station & CSO) - Phase 8B is the construction of a new Pump Station and Combined Sewer Overflow for the widening of I-75. Construction is being conducted off the roadway, so there should be little to no impact to traffic associated with this project. Estimated Completion: Fall 2028",
+            "links": [
+              {
+                "text": "Mill Creek Expressway - Phase 8B (Pump Station & CSO)",
+                "href": "https://www.transportation.ohio.gov/projects/projects/117526"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impacts"
+            ],
+            "text": "Mill Creek Expressway - Phase 8C (Widening) - Phase 8C extends from Regina Graeter Way to the Galbraith Road/SR 126/RRCC interchange area and includes widening I-75 for additional through lanes and rehabilitating bridges. Traffic on I-75 North and South is being maintained in three lanes in each direction, but traffic has been shifted to the east, and a contraflow lane has been implemented on southbound I-75. Various lane and ramp restrictions will be in effect during the evening and overnight hours. Estimated Completion: Fall 2027",
+            "links": [
+              {
+                "text": "Mill Creek Expressway - Phase 8C (Widening)",
+                "href": "https://www.transportation.ohio.gov/projects/projects/117525"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "Summit Road is closed between Paddock Road and Woodland Avenue, adjacent to northbound I-75, for the widening project and construction of a pedestrian bridge at Section Road. The closure will be in effect through the summer of 2028, and motorists will be detoured by way of Seymour Avenue and Reading Road.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-75 Bridge Rehabilitation - On northbound I-75 over Mill Creek, Benson Street and Shepherd Lane. In addition to rehabilitating the bridge, the project includes resurfacing I-75 North and South through the Lockland Split. I-75 traffic will be maintained with evening and overnight lane restrictions as work is scheduled. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-71/Woodburn Avenue Bridge Rehabilitation - Minor rehabilitation project on the Woodburn Avenue bridge over I-71. Traffic on Woodburn Avenue will be maintained in a minimum of one lane in each direction; traffic on I-71 will be maintained with various shoulder and lane restrictions in effect during evening and overnight hours. Estimated Completion: October 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-74/I-275 Overlap Resurfacing - From just west of the S.R. 128 interchange to the Harrison Avenue interchange. Single and double-lane closures may be in effect nightly from 7 p.m. to 7 a.m. for various phases of construction, with traffic maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-74 Cable Barrier Installation - Between the Indiana state line and I-275. Traffic will be maintained in a minimum of one, 12-foot lane in either direction. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-275/S.R. 4 Bridge Repair - At the bridge on I-275 over S.R. 4 (Springdale Pike). Intermittent lane restrictions and ramp closures will be in effect on S.R. 4, as well as on I-275, at the overpass. Traffic on S.R. 4 and I-275 will be maintained. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-275 Resurfacing - Between the U.S. 42/Lebanon Road and I-75 interchanges. During paving operations, traffic on I-275 will be maintained with evening and overnight lane closures, from approximately 8 p.m. to 6 a.m. the following day. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-275 Resurfacing - Between the U.S. 52 interchange and the Asbury Road overpass, west of the Five Mile Road interchange. Throughout the project, traffic on I-275 will be maintained with evening and overnight lane closures. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate Projects",
+              "Continuing Impacts",
+              "Continuing Impact"
+            ],
+            "text": "I-275 Bridge Maintenance - Sealing concrete at various structures on the I-275 corridor. Intermittent lane restrictions will be in effect during evening and overnight hours as crews are scheduled. Estimated completion: October 2027",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "S.R. 126/Ronald Reagan Cross County Highway Resurfacing - Between the Colerain Avenue and W. Galbraith Road interchanges. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "S.R. 126/Ronald Reagan Cross County Highway Bridge Painting - At various structures between I-75 and Plainfield Road. Traffic will be maintained in a minimum of one lane in either direction throughout construction. Intermittent overnight ramp closures will be in effect. Estimated Completion: July 2027",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "S.R. 128 Resurfacing - Between U.S. 50 at Cleves and Harrison Avenue. Single-lane closures will be in effect daily, from 8:30 a.m. to 3 p.m. and from 7 p.m. to 6:30 a.m. the following day. Traffic will be maintained by flaggers and/or other traffic control devices during hours of operation. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "S.R. 264 (Glenway Avenue) Roadway Reconstruction - Between Nova Avenue and the intersection with Crookshank Road/Boudinot Avenue. Traffic will be shifted and maintained in a minimum of one, 11-foot lane in either direction with flaggers and/or traffic control devices. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "U.S. 22 (Gilbert Avenue) & I-71 Pedestrian Bridge Replacement - Construction of a new pedestrian facility connecting Mt. Adams and Cincinnati by replacing the pedestrian bridges over I-71/471 and Gilbert Avenue with the construction of a single, shared-use path bridge over the interstate and Gilbert. Throughout most of the project, the structure over I-71/471 will remain open to pedestrians, and intermittent vehicular and pedestrian traffic restrictions will be in effect. Estimated Completion: December 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "U.S. 50/Columbia Connector Shared Use Path - From Pocahontas Avenue at Mariemont to the existing Little Miami Scenic Trail, east of Walton Creek Road. Traffic on U.S. 50 (Wooster Pike) will be maintained in one, 11-foot lane in the westbound direction between Warrior Way and Spring Hill Drive. Additional restrictions will be in place on Wooster Pike, as well as on Miami Run, Mariemont Way and Warrior Way; however, traffic will be maintained throughout construction. Estimated Completion: November 2027",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects",
+              "CONTINUING IMPACTS"
+            ],
+            "text": "U.S. 52 Joint/Pavement Repairs - From the I-275 interchange to Beckjord Road in Clermont County. Traffic will be maintained in a minimum of one, 11-foot lane in each direction during daytime workings hours, from approximately 7 a.m. to 7 p.m. Estimated Completion: November 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Road Projects",
+              "Continuing Impacts"
+            ],
+            "text": "Glenwood Gardens Trail & Shared-Use Path - Construction of a shared use trail connecting the Winton Woods Park trail network to Carlsbad Road, Springfield Pike, and the West Fork Mill Creek Greenway at Glenwood Gardens Park. Work is being conducted off roadway, so there should be no impacts to motorists. Estimated Completion: October 2026",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Road Projects",
+              "Continuing Impacts"
+            ],
+            "text": "C.R. 14 (Dry Fork Road)/I-74 Bridge Replacement & Widening - A bridge replacement and widening project on Dry Fork Road over I-74 at Harrison. Dry Fork Road is closed through mid-December, and motorists are being detoured by way of West Road and Harrison Avenue. Traffic on I-74 will be maintained with periodic lane restrictions. Estimated Completion: June 2027",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Road Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "Thursday, November 5:",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Road Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "Closure of the ramp from eastbound I-74 to Dry Fork Road, from 7 p.m. to 5 a.m. Friday for deck pour. Motorists may detour by way of the New Haven Road interchange and Harrison Avenue.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Road Projects",
+              "Continuing Impacts",
+              "New Impact"
+            ],
+            "text": "C.R. 358/374 (Clough Pike and Newtown Road) Intersection Improvement - Construction of east and westbound left-turn lanes on Clough Pike at Newtown Road, as well as a sidewalk on the south side of Clough Pike, between Copperleaf Lane and Newtown Road. Traffic on Clough Pike will be maintained by flaggers during daytime hours of operation, daily from approximately 8 a.m. to 4 p.m. Southbound Newtown Road is closed between Mercers Point Drive and the junction with Clough Pike through early November (on or about November 8). Motorists will be detoured by way of Bartels Road and Clough Pike. Northbound Newtown Road is open to traffic. Estimated Completion: November 2026",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:47:20.553Z",
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-jefferson",
+      "state": "Ohio",
+      "county": "Jefferson",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+      "outcome": "failed",
+      "reasons": [
+        "rendered browser body does not match complete CMS body"
+      ],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:58:14.440Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:58:14 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24834",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:58:14Z",
+        "bytes": 765490,
+        "sha256": "ea4f3d12e295e5e89b7d78638c6dca19d3af5fd7647064edaa42e481f17acb7f",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-jefferson",
+          "clientRequestedAt": "2026-11-13T22:58:14.405Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+          "sourceRequestedAt": "2026-11-13T22:58:14.440Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:14 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24834",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:32:52.488Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T14:00:59.242Z",
+        "containerPublishedVersion": 61,
+        "bodyEntry": {
+          "entryId": "6PHzofo2NRFH5knOdMo89t",
+          "updatedAt": "2026-11-13T14:32:34.224Z",
+          "publishedVersion": 378,
+          "textSha256": "1fd23bc15fd9339328861fe29f0ddb8fa97c25f75ee4b1b17558798bff25eb85",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound lane closures north of Pottery Addition: November 23 - December 4, SR 7 southbound will be reduced to one lane from CR 56 to Pottery Addition for tree trimming work. Estimated Completion: December 4, 2026\n\nState Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026.\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 20, 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 30, 2027\n\nOther State Routes\n\nState Route 152 closure north of Richmond: November 16-20: SR 152 will close north of CR 56. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM-3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.\n\nState Route 213 resurfacing: The project to resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville is nearing completion. Flagging operations may be utilized while remaining work is completed. Estimated Completion: November 30, 2026\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: December 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:\n\nNovember 23rd, 8:00 PM - 5:00 AM\n\nFuture dates will be shared as they become available.\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge."
+        },
+        "browserBodySha256": "7b164a6960affbe60cb7fe33a3176061cbb77fc23ba0eaca075373ccf06f7776",
+        "bodyHashMatched": false,
+        "browserBlocksNotInPlainBody": [
+          "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026."
+        ],
+        "plainBodyBlocksNotShown": [
+          "State Route 7 southbound 4th Street on-ramp closure near Toronto: The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026."
+        ]
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:58:14.652Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+        "title": "Traffic Impacts in Jefferson County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-jefferson",
+          "clientRequestedAt": "2026-11-13T22:58:14.662Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-jefferson",
+          "sourceRequestedAt": "2026-11-13T22:58:14.680Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:14 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24834",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "d4ba7796c7ee26e756902df66c9b96cb630af9f4defb74d155f15f68eef81709",
+        "visibleTextFile": "visible-text/jefferson.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "028f8ef18a6583161ed96f1f88aec4449b21d66059076f4ae9aa48f9d732db28",
+        "items": 14,
+        "text": "Traffic Impacts in Jefferson County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.\n\nState Route 7 Projects\n\nState Route 7 southbound lane closures north of Pottery Addition: November 23 - December 4, SR 7 southbound will be reduced to one lane from CR 56 to Pottery Addition for tree trimming work. Estimated Completion: December 4, 2026\n\nState Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026.\n\nState Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 20, 2026\n\nState Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 30, 2027\n\nOther State Routes\n\nState Route 152 closure north of Richmond: November 16-20: SR 152 will close north of CR 56. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM-3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.\n\nState Route 213 resurfacing: The project to resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville is nearing completion. Flagging operations may be utilized while remaining work is completed. Estimated Completion: November 30, 2026\n\nLocal Projects\n\nReese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: December 31, 2026\n\nWest Virginia DOT Traffic Impacts\n\nVisit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.\n\nU.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:\n\nNovember 23rd, 8:00 PM - 5:00 AM\n\nFuture dates will be shared as they become available.\n\nThe closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.\n\nAlternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Jefferson County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Jefferson County construction information.",
+            "links": [
+              {
+                "text": "OHGO.com",
+                "href": "https://www.ohgo.com/"
+              },
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTEasternOhio/"
+              },
+              {
+                "text": "X",
+                "href": "https://x.com/ODOT_EasternOH"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "State Route 7 Projects"
+            ],
+            "text": "State Route 7 southbound lane closures north of Pottery Addition: November 23 - December 4, SR 7 southbound will be reduced to one lane from CR 56 to Pottery Addition for tree trimming work. Estimated Completion: December 4, 2026",
+            "links": [
+              {
+                "text": "State Route 7 southbound lane closures north of Pottery Addition:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.42014276613986&ln=-80.57859916222236&z=12&ls=construction,construction-future&wzpid=work-zone-WZPID000014139"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "State Route 7 Projects"
+            ],
+            "text": "State Route 7 southbound 4 The SR 7 southbound on-ramp from 4th Street in Toronto is closed to traffic as part of a mine subsidence restoration project. To access SR 7 southbound, traffic is rerouted northbound to the SR 152 exit, then returns to SR 7 southbound. Estimated Completion: November 20, 2026.",
+            "links": [
+              {
+                "text": "State Route 7 southbound 4",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.47183320909192&ln=-80.60640460070002&z=14&ls=construction,construction-future&wzpid=work-zone-WZPID000006592"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "State Route 7 Projects"
+            ],
+            "text": "State Route 7 mine subsidence restoration: A mine subsidence restoration project on SR 7 just south of the 4th Street EXIT ramp in Toronto. One lane of traffic is maintained during construction. Estimated Completion: November 20, 2026",
+            "links": [
+              {
+                "text": "State Route 7 mine subsidence restoration:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.46925753308242&ln=-80.6043666601239&z=20&ls=construction,construction-future"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "State Route 7 Projects"
+            ],
+            "text": "State Route 7 Northbound On-Ramp closure at Logan Avenue: The Logan Avenue ramp to SR 7 northbound is closed indefinitely due to a recurring slope failure. Since January 2025, the slope has repeatedly failed, prompting the ramp to be closed for safety until repairs can be made. Construction will begin in the coming months as ODOT awaits required approvals from the adjacent railroad. Estimated Completion: November 30, 2027",
+            "links": [
+              {
+                "text": "State Route 7 Northbound On-Ramp closure at Logan Avenue:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.321557294033354&ln=-80.60591805242964&z=15&ls=construction,construction-future"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "Other State Routes"
+            ],
+            "text": "State Route 152 closure north of Richmond: November 16-20: SR 152 will close north of CR 56. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM-3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.",
+            "links": [
+              {
+                "text": "State Route 152 closure north of Richmond:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.452279175221626&ln=-80.73606512917323&z=12&ls=construction,construction-future&wzpid=work-zone-WZPID000014057"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO",
+              "Other State Routes"
+            ],
+            "text": "State Route 213 resurfacing: The project to resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville is nearing completion. Flagging operations may be utilized while remaining work is completed. Estimated Completion: November 30, 2026",
+            "links": [
+              {
+                "text": "State Route 213 resurfacing:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.43433138455714&ln=-80.66704988480188&z=11&ls=construction,construction-future&wzpid=work-zone-WZPID000013732"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Projects"
+            ],
+            "text": "Reese Street bridge closure in Irondale: The Reese Street bridge, just south of Saline Street in Irondale, is closed for a bridge replacement. Estimated Completion: December 31, 2026",
+            "links": [
+              {
+                "text": "Reese Street bridge closure in Irondale:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.569501&ln=-80.72718400000001&z=14&ls=construction,construction-future&wzpid=work-zone-WZPID000013810"
+              }
+            ]
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "Visit 511WV for traffic impacts in West Virginia. All information shared is provided by WVDOT.",
+            "links": [
+              {
+                "text": "511WV",
+                "href": "https://wv511.org/"
+              }
+            ]
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "U.S. Route 22 Veterans Memorial Bridge nighttime closures: A portion of US 22, eastbound and westbound, on the Veterans Memorial Bridge, will have both the eastbound and westbound lanes closed on the following anticipated closure dates:",
+            "links": []
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "November 23rd, 8:00 PM - 5:00 AM",
+            "links": []
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "Future dates will be shared as they become available.",
+            "links": []
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "The closures are necessary to replace cable. The closures will be at night to minimize the impact on the traveling public. Motorists should follow detour signs and use an alternate route. Emergency vehicles will be accommodated.",
+            "links": []
+          },
+          {
+            "under": [
+              "West Virginia DOT Traffic Impacts"
+            ],
+            "text": "Alternate Routes: Northbound traffic should use US 30 to East Liverpool, Ohio/Chester, WV, via the Jennings-Randolph Bridge, to WV 2 and Ohio 7. Southbound traffic should use Ohio 7 and WV 2 to Brilliant, Ohio, and Wellsburg, WV, onto the Wellsburg Bridge.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:47:38.904Z",
+        "added": [
+          "State Route 7 southbound lane closures north of Pottery Addition: November 23 - December 4, SR 7 southbound will be reduced to one lane from CR 56 to Pottery Addition for tree trimming work. Estimated Completion: December 4, 2026",
+          "State Route 152 closure north of Richmond: November 16-20: SR 152 will close north of CR 56. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM-3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse.",
+          "State Route 213 resurfacing: The project to resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville is nearing completion. Flagging operations may be utilized while remaining work is completed. Estimated Completion: November 30, 2026",
+          "Future dates will be shared as they become available."
+        ],
+        "removed": [
+          "State Route 152 closure north of Richmond: November 9-13: The first closure will be just south of the Edison Schools. During this closure, ODOT will accommodate all school traffic in the morning and afternoon. This closure will take place the week of Nov. 9. Work hours are 8 AM - 2:30 PM. November 16-20: After the first closure, crews will move to the next two locations north of CR 56/Edison Schools. Buses and emergency services will be accommodated during that closure. All other traffic must detour during the closure times. Work hours are 7:30 AM - 3 PM. The official detour is SR 43 south to U.S. 22 east, U.S. 22 east to SR 213 north, SR 213 north back to SR 152, and reverse. These dates are estimated and subject to change due to weather.",
+          "State Route 213 resurfacing: Resurface nearly nine miles of SR 213 from SR 7 in Steubenville to SR 152 in Knoxville. One lane of traffic is maintained with flaggers. Estimated Completion: November 30, 2026",
+          "December 2nd, 8:00 PM - 5:00 AM",
+          "Closure 5: December 9th, 8:00 PM - 5:00 AM",
+          "Closure 6: December 15th, 8:00 PM - 5:00 AM",
+          "Closure 7: December 22nd, 8:00 PM - 5:00 AM"
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-mahoning",
+      "state": "Ohio",
+      "county": "Mahoning",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:58:22.882Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:58:22 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24841",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:58:22Z",
+        "bytes": 754842,
+        "sha256": "035ad0704e65e6879bf7842a09b6e92f69e22677ea3cc0147b7935babadf9321",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
+          "clientRequestedAt": "2026-11-13T22:58:22.801Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+          "sourceRequestedAt": "2026-11-13T22:58:22.882Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:22 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24841",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:40:10.130Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T13:33:40.688Z",
+        "containerPublishedVersion": 58,
+        "bodyEntry": {
+          "entryId": "7dJ0Mpypg477FRKyNiJl5J",
+          "updatedAt": "2026-11-13T13:33:31.815Z",
+          "publishedVersion": 147,
+          "textSha256": "0bb04a5faba019407c4dfdb26950eb6365f28aafd1ecdc12557a17e2f4a9228d",
+          "text": "The following construction projects are anticipated to affect highways in Mahoning County next week. All scheduled work is weather permitting.\n\nInterstate 76/80 pavement rehabilitation, Austintown & Jackson Townships CONTINUING IMPACT \u2013 I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026.\n\nInterstate 680 pavement replacement, Youngstown CONTINUING IMPACT \u2013 I-680 southbound traffic is crossed over onto the northbound lanes through late November while I-680 southbound is reconstructed. CONTINUING IMPACT \u2013 I-680 northbound between South Ave. and SR 193 is CLOSED through summer 2027. The detour is U.S. 62 to U.S. 422 to SR 193. CONTINUING IMPACT \u2013 The following ramps are closed through late November 2026: \u2022 Sillman St to I-680 southbound. The detour is Steel St. to Mahoning Ave. to Belle Vista Ave. to Oakwood St. to I-680. \u2022 SR 193 to I-680 southbound. The detour is I-680 northbound to SR 711 to U.S. 422 eastbound to U.S.62 west/SR 7 south to I-680 south. \u2022 I-680 SB to Glenwood Ave./Mahoning Ave. The detour is I-680 southbound to South Ave. to Front St. to Marshall St. \u2022 Glenwood Ave./Mahoning Ave to I-680 south. The detour is High St. to Oak Hill Rd. to Falls Ave. to Market St. to Williams Ave. to South Ave. \u2022 I-680 south to Market St. south. The detour is I-680 south to South Ave. to Williamson Ave. to Market St. \u2022 I-680 south to Market St. north. The detour is I-680 south to South Ave. to Williamson Ave. to Market St. \u2022 I-680 south to U.S. 62/SR 7 north. The detour is I-680 south to South Ave. to U.S.62/SR 7. CONTINUING IMPACT \u2013 The following ramps are closed through summer 2027: \u2022 I-680 north to SR 193. The detour is U.S. 62/SR 7 to U.S. 422 to SR 193. \u2022 Marshall St. to I-680 north. The detour is Glenwood Ave. to Mahoning Ave. to Belle Vista Ave. \u2022 I-680 north to Glenwood Ave./Mahoning Ave. The detour is South Ave. to Front St. to Marshall St. \u2022 Market St. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193. \u2022 Woodland Ave. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193. \u2022 U.S. 62 west/SR 7 south to I- 680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193. Estimated completion, August 2028."
+        },
+        "browserBodySha256": "0bb04a5faba019407c4dfdb26950eb6365f28aafd1ecdc12557a17e2f4a9228d",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:58:23.116Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+        "title": "Traffic Impacts in Mahoning County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-mahoning",
+          "clientRequestedAt": "2026-11-13T22:58:23.125Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-mahoning",
+          "sourceRequestedAt": "2026-11-13T22:58:23.153Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:23 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24842",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "03e6572a04f1919c617ab9ecf61603f1f331134403875fef1000eb2ca3e5e343",
+        "visibleTextFile": "visible-text/mahoning.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "d3d6e2893c579dbc04c6627e5baffb3ad3293b4ba2ab0cdd477333a5e46c5cd1",
+        "items": 3,
+        "text": "Traffic Impacts in Mahoning County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following construction projects are anticipated to affect highways in Mahoning County next week. All scheduled work is weather permitting.\n\nInterstate 76/80 pavement rehabilitation, Austintown & Jackson Townships\nCONTINUING IMPACT \u2013 I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026.\n\nInterstate 680 pavement replacement, Youngstown\nCONTINUING IMPACT \u2013 I-680 southbound traffic is crossed over onto the northbound lanes through late November while I-680 southbound is reconstructed.\nCONTINUING IMPACT \u2013 I-680 northbound between South Ave. and SR 193 is CLOSED through summer 2027. The detour is U.S. 62 to U.S. 422 to SR 193.\nCONTINUING IMPACT \u2013 The following ramps are closed through late November 2026:\n\u2022 Sillman St to I-680 southbound. The detour is Steel St. to Mahoning Ave. to Belle Vista Ave. to Oakwood St. to I-680.\n\u2022 SR 193 to I-680 southbound. The detour is I-680 northbound to SR 711 to U.S. 422 eastbound to U.S.62 west/SR 7 south to I-680 south.\n\u2022 I-680 SB to Glenwood Ave./Mahoning Ave. The detour is I-680 southbound to South Ave. to Front St. to Marshall St.\n\u2022 Glenwood Ave./Mahoning Ave to I-680 south. The detour is High St. to Oak Hill Rd. to Falls Ave. to Market St. to Williams Ave. to South Ave.\n\u2022 I-680 south to Market St. south. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n\u2022 I-680 south to Market St. north. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n\u2022 I-680 south to U.S. 62/SR 7 north. The detour is I-680 south to South Ave. to U.S.62/SR 7.\nCONTINUING IMPACT \u2013 The following ramps are closed through summer 2027:\n\u2022 I-680 north to SR 193. The detour is U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 Marshall St. to I-680 north. The detour is Glenwood Ave. to Mahoning Ave. to Belle Vista Ave.\n\u2022 I-680 north to Glenwood Ave./Mahoning Ave. The detour is South Ave. to Front St. to Marshall St.\n\u2022 Market St. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 Woodland Ave. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 U.S. 62 west/SR 7 south to I- 680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\nEstimated completion, August 2028.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following construction projects are anticipated to affect highways in Mahoning County next week. All scheduled work is weather permitting.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Interstate 76/80 pavement rehabilitation, Austintown & Jackson Townships\nCONTINUING IMPACT \u2013 I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Interstate 680 pavement replacement, Youngstown\nCONTINUING IMPACT \u2013 I-680 southbound traffic is crossed over onto the northbound lanes through late November while I-680 southbound is reconstructed.\nCONTINUING IMPACT \u2013 I-680 northbound between South Ave. and SR 193 is CLOSED through summer 2027. The detour is U.S. 62 to U.S. 422 to SR 193.\nCONTINUING IMPACT \u2013 The following ramps are closed through late November 2026:\n\u2022 Sillman St to I-680 southbound. The detour is Steel St. to Mahoning Ave. to Belle Vista Ave. to Oakwood St. to I-680.\n\u2022 SR 193 to I-680 southbound. The detour is I-680 northbound to SR 711 to U.S. 422 eastbound to U.S.62 west/SR 7 south to I-680 south.\n\u2022 I-680 SB to Glenwood Ave./Mahoning Ave. The detour is I-680 southbound to South Ave. to Front St. to Marshall St.\n\u2022 Glenwood Ave./Mahoning Ave to I-680 south. The detour is High St. to Oak Hill Rd. to Falls Ave. to Market St. to Williams Ave. to South Ave.\n\u2022 I-680 south to Market St. south. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n\u2022 I-680 south to Market St. north. The detour is I-680 south to South Ave. to Williamson Ave. to Market St.\n\u2022 I-680 south to U.S. 62/SR 7 north. The detour is I-680 south to South Ave. to U.S.62/SR 7.\nCONTINUING IMPACT \u2013 The following ramps are closed through summer 2027:\n\u2022 I-680 north to SR 193. The detour is U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 Marshall St. to I-680 north. The detour is Glenwood Ave. to Mahoning Ave. to Belle Vista Ave.\n\u2022 I-680 north to Glenwood Ave./Mahoning Ave. The detour is South Ave. to Front St. to Marshall St.\n\u2022 Market St. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 Woodland Ave. to I-680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\n\u2022 U.S. 62 west/SR 7 south to I- 680 north. The detour is Woodland Ave. to Hadnet Dr. to South Ave. to U.S. 62/SR 7 to U.S. 422 to SR 193.\nEstimated completion, August 2028.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:47:48.422Z",
+        "added": [
+          "CONTINUING IMPACT \u2013 I-80 westbound is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026."
+        ],
+        "removed": [
+          "CONTINUING IMPACT \u2013 I-80 east and west is reduced to two lanes between the Meander Reservoir and SR 46. Estimated completion, mid-November 2026."
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-meigs",
+      "state": "Ohio",
+      "county": "Meigs",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:58:50.134Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:58:50 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24868",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:58:50Z",
+        "bytes": 763376,
+        "sha256": "2b50ad6f85995d6ed9096d08903f465980f10bcfbcdd3198ef481e1b66760278",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
+          "clientRequestedAt": "2026-11-13T22:58:50.051Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+          "sourceRequestedAt": "2026-11-13T22:58:50.134Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:50 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24868",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:42:55.051Z",
+        "lastModifiedDate": "2026-11-12T15:28",
+        "containerUpdatedAt": "2026-11-12T20:27:14.421Z",
+        "containerPublishedVersion": 77,
+        "bodyEntry": {
+          "entryId": "59sZPuSjxE33ppoq1RHwD6",
+          "updatedAt": "2026-11-12T20:26:46.636Z",
+          "publishedVersion": 187,
+          "textSha256": "53e3f507ae530798c0a0e75cfdb8ca7c40f690ce71c32ab7bbef766469aff9e7",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Meigs County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Meigs County construction information.\n\nU.S. 33 Expansion (Athens and Meigs Counties) A two-lane to four-lane expansion project is taking place on U.S. 33 from Athens to Darwin and Five Points to Ravenswood.\n\nBarrels are in place on U.S. 33 between Five Points and the Ravenswood Bridge to delineate between the current road and road under construction (through 2028)\n\nBarrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)\n\nThere is intermittent flagging at SR 681 for equipment crossing (through 2028)\n\nThere will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)\n\nSellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstruction Read more about the project\n\nOverall Project Completion: 2028\n\nU.S. 33-SR 7-SR 124-SR 733-SR 833 Sign Replacements A sign replacement project is taking place on U.S. 33, SR 7, SR 124, SR 733, and SR 833 at Rock Springs and Five Points. There are intermittent lane and shoulder closures in each direction. Estimated Completion: November 30\n\nState Route 681 Slope Stabilization A slope stabilization project is taking place on SR 681 between Goose Creek Road and Carsey Road. Traffic is being maintained by flaggers. Estimated Completion: November 2027\n\nState Route 325 Culvert Replacement A culvert repair project is taking place on SR 325 between Edmundson Road and Sanford Davis Road. Traffic is being maintained with temporary signals. Estimated Completion: January 1, 2027"
+        },
+        "browserBodySha256": "53e3f507ae530798c0a0e75cfdb8ca7c40f690ce71c32ab7bbef766469aff9e7",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:58:50.461Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+        "title": "Traffic Impacts in Meigs County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 12, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-meigs",
+          "clientRequestedAt": "2026-11-13T22:58:50.478Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-meigs",
+          "sourceRequestedAt": "2026-11-13T22:58:50.495Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:50 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24868",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "b5ad99667ba86d0fd863772275a3cdc3be27c4f05ef7ce67fbcf6af0540de0da",
+        "visibleTextFile": "visible-text/meigs.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "9531afb5ca9cc43fb86aca7bc731eff1f7eef7640f7f320a3f95ef90b1f17de7",
+        "items": 12,
+        "text": "Traffic Impacts in Meigs County\n\nLast modified: November 12, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Meigs County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Meigs County construction information.\n\nU.S. 33 Expansion (Athens and Meigs Counties)\nA two-lane to four-lane expansion project is taking place on U.S. 33 from Athens to Darwin and Five Points to Ravenswood.\n\nBarrels are in place on U.S. 33 between Five Points and the Ravenswood Bridge to delineate between the current road and road under construction (through 2028)\n\nBarrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)\n\nThere is intermittent flagging at SR 681 for equipment crossing (through 2028)\n\nThere will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)\n\nSellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstruction\n\nRead more about the project\n\nOverall Project Completion: 2028\n\nU.S. 33-SR 7-SR 124-SR 733-SR 833 Sign Replacements\nA sign replacement project is taking place on U.S. 33, SR 7, SR 124, SR 733, and SR 833 at Rock Springs and Five Points. There are intermittent lane and shoulder closures in each direction.\nEstimated Completion: November 30\n\nState Route 681 Slope Stabilization\nA slope stabilization project is taking place on SR 681 between Goose Creek Road and Carsey Road. Traffic is being maintained by flaggers.\nEstimated Completion: November 2027\n\nState Route 325 Culvert Replacement\nA culvert repair project is taking place on SR 325 between Edmundson Road and Sanford Davis Road. Traffic is being maintained with temporary signals.\nEstimated Completion: January 1, 2027",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Meigs County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Meigs County construction information.",
+            "links": [
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTD10/"
+              },
+              {
+                "text": "X",
+                "href": "https://x.com/ODOT_SEOhio"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "U.S. 33 Expansion (Athens and Meigs Counties)\nA two-lane to four-lane expansion project is taking place on U.S. 33 from Athens to Darwin and Five Points to Ravenswood.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Barrels are in place on U.S. 33 between Five Points and the Ravenswood Bridge to delineate between the current road and road under construction (through 2028)",
+            "links": [
+              {
+                "text": "U.S. 33",
+                "href": "https://www.ohgo.com/se-ohio?lt=38.86091301802989&ln=-81.90702165216047&z=11&ls=construction,construction-future&id=construction-WZ000013424_18628"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Barrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)",
+            "links": [
+              {
+                "text": "U.S. 33 west",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.0214057416227&ln=-81.87194385506051&z=12&ls=construction,construction-future&id=construction-WZ000014199_19895"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "There is intermittent flagging at SR 681 for equipment crossing (through 2028)",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "There will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Sellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstruction",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Read more about the project",
+            "links": [
+              {
+                "text": "Read more about the project",
+                "href": "https://www.transportation.ohio.gov/travel/projects/33-expansion"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Overall Project Completion: 2028",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "U.S. 33-SR 7-SR 124-SR 733-SR 833 Sign Replacements\nA sign replacement project is taking place on U.S. 33, SR 7, SR 124, SR 733, and SR 833 at Rock Springs and Five Points. There are intermittent lane and shoulder closures in each direction.\nEstimated Completion: November 30",
+            "links": [
+              {
+                "text": "U.S. 33",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.05257242597094&ln=-82.01893150806968&z=21.000000000000004&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31033"
+              },
+              {
+                "text": "SR 7",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.05189755724623&ln=-82.03485075384914&z=21&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31036"
+              },
+              {
+                "text": "SR 124",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.053510253668286&ln=-82.01531488448906&z=17&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31040"
+              },
+              {
+                "text": "SR 733",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.051293502609624&ln=-81.97861790657588&z=20.999999999999996&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31041"
+              },
+              {
+                "text": "SR 833",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.053251454042936&ln=-82.01626539230892&z=16&ls=incident,dangerous-slowdown,construction,construction-future&id=construction-WZ000022030_31040"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 681 Slope Stabilization\nA slope stabilization project is taking place on SR 681 between Goose Creek Road and Carsey Road. Traffic is being maintained by flaggers.\nEstimated Completion: November 2027",
+            "links": [
+              {
+                "text": "SR 681",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.13683525995379&ln=-82.09983261108421&z=11&ls=construction,construction-future&id=construction-WZ000021889_30784"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 325 Culvert Replacement\nA culvert repair project is taking place on SR 325 between Edmundson Road and Sanford Davis Road. Traffic is being maintained with temporary signals.\nEstimated Completion: January 1, 2027",
+            "links": [
+              {
+                "text": "SR 325",
+                "href": "https://www.ohgo.com/se-ohio?lt=38.994987526346634&ln=-82.02737241983931&z=10&ls=construction,construction-future&id=construction-WZ000022434_31726&wzpid=work-zone-WZPID000013898"
+              }
+            ]
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:02.346Z",
+        "added": [
+          "Barrier wall is in place, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road (through July 2027)",
+          "There is intermittent flagging at SR 681 for equipment crossing (through 2028)",
+          "There will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing (through 2028)",
+          "Sellers Ridge Road will be closed from 7 a.m.- 7 p.m. on November 24 and 25 for road reconstruction"
+        ],
+        "removed": [
+          "Barrier wall is in place through July 2027, creating a new traffic pattern on U.S. 33 west between SR 7 and Pine Grove Road",
+          "Through 2028, there will be intermittent flagging at SR 681 for equipment crossing",
+          "Through 2028, there will be intermittent closures of side roads between Pleasanton Rd. (Athens County) and Rocksprings Rd. (Meigs County) for equipment crossing"
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-muskingum",
+      "state": "Ohio",
+      "county": "Muskingum",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:58:58.645Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:58:58 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24965",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:58:58Z",
+        "bytes": 762711,
+        "sha256": "895e5cd72d885121a4bc9fa2c53a7738e523aa0f76d741475cb2a0913f92de1c",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
+          "clientRequestedAt": "2026-11-13T22:58:58.615Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+          "sourceRequestedAt": "2026-11-13T22:58:58.645Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:58 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24965",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:48:43.996Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T14:34:24.172Z",
+        "containerPublishedVersion": 93,
+        "bodyEntry": {
+          "entryId": "1Q4EpZiAQ6mLbr1QEt9Y1M",
+          "updatedAt": "2026-11-12T13:41:46.018Z",
+          "publishedVersion": 483,
+          "textSha256": "b4fd58034955d317b41f21d46dd72154be1dc226387e1a3eacc63ab2e37e9107",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Muskingum County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 5 on Facebook or Twitter for current Muskingum County construction information.\n\nInterstate 70\n\nReconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.\n\nContinued Impacts:\n\nLane closures are in place on Underwood Street for striping work.\n\nSixth Street under I-70 has reopened.\n\nPhase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).\n\nI-70 westbound passing lane operates like an express lane. This means that once motorists enter the express lane after SR 93 (exit 157), they will be unable to exit until U.S. 40 (exit 152).\n\nThe I-70 westbound driving lane will be the only westbound lane with access to downtown Zanesville.\n\nThe Underwood Street eastbound on ramp is open to traffic.\n\nThe State Street eastbound on ramp is open to traffic.\n\nThe Sixth Street westbound on ramp is closed to traffic.\n\nThe 7th Street eastbound off ramp is open to traffic.\n\nThe Underwood off-ramp is open to traffic.\n\nThe Maple Avenue westbound off ramp is closed to traffic.\n\nThe Maple Avenue flyover ramp and the 6th Street on-ramp to I-70 westbound will remain closed during Phase three construction for safety reasons.\n\nAll work is weather dependent, and dates are subject to change.\n\nU.S. and State Route Projects\n\nState Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.\n\nState Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.\n\nBeginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse."
+        },
+        "browserBodySha256": "b4fd58034955d317b41f21d46dd72154be1dc226387e1a3eacc63ab2e37e9107",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:58:59.073Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+        "title": "Traffic Impacts in Muskingum County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
+          "clientRequestedAt": "2026-11-13T22:58:59.086Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+          "sourceRequestedAt": "2026-11-13T22:58:59.109Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:58:59 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24966",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "c8a0a8dc38941977120dfbbc32fb64845473ea06a862aef5fdcfc546a9a0182f",
+        "visibleTextFile": "visible-text/muskingum.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "5515752866df77d274af0262dd027f64c98fa7d60dc584a303b0ae00c3e58f45",
+        "items": 18,
+        "text": "Traffic Impacts in Muskingum County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Muskingum County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 5 on Facebook or Twitter for current Muskingum County construction information.\n\nInterstate 70\n\nReconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.\n\nContinued Impacts:\n\nLane closures are in place on Underwood Street for striping work.\n\nSixth Street under I-70 has reopened.\n\nPhase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).\n\nI-70 westbound passing lane operates like an express lane. This means that once motorists enter the express lane after SR 93 (exit 157), they will be unable to exit until U.S. 40 (exit 152).\n\nThe I-70 westbound driving lane will be the only westbound lane with access to downtown Zanesville.\n\nThe Underwood Street eastbound on ramp is open to traffic.\n\nThe State Street eastbound on ramp is open to traffic.\n\nThe Sixth Street westbound on ramp is closed to traffic.\n\nThe 7th Street eastbound off ramp is open to traffic.\n\nThe Underwood off-ramp is open to traffic.\n\nThe Maple Avenue westbound off ramp is closed to traffic.\n\nThe Maple Avenue flyover ramp and the 6th Street on-ramp to I-70 westbound will remain closed during Phase three construction for safety reasons.\n\nAll work is weather dependent, and dates are subject to change.\n\nU.S. and State Route Projects\n\nState Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.\n\nState Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.\n\nBeginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Muskingum County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 5 on Facebook or Twitter for current Muskingum County construction information.",
+            "links": [
+              {
+                "text": "OHGO.com",
+                "href": "https://ohgo.com/se-ohio"
+              },
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTD5/"
+              },
+              {
+                "text": "Twitter",
+                "href": "https://twitter.com/ODOT_EastCenOH"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate 70"
+            ],
+            "text": "Reconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.",
+            "links": [
+              {
+                "text": "Reconstruction in Zanesville",
+                "href": "https://ohgo.com/se-ohio?lt=39.950238353058445&ln=-82.00220666201415&z=14&ls=incident,construction,construction-future,camera,delay"
+              },
+              {
+                "text": "visit the project page.",
+                "href": "https://www.transportation.ohio.gov/travel/projects/93006"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "Lane closures are in place on Underwood Street for striping work.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "Sixth Street under I-70 has reopened.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "Phase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "I-70 westbound passing lane operates like an express lane. This means that once motorists enter the express lane after SR 93 (exit 157), they will be unable to exit until U.S. 40 (exit 152).",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The I-70 westbound driving lane will be the only westbound lane with access to downtown Zanesville.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The Underwood Street eastbound on ramp is open to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The State Street eastbound on ramp is open to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The Sixth Street westbound on ramp is closed to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The 7th Street eastbound off ramp is open to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The Underwood off-ramp is open to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The Maple Avenue westbound off ramp is closed to traffic.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "The Maple Avenue flyover ramp and the 6th Street on-ramp to I-70 westbound will remain closed during Phase three construction for safety reasons.",
+            "links": []
+          },
+          {
+            "under": [
+              "Interstate 70",
+              "Continued Impacts:"
+            ],
+            "text": "All work is weather dependent, and dates are subject to change.",
+            "links": []
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects"
+            ],
+            "text": "State Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.",
+            "links": [
+              {
+                "text": "State Route 340",
+                "href": "https://ohgo.com/se-ohio?lt=39.80654833087086&ln=-81.7224315740223&z=21&ls=construction,construction-future"
+              }
+            ]
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects"
+            ],
+            "text": "State Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.",
+            "links": [
+              {
+                "text": "State Route 555",
+                "href": "https://ohgo.com/se-ohio?lt=39.79277598131836&ln=-81.98208332062312&z=18.999999999999996&ls=construction,construction-future&id=construction-WZ000022210_31353"
+              }
+            ]
+          },
+          {
+            "under": [
+              "U.S. and State Route Projects"
+            ],
+            "text": "Beginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse.",
+            "links": [
+              {
+                "text": "State Route 666",
+                "href": "https://ohgo.com/se-ohio?lt=40.018149593528776&ln=-81.97560310364312&z=18.999999999999996&ls=incident,dangerous-slowdown,construction,construction-future"
+              }
+            ]
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:21.373Z",
+        "added": [
+          "State Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse."
+        ],
+        "removed": [
+          "State Route 340 will close to traffic between State Route 284 and Prouty Road beginning Wednesday, Nov. 11 for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.",
+          "Motorist can expect lane closures on State Route 208 for full depth repair and resurfacing work between the Village of Adamsville and Dresden. Estimated project completion: November 2026."
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-noble",
+      "state": "Ohio",
+      "county": "Noble",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:07.211Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:07 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24973",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:07Z",
+        "bytes": 752678,
+        "sha256": "90b65954e298acf65a852a6e0f055620bfe60fa0b21e984605bbf4f805c4b060",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
+          "clientRequestedAt": "2026-11-13T22:59:07.173Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+          "sourceRequestedAt": "2026-11-13T22:59:07.211Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:07 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24973",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:49:27.721Z",
+        "lastModifiedDate": "2026-11-05T09:28",
+        "containerUpdatedAt": "2026-11-05T14:27:06.169Z",
+        "containerPublishedVersion": 68,
+        "bodyEntry": {
+          "entryId": "5dzX60gNQcgEpe4nlJ0F4J",
+          "updatedAt": "2026-11-05T14:26:30.670Z",
+          "publishedVersion": 144,
+          "textSha256": "2dc294e4d7dda4bb1bc6ebd1771373a0239b4c0afd5d7295cd0f19ca4bac029c",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Noble County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Noble County construction information.\n\nState Route 821 Landslide Due to a landslide, traffic is being maintained with temporary signals on SR 821 between Baker Junkyard Road and I-77. Estimated Completion: December 1\n\nState Route 78 Bridge Replacement A bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals. Estimated Completion: November 13"
+        },
+        "browserBodySha256": "2dc294e4d7dda4bb1bc6ebd1771373a0239b4c0afd5d7295cd0f19ca4bac029c",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:07.602Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+        "title": "Traffic Impacts in Noble County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 05, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-noble",
+          "clientRequestedAt": "2026-11-13T22:59:07.610Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-noble",
+          "sourceRequestedAt": "2026-11-13T22:59:07.629Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:07 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24721",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "2735ac06d91baa403375ed7645fbf51dfb5c3afcb455a87174e0de3454f70498",
+        "visibleTextFile": "visible-text/noble.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "b211ecfded6e37115d8df5ba0d798b9565bd72f2fc89533d536fe0cae662b2e5",
+        "items": 3,
+        "text": "Traffic Impacts in Noble County\n\nLast modified: November 05, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Noble County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Noble County construction information.\n\nState Route 821 Landslide\nDue to a landslide, traffic is being maintained with temporary signals on SR 821 between Baker Junkyard Road and I-77.\nEstimated Completion: December 1\n\nState Route 78 Bridge Replacement\nA bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 13",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Noble County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Noble County construction information.",
+            "links": [
+              {
+                "text": "OHGO.com",
+                "href": "https://www.ohgo.com/se-ohio"
+              },
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTD10/"
+              },
+              {
+                "text": "X",
+                "href": "https://x.com/ODOT_SEOhio"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 821 Landslide\nDue to a landslide, traffic is being maintained with temporary signals on SR 821 between Baker Junkyard Road and I-77.\nEstimated Completion: December 1",
+            "links": [
+              {
+                "text": "SR 821",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.67616926264824&ln=-81.49984896183607&z=14&ls=construction,construction-future&id=construction-WZ000022185_31302"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 78 Bridge Replacement\nA bridge replacement project is taking place on SR 78 between Cain Road and Collins Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 13",
+            "links": [
+              {
+                "text": "SR 78",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.74837783144347&ln=-81.62618637085512&z=21.000000000000146&ls=construction,construction-future&id=construction-WZ000021533_30180"
+              }
+            ]
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:31.870Z",
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-portage",
+      "state": "Ohio",
+      "county": "Portage",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:15.706Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:15 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24979",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:15Z",
+        "bytes": 748752,
+        "sha256": "c5e6247f23cb3f6110474adb0db5a0a48c3d8109e8e9157e9f7ab841403d3c9c",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
+          "clientRequestedAt": "2026-11-13T22:59:15.673Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+          "sourceRequestedAt": "2026-11-13T22:59:15.706Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:15 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24979",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T19:54:08.536Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T13:35:30.393Z",
+        "containerPublishedVersion": 57,
+        "bodyEntry": {
+          "entryId": "55EnqIn5gegIRSLm1TtLsl",
+          "updatedAt": "2026-11-06T16:42:29.246Z",
+          "publishedVersion": 182,
+          "textSha256": "940a1eebbe3888a22387458facfc857cee5550a28b280a03b23f31c57c672f55",
+          "text": "The following construction projects are anticipated to affect highways in Portage County next week. All scheduled work is weather permitting.\n\nState Route 14 & State Route 43 intersection improvements, Streetsboro CONTINUING IMPACT \u2013 SR 303 at SR 14 is closed through late November. The detour is Superior Ave. to SR 14. Estimated completion, late November 2026."
+        },
+        "browserBodySha256": "940a1eebbe3888a22387458facfc857cee5550a28b280a03b23f31c57c672f55",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:15.937Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+        "title": "Traffic Impacts in Portage County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-portage",
+          "clientRequestedAt": "2026-11-13T22:59:15.948Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-portage",
+          "sourceRequestedAt": "2026-11-13T22:59:15.975Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:15 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24726",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "42faed10c6963ea36bb0ef8ac1b0a74880dac0043ffafab38f27b87f1d14e5e8",
+        "visibleTextFile": "visible-text/portage.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "4e131b8270786eaef81b34a4ff91b620d1281145bd130c95db1016ce83bf866a",
+        "items": 2,
+        "text": "Traffic Impacts in Portage County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following construction projects are anticipated to affect highways in Portage County next week. All scheduled work is weather permitting.\n\nState Route 14 & State Route 43 intersection improvements, Streetsboro\nCONTINUING IMPACT \u2013 SR 303 at SR 14 is closed through late November. The detour is Superior Ave. to SR 14.\nEstimated completion, late November 2026.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following construction projects are anticipated to affect highways in Portage County next week. All scheduled work is weather permitting.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 14 & State Route 43 intersection improvements, Streetsboro\nCONTINUING IMPACT \u2013 SR 303 at SR 14 is closed through late November. The detour is Superior Ave. to SR 14.\nEstimated completion, late November 2026.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:41.187Z",
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-stark",
+      "state": "Ohio",
+      "county": "Stark",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:24.037Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:24 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24733",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:24Z",
+        "bytes": 749195,
+        "sha256": "a18a579b8dfc6490009fe7222c05e892ae21f45757d9c20f0e86514486960ecb",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
+          "clientRequestedAt": "2026-11-13T22:59:23.993Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+          "sourceRequestedAt": "2026-11-13T22:59:24.037Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:24 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24733",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T20:02:39.753Z",
+        "lastModifiedDate": "2026-11-13T01:00",
+        "containerUpdatedAt": "2026-11-13T13:44:45.572Z",
+        "containerPublishedVersion": 56,
+        "bodyEntry": {
+          "entryId": "52PwGWc0Lnkl3Z93rul9q0",
+          "updatedAt": "2026-11-13T13:44:35.029Z",
+          "publishedVersion": 163,
+          "textSha256": "dbbe387fa7d9092faa5f4e22151dc559187e12016ff34d7c93967a062860085a",
+          "text": "The following construction projects are anticipated to affect highways in Stark County next week. All scheduled work is weather permitting.\n\nState Route 212 railroad crossing repairs, Sugar Creek Township SR 212 just west of SR 93 is NOW OPEN.\n\nState Route 241 bridge replacement and roundabout construction, Jackson Township SR 241 between Shuffel St. and Willowdale Lake Ave. is closed through fall 2027 for a bridge replacement and pavement reconstruction. The truck detour is SR 241 to I-77 to SR 687. The local detour is Shuffel St. to Frank Ave. to Strausser St."
+        },
+        "browserBodySha256": "dbbe387fa7d9092faa5f4e22151dc559187e12016ff34d7c93967a062860085a",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:24.238Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+        "title": "Traffic Impacts in Stark County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
+          "clientRequestedAt": "2026-11-13T22:59:24.250Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+          "sourceRequestedAt": "2026-11-13T22:59:24.273Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:24 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24987",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "a8a344e157a5633c265b4a709c6d637ae6c8ce2a56827e76dd38bdb21bf46504",
+        "visibleTextFile": "visible-text/stark.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "978cfee3ba4be2159e46c2bf1d88d35d0963fcc98b8ee84abee6cfeafe68adca",
+        "items": 3,
+        "text": "Traffic Impacts in Stark County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following construction projects are anticipated to affect highways in Stark County next week. All scheduled work is weather permitting.\n\nState Route 212 railroad crossing repairs, Sugar Creek Township\nSR 212 just west of SR 93 is NOW OPEN.\n\nState Route 241 bridge replacement and roundabout construction, Jackson Township\nSR 241 between Shuffel St. and Willowdale Lake Ave. is closed through fall 2027 for a bridge replacement and pavement reconstruction. The truck detour is SR 241 to I-77 to SR 687. The local detour is Shuffel St. to Frank Ave. to Strausser St.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following construction projects are anticipated to affect highways in Stark County next week. All scheduled work is weather permitting.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 212 railroad crossing repairs, Sugar Creek Township\nSR 212 just west of SR 93 is NOW OPEN.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 241 bridge replacement and roundabout construction, Jackson Township\nSR 241 between Shuffel St. and Willowdale Lake Ave. is closed through fall 2027 for a bridge replacement and pavement reconstruction. The truck detour is SR 241 to I-77 to SR 687. The local detour is Shuffel St. to Frank Ave. to Strausser St.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:50.544Z",
+        "added": [
+          "SR 212 just west of SR 93 is NOW OPEN."
+        ],
+        "removed": [
+          "Interstate 77 bridge joint repairs, Canton",
+          "NEW IMPACT \u2013 On Sunday evening, November 8, at 8 p.m., the following closures will be in place through Monday morning, November 9, at 5 a.m. for bridge joint repairs:",
+          "\u2022 The ramp from U.S. 30 east to I-77 north. The detour will be U.S. 30 east to SR 43/Cherry St. to U.S. 30 west to I-77 north.",
+          "\u2022 I-77 northbound at U.S. 30. The detour will be U.S. 30 east to SR 43/Cherry St. to U.S. 30 west to I-77 north.",
+          "U.S. Route 250 railroad crossing repairs, Sugar Creek Township",
+          "U.S. 250 just north of the Tuscarawas County line is NOW OPEN.",
+          "State Routes 93, 172, 236 & 241 resurfacing, Massillon; Lawrence Township",
+          "SR 241 between Tremont Ave. and the Massillon Corporation limit and SR 172 between the Lincoln Way bridge over SR 21 and Erie St. has various lane restrictions for roadway construction and pavement striping. Estimated completion, mid-November 2026.",
+          "NEW IMPACT \u2013 Beginning Tuesday, November 10, SR 212 just west of SR 93 will be closed through Friday, November 13. The detour will be U.S. 250 to SR 21."
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-trumbull",
+      "state": "Ohio",
+      "county": "Trumbull",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:32.113Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:32 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24738",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:32Z",
+        "bytes": 752082,
+        "sha256": "e9f51ad7250a67fc67c6d8aa22f94b91245f5233659de4b3020b3e5e70aa05af",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
+          "clientRequestedAt": "2026-11-13T22:59:32.069Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+          "sourceRequestedAt": "2026-11-13T22:59:32.113Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:32 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24738",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-03-18T13:11:58.101Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T14:51:06.965Z",
+        "containerPublishedVersion": 57,
+        "bodyEntry": {
+          "entryId": "2NXXbdoxUHVYwcdwgkcxxf",
+          "updatedAt": "2026-11-13T14:50:59.357Z",
+          "publishedVersion": 109,
+          "textSha256": "c8f59e658dfb4be40f914d8069204737557d794b5fdc9f8a83ff45ebe63528f0",
+          "text": "The following construction projects are anticipated to affect highways in Trumbull County next week. All scheduled work is weather permitting.\n\nInterstate 80 in Hubbard Township I-80 eastbound just west of the Pennsylvania State line has various lane restrictions for a pavement replacement project being overseen by the Pennsylvania Department of Transportation. Motorists should expect delays in this area.\n\nU.S. Route 62 resurfacing, Brookfield & Hubbard Township U.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November.\n\nU.S. Route 422 tree removal Southington Township NEW IMPACT \u2013 On Monday, November 16, between 7 a.m. and 4 p.m., U.S. 422 between the Portage County line and SR 305 will be closed. The detour will be SR 305 to SR 282.\n\nState Route 46 intersection improvements, Howland Township CONTINUING IMPACT - The SR 46 and E. Market St. intersection has occasional lane restrictions with traffic maintained by flaggers for the addition of turn lanes through late November. Estimated completion, October 2027.\n\nState Route 46 sidewalk installation, Weathersfield Township SR 46 between Morris St. and Seaborn St. has various lane restrictions for sidewalk installation. Estimated completion, mid-December 2026."
+        },
+        "browserBodySha256": "c8f59e658dfb4be40f914d8069204737557d794b5fdc9f8a83ff45ebe63528f0",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:32.314Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+        "title": "Traffic Impacts in Trumbull County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
+          "clientRequestedAt": "2026-11-13T22:59:32.321Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+          "sourceRequestedAt": "2026-11-13T22:59:32.348Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:32 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24738",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "45b97d364d51429c34caa0467b4ffd88b9bef7d2acb4d5fcb09fd18dd2fa5dbc",
+        "visibleTextFile": "visible-text/trumbull.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "4c388d8f3eb715049069db7b8c5fd58b9652dd4479e0e8dccf7b5b491c88f8d2",
+        "items": 6,
+        "text": "Traffic Impacts in Trumbull County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following construction projects are anticipated to affect highways in Trumbull County next week. All scheduled work is weather permitting.\n\nInterstate 80 in Hubbard Township\nI-80 eastbound just west of the Pennsylvania State line has various lane restrictions for a pavement replacement project being overseen by the Pennsylvania Department of Transportation. Motorists should expect delays in this area.\n\nU.S. Route 62 resurfacing, Brookfield & Hubbard Township\nU.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November.\n\nU.S. Route 422 tree removal Southington Township\nNEW IMPACT \u2013 On Monday, November 16, between 7 a.m. and 4 p.m., U.S. 422 between the Portage County line and SR 305 will be closed. The detour will be SR 305 to SR 282.\n\nState Route 46 intersection improvements, Howland Township\nCONTINUING IMPACT - The SR 46 and E. Market St. intersection has occasional lane restrictions with traffic maintained by flaggers for the addition of turn lanes through late November. Estimated completion, October 2027.\n\nState Route 46 sidewalk installation, Weathersfield Township\nSR 46 between Morris St. and Seaborn St. has various lane restrictions for sidewalk installation. Estimated completion, mid-December 2026.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following construction projects are anticipated to affect highways in Trumbull County next week. All scheduled work is weather permitting.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Interstate 80 in Hubbard Township\nI-80 eastbound just west of the Pennsylvania State line has various lane restrictions for a pavement replacement project being overseen by the Pennsylvania Department of Transportation. Motorists should expect delays in this area.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "U.S. Route 62 resurfacing, Brookfield & Hubbard Township\nU.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "U.S. Route 422 tree removal Southington Township\nNEW IMPACT \u2013 On Monday, November 16, between 7 a.m. and 4 p.m., U.S. 422 between the Portage County line and SR 305 will be closed. The detour will be SR 305 to SR 282.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 46 intersection improvements, Howland Township\nCONTINUING IMPACT - The SR 46 and E. Market St. intersection has occasional lane restrictions with traffic maintained by flaggers for the addition of turn lanes through late November. Estimated completion, October 2027.",
+            "links": []
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 46 sidewalk installation, Weathersfield Township\nSR 46 between Morris St. and Seaborn St. has various lane restrictions for sidewalk installation. Estimated completion, mid-December 2026.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:48:59.476Z",
+        "added": [
+          "U.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November."
+        ],
+        "removed": [
+          "U.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, mid-November."
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-tuscarawas",
+      "state": "Ohio",
+      "county": "Tuscarawas",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:40.214Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:40 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24743",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:40Z",
+        "bytes": 755491,
+        "sha256": "4acd3046b41c9810f0e76c55a79ebb2584f81e939d2c2d14f2c7434b2a17ffc2",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-tuscarawas",
+          "clientRequestedAt": "2026-11-13T22:59:40.171Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+          "sourceRequestedAt": "2026-11-13T22:59:40.214Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:40 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24743",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T20:04:50.629Z",
+        "lastModifiedDate": "2026-11-13T00:00",
+        "containerUpdatedAt": "2026-11-13T13:24:57.975Z",
+        "containerPublishedVersion": 55,
+        "bodyEntry": {
+          "entryId": "1p59vqW0tOAOAyqhTlHG3z",
+          "updatedAt": "2026-11-13T13:24:38.569Z",
+          "publishedVersion": 296,
+          "textSha256": "a936d014163481eece5147f04e764006d369892baaa0ab1eec7d5bcfe8f368e6",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Belmont County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Tuscarawas County construction information.\n\nU.S. Route Projects\n\nU.S. 250 - County Road 68 (Barnhill Road) closure: The Barnhill Road bridge over U.S. Route 250 near Midvale is closed to all traffic due to structural damage. The ramps to/from U.S. Route 250 will remain open at the interchange, though drivers cannot cross the bridge. Work will begin November 2 to begin repairing the bridge. The bridge will remain closed until repairs are complete. Learn more about the closure. Estimated Completion: December 31, 2026\n\nState Route Projects\n\nState Route 258 daytime closures: November 9-20, SR 258 will close from West Chester to High Hill Road during daytime hours (7 a.m. to 4 p.m.), Monday through Friday, for tree-trimming work. The detour is U.S. 36 east to U.S. 250 east, U.S. 250 east to SR 800 south, SR 800 south back to SR 258, and reverse. Estimated Completion: November 20, 2026\n\nLocal Projects\n\nWest 3rd Street closure in Uhrichsville: The West 3rd Street bridge is closed from Water Street to West Jay Street for a bridge replacement project from July 13-November 30. Estimated Completion: November 30, 2026."
+        },
+        "browserBodySha256": "a936d014163481eece5147f04e764006d369892baaa0ab1eec7d5bcfe8f368e6",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:40.449Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+        "title": "Traffic Impacts in Tuscarawas County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 13, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-tuscarawas",
+          "clientRequestedAt": "2026-11-13T22:59:40.462Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-tuscarawas",
+          "sourceRequestedAt": "2026-11-13T22:59:40.488Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:40 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24743",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "4bd9eec108fb5a2a609b578f275b8452911759ab77e29398e3266790fe22d11b",
+        "visibleTextFile": "visible-text/tuscarawas.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "b2c97a5c571d5c0f8a44a60bb8d411eb925616b9d11e15a2786b8e0d818e618d",
+        "items": 4,
+        "text": "Traffic Impacts in Tuscarawas County\n\nLast modified: November 13, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Belmont County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Tuscarawas County construction information.\n\nU.S. Route Projects\n\nU.S. 250 - County Road 68 (Barnhill Road) closure: The Barnhill Road bridge over U.S. Route 250 near Midvale is closed to all traffic due to structural damage. The ramps to/from U.S. Route 250 will remain open at the interchange, though drivers cannot cross the bridge. Work will begin November 2 to begin repairing the bridge. The bridge will remain closed until repairs are complete. Learn more about the closure. Estimated Completion: December 31, 2026\n\nState Route Projects\n\nState Route 258 daytime closures: November 9-20, SR 258 will close from West Chester to High Hill Road during daytime hours (7 a.m. to 4 p.m.), Monday through Friday, for tree-trimming work. The detour is U.S. 36 east to U.S. 250 east, U.S. 250 east to SR 800 south, SR 800 south back to SR 258, and reverse. Estimated Completion: November 20, 2026\n\nLocal Projects\n\nWest 3rd Street closure in Uhrichsville: The West 3rd Street bridge is closed from Water Street to West Jay Street for a bridge replacement project from July 13-November 30. Estimated Completion: November 30, 2026.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Belmont County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 11 on Facebook or X for current Tuscarawas County construction information.",
+            "links": [
+              {
+                "text": "OHGO.com",
+                "href": "https://www.ohgo.com/"
+              },
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTEasternOhio/"
+              },
+              {
+                "text": "X",
+                "href": "https://x.com/ODOT_EasternOH"
+              }
+            ]
+          },
+          {
+            "under": [
+              "U.S. Route Projects"
+            ],
+            "text": "U.S. 250 - County Road 68 (Barnhill Road) closure: The Barnhill Road bridge over U.S. Route 250 near Midvale is closed to all traffic due to structural damage. The ramps to/from U.S. Route 250 will remain open at the interchange, though drivers cannot cross the bridge. Work will begin November 2 to begin repairing the bridge. The bridge will remain closed until repairs are complete. Learn more about the closure. Estimated Completion: December 31, 2026",
+            "links": [
+              {
+                "text": "U.S. 250 - County Road 68 (Barnhill Road) closure:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.40755114878702&ln=-81.37395373463706&z=11&ls=incident,construction,construction-future&wzpid=work-zone-WZPID000013940"
+              },
+              {
+                "text": "Learn more about the closure.",
+                "href": "https://www.transportation.ohio.gov/about/news/barnhill-bridge-closure-2026-10-13"
+              }
+            ]
+          },
+          {
+            "under": [
+              "State Route Projects"
+            ],
+            "text": "State Route 258 daytime closures: November 9-20, SR 258 will close from West Chester to High Hill Road during daytime hours (7 a.m. to 4 p.m.), Monday through Friday, for tree-trimming work. The detour is U.S. 36 east to U.S. 250 east, U.S. 250 east to SR 800 south, SR 800 south back to SR 258, and reverse. Estimated Completion: November 20, 2026",
+            "links": [
+              {
+                "text": "State Route 258 daytime closures:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.22813106612472&ln=-81.36646470870461&z=13&ls=construction,construction-future&wzpid=work-zone-WZPID000013998"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Projects"
+            ],
+            "text": "West 3rd Street closure in Uhrichsville: The West 3rd Street bridge is closed from Water Street to West Jay Street for a bridge replacement project from July 13-November 30. Estimated Completion: November 30, 2026.",
+            "links": [
+              {
+                "text": "West 3rd Street closure in Uhrichsville:",
+                "href": "https://www.ohgo.com/ne-ohio?lt=40.3756393950063&ln=-81.34007941262657&z=11&ls=construction,construction-future&id=construction-WZ000018626_26597"
+              }
+            ]
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:49:08.928Z",
+        "added": [
+          "West 3rd Street closure in Uhrichsville: The West 3rd Street bridge is closed from Water Street to West Jay Street for a bridge replacement project from July 13-November 30. Estimated Completion: November 30, 2026."
+        ],
+        "removed": [
+          "State Route 212 closure near Beach City: (Stark County) November 10-13, SR 212 will close west of Beach City for railroad crossing repairs. The detour is U.S. 250 west to SR 21 north, SR 21 north back to SR 212, and reverse. Estimated Completion: November 13, 2026",
+          "State Route 258 closure near West Chester: November 9-20, SR 258 will close near West Chester for culvert replacement work. The detour is SR 800 north to U.S. 250 west, U.S. 250 west to U.S. 36 west, U.S. 36 west back to SR 258, and reverse. Estimated Completion: November 20, 2026.",
+          "West 3rd Street closure in Uhrichsville: The West 3rd Street bridge is closed from Water Street to West Jay Street for a bridge replacement project from July 13-October 31. Estimated Completion: October 31, 2026."
+        ]
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-vinton",
+      "state": "Ohio",
+      "county": "Vinton",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:48.336Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:48 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24750",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:48Z",
+        "bytes": 748040,
+        "sha256": "f64792a5a0a386234d4aed16da428e3647e32f2ac977f1d843e2d062c9bb5149",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
+          "clientRequestedAt": "2026-11-13T22:59:48.295Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+          "sourceRequestedAt": "2026-11-13T22:59:48.336Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:48 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24750",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T20:07:09.875Z",
+        "lastModifiedDate": "2026-10-21T11:14",
+        "containerUpdatedAt": "2026-10-21T15:13:12.034Z",
+        "containerPublishedVersion": 52,
+        "bodyEntry": {
+          "entryId": "4o1XIFG6Xam1aiiMwcE3za",
+          "updatedAt": "2026-10-21T15:12:54.348Z",
+          "publishedVersion": 80,
+          "textSha256": "ffd957184d8d3a1f06dc4cae1390d46fd5edb485afa9a726d45e3a34da65af3d",
+          "text": "There are currently no projects impacting traffic in Vinton County."
+        },
+        "browserBodySha256": "ffd957184d8d3a1f06dc4cae1390d46fd5edb485afa9a726d45e3a34da65af3d",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T22:59:48.557Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+        "title": "Traffic Impacts in Vinton County | Ohio Department of Transportation",
+        "lastModifiedShown": "October 21, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
+          "clientRequestedAt": "2026-11-13T22:59:48.570Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+          "sourceRequestedAt": "2026-11-13T22:59:48.597Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:48 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24750",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "be991ec4c5ab542f5c0adf09d04bde1d080ee8db7879fe90edee86521636cad9",
+        "visibleTextFile": "visible-text/vinton.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "cc44a1e67b2bd2d0598fe2f9f7233fb67ec19ff41aca68453f2bf22c2469f603",
+        "items": 1,
+        "text": "Traffic Impacts in Vinton County\n\nLast modified: October 21, 2026\n\nLocal Conditions on OHGO\n\nThere are currently no projects impacting traffic in Vinton County.",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "There are currently no projects impacting traffic in Vinton County.",
+            "links": []
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:49:18.266Z",
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "sourceId": "chatgpt-odot-washington",
+      "state": "Ohio",
+      "county": "Washington",
+      "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+      "outcome": "complete",
+      "reasons": [],
+      "plainGet": {
+        "requestedAt": "2026-11-13T22:59:58.866Z",
+        "status": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+        "redirects": [],
+        "serverDate": "Fri, 13 Nov 2026 22:59:58 GMT",
+        "xCache": "Hit from cloudfront",
+        "age": "24759",
+        "cloudfrontPop": null,
+        "copyMadeAt": "2026-11-13T22:59:58Z",
+        "bytes": 752335,
+        "sha256": "7d2c8d17c337c45785057e93b17c7ef3798f1402ee639a871e5f98fd9217e341",
+        "odotErrorPage": false,
+        "error": null,
+        "transport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
+          "clientRequestedAt": "2026-11-13T22:59:58.655Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+          "sourceRequestedAt": "2026-11-13T22:59:58.866Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 22:59:58 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24759",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "earlierExpiringCopy": null
+      },
+      "pageData": {
+        "publishedDate": "2026-06-04T20:08:41.317Z",
+        "lastModifiedDate": "2026-11-12T14:50",
+        "containerUpdatedAt": "2026-11-12T19:49:21.517Z",
+        "containerPublishedVersion": 74,
+        "bodyEntry": {
+          "entryId": "6UngO0UtmX40ufD4bWb4jz",
+          "updatedAt": "2026-11-12T19:48:48.384Z",
+          "publishedVersion": 177,
+          "textSha256": "56ef1c96694c0c3b81f5209f83737c859cd97c32e78312c39c2f7ab3125474d1",
+          "text": "The following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.\n\nInterstate 77 Culvert Replacement A culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17.\n\nState Route 60 Culvert Replacement A culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals. Estimated Completion: November 25"
+        },
+        "browserBodySha256": "56ef1c96694c0c3b81f5209f83737c859cd97c32e78312c39c2f7ab3125474d1",
+        "bodyHashMatched": true,
+        "browserBlocksNotInPlainBody": [],
+        "plainBodyBlocksNotShown": []
+      },
+      "browser": {
+        "startedAt": "2026-11-13T23:00:02.756Z",
+        "documentStatus": 200,
+        "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+        "title": "Traffic Impacts in Washington County | Ohio Department of Transportation",
+        "lastModifiedShown": "November 12, 2026",
+        "documentTransport": {
+          "kind": "owned Cloudflare Workers official GET",
+          "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
+          "clientRequestedAt": "2026-11-13T23:00:06.524Z",
+          "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+          "sourceRequestedAt": "2026-11-13T23:00:06.864Z",
+          "sourceStatus": 200,
+          "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+          "sourceHeaders": {
+            "date": "Fri, 13 Nov 2026 23:00:06 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "x-cache": "Hit from cloudfront",
+            "age": "24767",
+            "cache-control": "max-age=86400"
+          }
+        },
+        "visibleTextSha256": "90fe29d404a345f0c0252a8a9ad93fac9d3cae20a43aafe231aca0926c1a829d",
+        "visibleTextFile": "visible-text/washington.txt",
+        "hiddenBlocksInSection": 0
+      },
+      "countySection": {
+        "sha256": "d1a51c1b04ce35f562f7b9ff41f98acc91acb326817c283898e82ffcc70cffd4",
+        "items": 3,
+        "text": "Traffic Impacts in Washington County\n\nLast modified: November 12, 2026\n\nLocal Conditions on OHGO\n\nThe following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.\n\nInterstate 77 Culvert Replacement\nA culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17.\n\nState Route 60 Culvert Replacement\nA culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 25",
+        "blocks": [
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "The following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.",
+            "links": [
+              {
+                "text": "Facebook",
+                "href": "https://www.facebook.com/ODOTD10/"
+              },
+              {
+                "text": "X",
+                "href": "https://x.com/ODOT_SEOhio"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "Interstate 77 Culvert Replacement\nA culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17.",
+            "links": [
+              {
+                "text": "I-77",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.39215746730622&ln=-81.36336609721799&z=10&ls=construction,construction-future&id=construction-WZ000017765_25119&wzpid=work-zone-WZPID000009842"
+              }
+            ]
+          },
+          {
+            "under": [
+              "Local Conditions on OHGO"
+            ],
+            "text": "State Route 60 Culvert Replacement\nA culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 25",
+            "links": [
+              {
+                "text": "SR 60",
+                "href": "https://www.ohgo.com/se-ohio?lt=39.50260029215929&ln=-81.48083209992011&z=11&ls=construction,construction-future&id=construction-WZ000022431_31722"
+              }
+            ]
+          }
+        ]
+      },
+      "sincePreviousRead": {
+        "previousReadAt": "2026-11-11T21:49:28.072Z",
+        "added": [
+          "A culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17."
+        ],
+        "removed": [
+          "A culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed."
+        ]
+      }
+    }
+  ],
+  "artifacts": {
+    "raw/hamilton.html.gz": "5439fd5c68af1f99e8f7639c03420ffdbfadafecc73ef5742ac3732ba0278fae",
+    "raw/jefferson.html.gz": "d933e7c082cdcc9a6088aeb0cfb099314d1b6c2ca7d970bcc743624b7cbc45af",
+    "raw/mahoning.html.gz": "e37669212c5504f3789a96e42cad38c01e34dca8819514dfa298742ea26f7f5f",
+    "raw/meigs.html.gz": "29f3ab91a84d6d22e5521d06d2bb373292c2b9bb4d4c2c23751553df99658e34",
+    "raw/muskingum.html.gz": "d33c18792cf4b6bb7c2e0d8f262e2e7c054408a79149f72c670758ccd5f89b51",
+    "raw/noble.html.gz": "b9268e77d64f6276c2f943e47aad7dbaa5ee01e41cfe8ac4c3e2addb03100d92",
+    "raw/portage.html.gz": "0b06e432704996ca85c2dc472cf22f68c566b15030d85c737c177987e820f0ad",
+    "raw/stark.html.gz": "bc60a84df4185cf92709600670d276b4a8ab3d1852098d8cfd3358c47bde1fa3",
+    "raw/trumbull.html.gz": "62f24017b777e467a49526783323741537fde825c120ae6bb16981d6941738fb",
+    "raw/tuscarawas.html.gz": "568ca69a6c151723765855cf8959f1fce8215a68bc009f3a18bae8b2a33473bd",
+    "raw/vinton.html.gz": "9223d332c51931e862e65c762fca2835471f074c20d21d9f18230496c04dd901",
+    "raw/washington.html.gz": "db71c82422e0fa9191fbab162d6a834e32c943468088229d4eed1eab7e83207c",
+    "records/hamilton.json": "27ca44e5db00ef9c967223fbf38b68f9d0b26c7f863dfba046b2c67d83dacdd7",
+    "records/jefferson.json": "5bc5cbde8d4f4fdec4d12cc7f6b1b9af0c30f15e08f53b2aff40fe728fef4b28",
+    "records/mahoning.json": "1f8ee065eefe3a40218d5aa024a885381809090de274d1e5847bcc9b8d2974a9",
+    "records/meigs.json": "39d22d730d2c2ef745f30940ffa18b5a90e000c316b4856076c049d355c05e16",
+    "records/muskingum.json": "83b996914015d76a9805bc40141f4427f1fe0736c64f89d93ad5b1cdbe667d75",
+    "records/noble.json": "87411962d2f9dfeba543164ac2332df98899eeed5174644a15849f720b965924",
+    "records/portage.json": "a5e04bc728caa8515b7d438b6e1435d20e74acd87a87b9f76a4f4f5d0257aa70",
+    "records/stark.json": "bd6efde09a99f57d644058b334d193a152dbec5dea0d2c231a9b8e216eeca81d",
+    "records/trumbull.json": "dd33e07b198c72b25646d6aaf5417d65fdbafc98d8fa52224e00c0a39cc52e54",
+    "records/tuscarawas.json": "86daa727d5c301a1d7d76ce358da1c999b40500faffda02137767c4f7515c455",
+    "records/vinton.json": "035a3e948eefc2b7ffb3c5fc14f66976fa4650eafebe8501e3bbbae45674d3a8",
+    "records/washington.json": "18b4f038098a41b3bb479cc8a58146e707d23846e59d0c1963ec01c0a9fc1419",
+    "visible-text/hamilton.txt": "c90d275095bd7039602a00d403d89fefad586b1ce5c40f782823f01a29b7a20a",
+    "visible-text/jefferson.txt": "d4ba7796c7ee26e756902df66c9b96cb630af9f4defb74d155f15f68eef81709",
+    "visible-text/mahoning.txt": "03e6572a04f1919c617ab9ecf61603f1f331134403875fef1000eb2ca3e5e343",
+    "visible-text/meigs.txt": "b5ad99667ba86d0fd863772275a3cdc3be27c4f05ef7ce67fbcf6af0540de0da",
+    "visible-text/muskingum.txt": "c8a0a8dc38941977120dfbbc32fb64845473ea06a862aef5fdcfc546a9a0182f",
+    "visible-text/noble.txt": "2735ac06d91baa403375ed7645fbf51dfb5c3afcb455a87174e0de3454f70498",
+    "visible-text/portage.txt": "42faed10c6963ea36bb0ef8ac1b0a74880dac0043ffafab38f27b87f1d14e5e8",
+    "visible-text/stark.txt": "a8a344e157a5633c265b4a709c6d637ae6c8ce2a56827e76dd38bdb21bf46504",
+    "visible-text/trumbull.txt": "45b97d364d51429c34caa0467b4ffd88b9bef7d2acb4d5fcb09fd18dd2fa5dbc",
+    "visible-text/tuscarawas.txt": "4bd9eec108fb5a2a609b578f275b8452911759ab77e29398e3266790fe22d11b",
+    "visible-text/vinton.txt": "be991ec4c5ab542f5c0adf09d04bde1d080ee8db7879fe90edee86521636cad9",
+    "visible-text/washington.txt": "90fe29d404a345f0c0252a8a9ad93fac9d3cae20a43aafe231aca0926c1a829d"
+  }
+}

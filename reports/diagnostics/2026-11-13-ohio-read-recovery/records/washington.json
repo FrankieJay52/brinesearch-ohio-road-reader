@@ -1,0 +1,177 @@
+{
+ "sourceId": "chatgpt-odot-washington",
+ "state": "Ohio",
+ "county": "Washington",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
+     "clientRequestedAt": "2026-11-13T22:59:58.655Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+     "sourceRequestedAt": "2026-11-13T22:59:58.866Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:58 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24759",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:58.866Z",
+    "finishedAt": "2026-11-13T22:59:58.942Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:58 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24759",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 752335,
+    "sha256": "7d2c8d17c337c45785057e93b17c7ef3798f1402ee639a871e5f98fd9217e341"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+  "status": 200,
+  "bytes": 752335,
+  "sha256": "7d2c8d17c337c45785057e93b17c7ef3798f1402ee639a871e5f98fd9217e341",
+  "errorPage": false,
+  "title": "Traffic Impacts in Washington County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T23:00:02.756Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+  "error": null,
+  "title": "Traffic Impacts in Washington County | Ohio Department of Transportation",
+  "visibleTextChars": 2390,
+  "visibleTextSha256": "90fe29d404a345f0c0252a8a9ad93fac9d3cae20a43aafe231aca0926c1a829d",
+  "lastModifiedShown": "November 12, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-washington",
+   "clientRequestedAt": "2026-11-13T23:00:06.524Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-washington",
+   "sourceRequestedAt": "2026-11-13T23:00:06.864Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 23:00:06 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24767",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Washington County",
+    "textContent": "Traffic Impacts in Washington County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 12, 2026",
+    "textContent": "Last modified: November 12, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.",
+    "textContent": "The following ODOT construction projects are anticipated to impact traffic in Washington County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 10 on Facebook or X for current Washington County construction information.",
+    "visible": true,
+    "links": [
+     {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ODOTD10/"
+     },
+     {
+      "text": "X",
+      "href": "https://x.com/ODOT_SEOhio"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Interstate 77 Culvert Replacement\nA culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17.",
+    "textContent": "Interstate 77 Culvert ReplacementA culvert replacement project is taking place on I-77 at Highland Ridge Road. The southbound driving lane is closed through November 25. The northbound driving lane is closed through November 17.",
+    "visible": true,
+    "links": [
+     {
+      "text": "I-77",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.39215746730622&ln=-81.36336609721799&z=10&ls=construction,construction-future&id=construction-WZ000017765_25119&wzpid=work-zone-WZPID000009842"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "State Route 60 Culvert Replacement\nA culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals.\nEstimated Completion: November 25",
+    "textContent": "State Route 60 Culvert ReplacementA culvert replacement project is taking place on SR 60 between Big Run Road and Tick Hill Road. Traffic is being maintained with temporary signals. Estimated Completion: November 25",
+    "visible": true,
+    "links": [
+     {
+      "text": "SR 60",
+      "href": "https://www.ohgo.com/se-ohio?lt=39.50260029215929&ln=-81.48083209992011&z=11&ls=construction,construction-future&id=construction-WZ000022431_31722"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "sourceId": "chatgpt-odot-trumbull",
+ "state": "Ohio",
+ "county": "Trumbull",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
+     "clientRequestedAt": "2026-11-13T22:59:32.069Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+     "sourceRequestedAt": "2026-11-13T22:59:32.113Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:32 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24738",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:32.113Z",
+    "finishedAt": "2026-11-13T22:59:32.183Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:32 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24738",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 752082,
+    "sha256": "e9f51ad7250a67fc67c6d8aa22f94b91245f5233659de4b3020b3e5e70aa05af"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+  "status": 200,
+  "bytes": 752082,
+  "sha256": "e9f51ad7250a67fc67c6d8aa22f94b91245f5233659de4b3020b3e5e70aa05af",
+  "errorPage": false,
+  "title": "Traffic Impacts in Trumbull County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:59:32.314Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+  "error": null,
+  "title": "Traffic Impacts in Trumbull County | Ohio Department of Transportation",
+  "visibleTextChars": 2848,
+  "visibleTextSha256": "45b97d364d51429c34caa0467b4ffd88b9bef7d2acb4d5fcb09fd18dd2fa5dbc",
+  "lastModifiedShown": "November 13, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-trumbull",
+   "clientRequestedAt": "2026-11-13T22:59:32.321Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-trumbull",
+   "sourceRequestedAt": "2026-11-13T22:59:32.348Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:59:32 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24738",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Trumbull County",
+    "textContent": "Traffic Impacts in Trumbull County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 13, 2026",
+    "textContent": "Last modified: November 13, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following construction projects are anticipated to affect highways in Trumbull County next week. All scheduled work is weather permitting.",
+    "textContent": "The following construction projects are anticipated to affect highways in Trumbull County next week. All scheduled work is weather permitting.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Interstate 80 in Hubbard Township\nI-80 eastbound just west of the Pennsylvania State line has various lane restrictions for a pavement replacement project being overseen by the Pennsylvania Department of Transportation. Motorists should expect delays in this area.",
+    "textContent": "Interstate 80 in Hubbard TownshipI-80 eastbound just west of the Pennsylvania State line has various lane restrictions for a pavement replacement project being overseen by the Pennsylvania Department of Transportation. Motorists should expect delays in this area.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. Route 62 resurfacing, Brookfield & Hubbard Township\nU.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November.",
+    "textContent": "U.S. Route 62 resurfacing, Brookfield & Hubbard TownshipU.S. 62 from just south of I-80 to the Pennsylvania State line has various lane restrictions for pavement repairs and resurfacing. Estimated completion, late November.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "U.S. Route 422 tree removal Southington Township\nNEW IMPACT – On Monday, November 16, between 7 a.m. and 4 p.m., U.S. 422 between the Portage County line and SR 305 will be closed. The detour will be SR 305 to SR 282.",
+    "textContent": "U.S. Route 422 tree removal Southington TownshipNEW IMPACT – On Monday, November 16, between 7 a.m. and 4 p.m., U.S. 422 between the Portage County line and SR 305 will be closed. The detour will be SR 305 to SR 282.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 46 intersection improvements, Howland Township\nCONTINUING IMPACT - The SR 46 and E. Market St. intersection has occasional lane restrictions with traffic maintained by flaggers for the addition of turn lanes through late November. Estimated completion, October 2027.",
+    "textContent": "State Route 46 intersection improvements, Howland TownshipCONTINUING IMPACT - The SR 46 and E. Market St. intersection has occasional lane restrictions with traffic maintained by flaggers for the addition of turn lanes through late November. Estimated completion, October 2027.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 46 sidewalk installation, Weathersfield Township\nSR 46 between Morris St. and Seaborn St. has various lane restrictions for sidewalk installation. Estimated completion, mid-December 2026.",
+    "textContent": "State Route 46 sidewalk installation, Weathersfield TownshipSR 46 between Morris St. and Seaborn St. has various lane restrictions for sidewalk installation. Estimated completion, mid-December 2026.",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "sourceId": "chatgpt-odot-vinton",
+ "state": "Ohio",
+ "county": "Vinton",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
+     "clientRequestedAt": "2026-11-13T22:59:48.295Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+     "sourceRequestedAt": "2026-11-13T22:59:48.336Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:48 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24750",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:48.336Z",
+    "finishedAt": "2026-11-13T22:59:48.454Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:48 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24750",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 748040,
+    "sha256": "f64792a5a0a386234d4aed16da428e3647e32f2ac977f1d843e2d062c9bb5149"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+  "status": 200,
+  "bytes": 748040,
+  "sha256": "f64792a5a0a386234d4aed16da428e3647e32f2ac977f1d843e2d062c9bb5149",
+  "errorPage": false,
+  "title": "Traffic Impacts in Vinton County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:59:48.557Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+  "error": null,
+  "title": "Traffic Impacts in Vinton County | Ohio Department of Transportation",
+  "visibleTextChars": 1728,
+  "visibleTextSha256": "be991ec4c5ab542f5c0adf09d04bde1d080ee8db7879fe90edee86521636cad9",
+  "lastModifiedShown": "October 21, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-vinton",
+   "clientRequestedAt": "2026-11-13T22:59:48.570Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-vinton",
+   "sourceRequestedAt": "2026-11-13T22:59:48.597Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:59:48 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24750",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Vinton County",
+    "textContent": "Traffic Impacts in Vinton County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: October 21, 2026",
+    "textContent": "Last modified: October 21, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "There are currently no projects impacting traffic in Vinton County.",
+    "textContent": "There are currently no projects impacting traffic in Vinton County.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

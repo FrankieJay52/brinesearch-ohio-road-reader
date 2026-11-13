@@ -1,0 +1,342 @@
+{
+ "sourceId": "chatgpt-odot-muskingum",
+ "state": "Ohio",
+ "county": "Muskingum",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
+     "clientRequestedAt": "2026-11-13T22:58:58.615Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+     "sourceRequestedAt": "2026-11-13T22:58:58.645Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:58:58 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24965",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:58:58.645Z",
+    "finishedAt": "2026-11-13T22:58:58.943Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:58:58 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24965",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 762711,
+    "sha256": "895e5cd72d885121a4bc9fa2c53a7738e523aa0f76d741475cb2a0913f92de1c"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+  "status": 200,
+  "bytes": 762711,
+  "sha256": "895e5cd72d885121a4bc9fa2c53a7738e523aa0f76d741475cb2a0913f92de1c",
+  "errorPage": false,
+  "title": "Traffic Impacts in Muskingum County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:58:59.073Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+  "error": null,
+  "title": "Traffic Impacts in Muskingum County | Ohio Department of Transportation",
+  "visibleTextChars": 4372,
+  "visibleTextSha256": "c8a0a8dc38941977120dfbbc32fb64845473ea06a862aef5fdcfc546a9a0182f",
+  "lastModifiedShown": "November 13, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-muskingum",
+   "clientRequestedAt": "2026-11-13T22:58:59.086Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-muskingum",
+   "sourceRequestedAt": "2026-11-13T22:58:59.109Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:58:59 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24966",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Muskingum County",
+    "textContent": "Traffic Impacts in Muskingum County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 13, 2026",
+    "textContent": "Last modified: November 13, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following ODOT construction projects are anticipated to impact traffic in Muskingum County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 5 on Facebook or Twitter for current Muskingum County construction information.",
+    "textContent": "The following ODOT construction projects are anticipated to impact traffic in Muskingum County. All outlined work is weather permitting. Visit OHGO.com for travel updates or follow ODOT District 5 on Facebook or Twitter for current Muskingum County construction information.",
+    "visible": true,
+    "links": [
+     {
+      "text": "OHGO.com",
+      "href": "https://ohgo.com/se-ohio"
+     },
+     {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ODOTD5/"
+     },
+     {
+      "text": "Twitter",
+      "href": "https://twitter.com/ODOT_EastCenOH"
+     }
+    ]
+   },
+   {
+    "tag": "h2",
+    "text": "Interstate 70",
+    "textContent": "Interstate 70",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Reconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.",
+    "textContent": "Reconstruction in Zanesville - This project will reconstruct I-70 though the city of Zanesville, resurface I-70 between U.S. 40 and State Route 93. Full reconstruction will begin west of the Licking Road overpass, including the Maple Avenue ramps and Maple Avenue at the end of the ramps, and end east of the abandoned railroad overpass. The project also impacts 16 bridges in the area. For more project details, visit the project page. Estimated Completion: Fall 2028.",
+    "visible": true,
+    "links": [
+     {
+      "text": "Reconstruction in Zanesville",
+      "href": "https://ohgo.com/se-ohio?lt=39.950238353058445&ln=-82.00220666201415&z=14&ls=incident,construction,construction-future,camera,delay"
+     },
+     {
+      "text": "visit the project page.",
+      "href": "https://www.transportation.ohio.gov/travel/projects/93006"
+     }
+    ]
+   },
+   {
+    "tag": "h3",
+    "text": "Continued Impacts:",
+    "textContent": "Continued Impacts:",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Lane closures are in place on Underwood Street for striping work.",
+    "textContent": "Lane closures are in place on Underwood Street for striping work.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Sixth Street under I-70 has reopened.",
+    "textContent": "Sixth Street under I-70 has reopened.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Phase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).",
+    "textContent": "Phase three configuration is now in place. If the contractor must take a lane at overnight, the westbound driving lane will close, and the only access to downtown from I-70 westbound will be U.S. 40 (exit 152) and SR 93 (exit 157).",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "I-70 westbound passing lane operates like an express lane. This means that once motorists enter the express lane after SR 93 (exit 157), they will be unable to exit until U.S. 40 (exit 152).",
+    "textContent": "I-70 westbound passing lane operates like an express lane. This means that once motorists enter the express lane after SR 93 (exit 157), they will be unable to exit until U.S. 40 (exit 152).",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The I-70 westbound driving lane will be the only westbound lane with access to downtown Zanesville.",
+    "textContent": "The I-70 westbound driving lane will be the only westbound lane with access to downtown Zanesville.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The Underwood Street eastbound on ramp is open to traffic.",
+    "textContent": "The Underwood Street eastbound on ramp is open to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The State Street eastbound on ramp is open to traffic.",
+    "textContent": "The State Street eastbound on ramp is open to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The Sixth Street westbound on ramp is closed to traffic.",
+    "textContent": "The Sixth Street westbound on ramp is closed to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The 7th Street eastbound off ramp is open to traffic.",
+    "textContent": "The 7th Street eastbound off ramp is open to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The Underwood off-ramp is open to traffic.",
+    "textContent": "The Underwood off-ramp is open to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The Maple Avenue westbound off ramp is closed to traffic.",
+    "textContent": "The Maple Avenue westbound off ramp is closed to traffic.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The Maple Avenue flyover ramp and the 6th Street on-ramp to I-70 westbound will remain closed during Phase three construction for safety reasons.",
+    "textContent": "The Maple Avenue flyover ramp and the 6th Street on-ramp to I-70 westbound will remain closed during Phase three construction for safety reasons.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "All work is weather dependent, and dates are subject to change.",
+    "textContent": "All work is weather dependent, and dates are subject to change.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "U.S. and State Route Projects",
+    "textContent": "U.S. and State Route Projects",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.",
+    "textContent": "State Route 340 is closed to traffic between State Route 284 and Prouty Road for culvert work. The roadway is expected to reopen Wednesday, Nov. 25. Detour: SR 340 to SR 284 to SR 146 to SR 346 and reverse.",
+    "visible": true,
+    "links": [
+     {
+      "text": "State Route 340",
+      "href": "https://ohgo.com/se-ohio?lt=39.80654833087086&ln=-81.7224315740223&z=21&ls=construction,construction-future"
+     }
+    ]
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.",
+    "textContent": "State Route 555 is closed to traffic between Pletcher Hill Road and Bush Hill Road. Estimated project completion: November 2026. Detour: SR 555 to SR 669 to SR 93 to U.S. Route 22 to SR 719 to SR 555 and reverse.",
+    "visible": true,
+    "links": [
+     {
+      "text": "State Route 555",
+      "href": "https://ohgo.com/se-ohio?lt=39.79277598131836&ln=-81.98208332062312&z=18.999999999999996&ls=construction,construction-future&id=construction-WZ000022210_31353"
+     }
+    ]
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Beginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse.",
+    "textContent": "Beginning Monday, Nov. 30, State Route 666 with close to traffic between Culbertson Road and Gilbert Road for culvert replacements, slope stabilization & utility relocation. The roadway is expected to reopen to traffic Friday, Jan. 15. Detour: SR 666 to SR 208 to SR 60 to SR 666 and reverse.",
+    "visible": true,
+    "links": [
+     {
+      "text": "State Route 666",
+      "href": "https://ohgo.com/se-ohio?lt=40.018149593528776&ln=-81.97560310364312&z=18.999999999999996&ls=incident,dangerous-slowdown,construction,construction-future"
+     }
+    ]
+   }
+  ]
+ }
+}

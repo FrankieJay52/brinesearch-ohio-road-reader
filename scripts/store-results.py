@@ -19,6 +19,8 @@ for row in records:
         assert not row['plainGet']['odotErrorPage'] and not row['browser']['hiddenBlocksInSection']
         assert not row['reasons']
         assert row['pageData']['bodyEntry'] and row['countySection']['text']
+        assert row['pageData'].get('bodyHashMatched') is True
+        assert row['pageData']['bodyEntry']['textSha256'] == row['pageData']['browserBodySha256']
         assert row['plainGet']['requestedAt'] and row['browser']['startedAt']
 complete = sum(row['outcome'] == 'complete' for row in records)
 assert complete == capture['summary']['complete']

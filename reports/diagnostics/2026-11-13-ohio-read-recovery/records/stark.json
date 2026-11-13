@@ -1,0 +1,172 @@
+{
+ "sourceId": "chatgpt-odot-stark",
+ "state": "Ohio",
+ "county": "Stark",
+ "registeredUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+ "userAgent": "Mozilla/5.0 (compatible; BrineSearchRoadReport/1.0; +https://brinesearch.com)",
+ "plain": {
+  "hops": [
+   {
+    "url": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+    "transport": {
+     "kind": "owned Cloudflare Workers official GET",
+     "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
+     "clientRequestedAt": "2026-11-13T22:59:23.993Z",
+     "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+     "sourceRequestedAt": "2026-11-13T22:59:24.037Z",
+     "sourceStatus": 200,
+     "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+     "sourceHeaders": {
+      "date": "Fri, 13 Nov 2026 22:59:24 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "x-cache": "Hit from cloudfront",
+      "age": "24733",
+      "cache-control": "max-age=86400"
+     }
+    },
+    "startedAt": "2026-11-13T22:59:24.037Z",
+    "finishedAt": "2026-11-13T22:59:24.101Z",
+    "status": 200,
+    "headers": {
+     "date": "Fri, 13 Nov 2026 22:59:24 GMT",
+     "content-type": "text/html; charset=utf-8",
+     "server": "cloudflare",
+     "x-cache": "Hit from cloudfront",
+     "age": "24733",
+     "cache-control": "max-age=86400"
+    },
+    "bytes": 749195,
+    "sha256": "a18a579b8dfc6490009fe7222c05e892ae21f45757d9c20f0e86514486960ecb"
+   }
+  ],
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+  "status": 200,
+  "bytes": 749195,
+  "sha256": "a18a579b8dfc6490009fe7222c05e892ae21f45757d9c20f0e86514486960ecb",
+  "errorPage": false,
+  "title": "Traffic Impacts in Stark County | Ohio Department of Transportation",
+  "earlierExpiringCopy": null
+ },
+ "browser": {
+  "startedAt": "2026-11-13T22:59:24.238Z",
+  "documentStatus": 200,
+  "finalUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+  "error": null,
+  "title": "Traffic Impacts in Stark County | Ohio Department of Transportation",
+  "visibleTextChars": 2227,
+  "visibleTextSha256": "a8a344e157a5633c265b4a709c6d637ae6c8ce2a56827e76dd38bdb21bf46504",
+  "lastModifiedShown": "November 13, 2026",
+  "documentTransport": {
+   "kind": "owned Cloudflare Workers official GET",
+   "retrievalUrl": "https://brinesearch-odot-probe-20261025.brinesearch-ohio-road-reader.workers.dev/travel/driving/traffic-advisories/traffic-stark",
+   "clientRequestedAt": "2026-11-13T22:59:24.250Z",
+   "sourceUrl": "https://www.transportation.ohio.gov/travel/driving/traffic-advisories/traffic-stark",
+   "sourceRequestedAt": "2026-11-13T22:59:24.273Z",
+   "sourceStatus": 200,
+   "codeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
+   "sourceHeaders": {
+    "date": "Fri, 13 Nov 2026 22:59:24 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "x-cache": "Hit from cloudfront",
+    "age": "24987",
+    "cache-control": "max-age=86400"
+   }
+  },
+  "hosts": [
+   [
+    "www.transportation.ohio.gov",
+    104
+   ],
+   [
+    "dam.assets.ohio.gov",
+    5
+   ],
+   [
+    "js.arcgis.com",
+    2
+   ],
+   [
+    "ds.iop.ohio.gov",
+    1
+   ],
+   [
+    "www.ohgo.com",
+    1
+   ],
+   [
+    "analytics.dx.ohio.gov",
+    1
+   ],
+   [
+    "experience.ninetailed.co",
+    1
+   ]
+  ],
+  "xhrOrFetch": [
+   {
+    "url": "https://experience.ninetailed.co/v2/organizations/0a015d04-a4d4-4853-926a-fb06fd24930c/environments/development/profiles"
+   }
+  ],
+  "failedRequests": 0,
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Traffic Impacts in Stark County",
+    "textContent": "Traffic Impacts in Stark County",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Last modified: November 13, 2026",
+    "textContent": "Last modified: November 13, 2026",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "h2",
+    "text": "Local Conditions on OHGO",
+    "textContent": "Local Conditions on OHGO",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The following construction projects are anticipated to affect highways in Stark County next week. All scheduled work is weather permitting.",
+    "textContent": "The following construction projects are anticipated to affect highways in Stark County next week. All scheduled work is weather permitting.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 212 railroad crossing repairs, Sugar Creek Township\nSR 212 just west of SR 93 is NOW OPEN.",
+    "textContent": "State Route 212 railroad crossing repairs, Sugar Creek TownshipSR 212 just west of SR 93 is NOW OPEN.",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "hr",
+    "text": "",
+    "textContent": "",
+    "visible": true,
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "State Route 241 bridge replacement and roundabout construction, Jackson Township\nSR 241 between Shuffel St. and Willowdale Lake Ave. is closed through fall 2027 for a bridge replacement and pavement reconstruction. The truck detour is SR 241 to I-77 to SR 687. The local detour is Shuffel St. to Frank Ave. to Strausser St.",
+    "textContent": "State Route 241 bridge replacement and roundabout construction, Jackson TownshipSR 241 between Shuffel St. and Willowdale Lake Ave. is closed through fall 2027 for a bridge replacement and pavement reconstruction. The truck detour is SR 241 to I-77 to SR 687. The local detour is Shuffel St. to Frank Ave. to Strausser St.",
+    "visible": true,
+    "links": []
+   }
+  ]
+ }
+}

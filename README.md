@@ -25,6 +25,10 @@ The workflow has only a manual trigger. There is no daily schedule. A successful
 
 Requires Node 22+, Python 3 and Git. Install with `npm ci --ignore-scripts --no-audit --no-fund` and `npx playwright install chromium`. Run `node scripts/preflight.mjs`, then `bash scripts/read.sh` only when access is served. `ODOT_CAPTURE_CHANNEL` is required and must identify the actual producer. An installed browser can be selected through `PW_CHROMIUM`; `PW_PACKAGE` may name an installed Playwright package JSON. These options do not change evidence requirements or source access rules.
 
+On a workspace that requires its configured HTTP(S) proxy, use a Node version that supports `--use-env-proxy` and set `NODE_USE_ENV_PROXY=1`. Do not disable TLS checks or substitute the proxy's response time for the official upstream request time. A Node transport failure before a county request is not a county-source check. When only a few counties failed, `capture.mjs` accepts their lowercase names after the output folder for a bounded diagnostic capture; that subset is not a new complete 20-county report.
+
+The summarizer requires the complete CMS advisory text to equal the visible county text after whitespace normalization. Decorative horizontal rules contribute no text to either side. Missing notices, shortened link labels, missing CMS data, wrong county headings and retained-file hash mismatches fail the source. Run `python3 -I scripts/summarize.test.py` for network-free checks against retained official Hamilton and Jefferson responses. An omission caused by ODOT's own rendering still fails; do not repair the source's wording or advance that county's coverage time.
+
 ## Optional owned free Workers transport
 
 When a producer network cannot retrieve the official pages, `scripts/worker-transport.mjs` permits only the exact20registered county paths and their observed official `/_next/static/` JavaScript/CSS resources. It always fetches the fixed official ODOT host, accepts no arbitrary URL, has no scheduled handler and streams the unchanged upstream body. It contains no private data or keys.
