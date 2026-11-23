@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "kind": "supported-cloud-browser-plus-owned-worker-review",
-  "recordedAt": "2026-11-22T15:57:11.402172Z",
-  "evidenceCheckedAt": "2026-11-22T15:49:16.371Z",
-  "lastSourceRequestedAt": "2026-11-22T15:49:27.262Z",
-  "outcome": "partial",
+  "recordedAt": "2026-11-23T16:42:49.668821Z",
+  "evidenceCheckedAt": "2026-11-23T16:24:16.111Z",
+  "lastSourceRequestedAt": "2026-11-23T16:24:31.822Z",
+  "outcome": "complete",
   "expected": 20,
   "attempted": 20,
-  "complete": 19,
-  "failed": 1,
-  "readerCommit": "c871abbf53727efb54e2b3f6c5e2a300f82f586c",
+  "complete": 20,
+  "failed": 0,
+  "readerCommit": "c8df647cce858442001e44607b015042f634529d",
   "channel": "Codex daily cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
   "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
   "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc",
   "preflight": {
     "served": true,
-    "requestedAt": "2026-11-22T15:44:52.465Z",
+    "requestedAt": "2026-11-23T16:23:33.780Z",
     "status": 200,
-    "bytes": 760588,
-    "sha256": "cd5fbdcac6c8274037818402a731dda8bd995c4602eb213d8d1ac7aa70495083"
+    "bytes": 760675,
+    "sha256": "7ec460d587c6130beabdfc755dccc80b9488ca7113ac601de710beda3e5ee9d4"
   },
   "localCaptureAttempt": {
     "outcome": "failed-before-source-request",
-    "finishedAt": "2026-11-22T15:45:00.724400Z",
-    "reason": "Chromium singleton socket operation was not permitted; full crawl was not rerun."
+    "finishedAt": "2026-11-23T16:23:43.400110Z",
+    "reason": "Chromium singleton socket operation was not permitted; the full crawl was not rerun."
   }
 }
