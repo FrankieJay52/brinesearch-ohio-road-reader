@@ -1,28 +1,37 @@
 {
   "schemaVersion": 1,
   "kind": "supported-cloud-browser-plus-owned-worker-review",
-  "recordedAt": "2026-11-23T16:42:49.668821Z",
-  "evidenceCheckedAt": "2026-11-23T16:24:16.111Z",
-  "lastSourceRequestedAt": "2026-11-23T16:24:31.822Z",
-  "outcome": "complete",
+  "recordedAt": "2026-11-24T16:30:26.290891Z",
+  "evidenceCheckedAt": "2026-11-24T16:17:43.881Z",
+  "lastSourceRequestedAt": "2026-11-24T16:17:54.517Z",
+  "outcome": "partial",
   "expected": 20,
   "attempted": 20,
-  "complete": 20,
-  "failed": 0,
-  "readerCommit": "c8df647cce858442001e44607b015042f634529d",
+  "complete": 13,
+  "failed": 7,
+  "readerCommit": "f312a70c303d1d41283dcae0885a91daa3146988",
   "channel": "Codex daily cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
   "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
   "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc",
   "preflight": {
     "served": true,
-    "requestedAt": "2026-11-23T16:23:33.780Z",
+    "requestedAt": "2026-11-24T16:16:57.950Z",
     "status": 200,
     "bytes": 760675,
-    "sha256": "7ec460d587c6130beabdfc755dccc80b9488ca7113ac601de710beda3e5ee9d4"
+    "sha256": "12f7c47d3ee74805e0c2197095318f7128b3220a54da502ab6253e7138e0f045"
   },
   "localCaptureAttempt": {
     "outcome": "failed-before-source-request",
-    "finishedAt": "2026-11-23T16:23:43.400110Z",
+    "finishedAt": "2026-11-24T16:17:07.130246Z",
     "reason": "Chromium singleton socket operation was not permitted; the full crawl was not rerun."
-  }
+  },
+  "failedCounties": [
+    "Noble",
+    "Portage",
+    "Stark",
+    "Trumbull",
+    "Tuscarawas",
+    "Vinton",
+    "Washington"
+  ]
 }

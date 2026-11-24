@@ -133,7 +133,7 @@
   "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
   "registry": {
    "path": "county-sources.json",
-   "readerCommit": "c8df647cce858442001e44607b015042f634529d",
+   "readerCommit": "f312a70c303d1d41283dcae0885a91daa3146988",
    "namespace": "public-ohio-county-advisories/v1",
    "sha256": "787d1f5eea431332b2efcab586be91f0f4d197c1cc51ef88c191b6610d07df61",
    "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc"
