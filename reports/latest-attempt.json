@@ -1,31 +1,34 @@
 {
   "schemaVersion": 1,
   "kind": "supported-cloud-browser-plus-owned-worker-review",
-  "recordedAt": "2026-11-24T16:30:26.290891Z",
-  "evidenceCheckedAt": "2026-11-24T16:17:43.881Z",
-  "lastSourceRequestedAt": "2026-11-24T16:17:54.517Z",
+  "recordedAt": "2026-11-25T15:54:19.110294Z",
+  "evidenceCheckedAt": "2026-11-25T15:43:24.664Z",
+  "lastSourceRequestedAt": "2026-11-25T15:43:34.144Z",
   "outcome": "partial",
   "expected": 20,
   "attempted": 20,
-  "complete": 13,
-  "failed": 7,
+  "complete": 10,
+  "failed": 10,
   "readerCommit": "f312a70c303d1d41283dcae0885a91daa3146988",
   "channel": "Codex daily cloud Node/Chromium reader using owned Cloudflare Workers official GET transport; genuine upstream times and headers",
   "transportCodeSha256": "10fc5c2333e14f41c5f176f2ed07758b9d06e2ff00fdf857acc9ec449e1d71c5",
   "subsetSha256": "08d89bf8fc244080e6423bb6fab46c7927d51a0278521f7ffe4d09a8974fc7fc",
   "preflight": {
     "served": true,
-    "requestedAt": "2026-11-24T16:16:57.950Z",
+    "requestedAt": "2026-11-25T15:43:02.523Z",
     "status": 200,
     "bytes": 760675,
-    "sha256": "12f7c47d3ee74805e0c2197095318f7128b3220a54da502ab6253e7138e0f045"
+    "sha256": "5cb24aebbd207048147a9b34b4bcb84555561c253d2d5399bf139c99e64d97fb"
   },
   "localCaptureAttempt": {
     "outcome": "failed-before-source-request",
-    "finishedAt": "2026-11-24T16:17:07.130246Z",
-    "reason": "Chromium singleton socket operation was not permitted; the full crawl was not rerun."
+    "finishedAt": "2026-11-25T15:43:09.775853Z",
+    "reason": "The configured Chromium wrapper was present, but its browser executable was unavailable; the full crawl was not rerun."
   },
   "failedCounties": [
+    "Hamilton",
+    "Harrison",
+    "Muskingum",
     "Noble",
     "Portage",
     "Stark",
